@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874BCB0C225EB1A50075434E /* AppDelegate.swift */; };
+		876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9B32241ED8700A5E0ED /* MasterViewController.swift */; };
+		876AC9B62241ED8700A5E0ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9B52241ED8700A5E0ED /* DetailViewController.swift */; };
+		876AC9B92241ED8700A5E0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9B72241ED8700A5E0ED /* Main.storyboard */; };
+		876AC9BB2241ED8800A5E0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9BA2241ED8800A5E0ED /* Assets.xcassets */; };
+		876AC9BE2241ED8800A5E0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9BC2241ED8800A5E0ED /* LaunchScreen.storyboard */; };
+		876AC9C62241EE0200A5E0ED /* VPinTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9C52241EE0200A5E0ED /* VPinTable.swift */; };
+		876AC9C92242025800A5E0ED /* Default Backglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9C72242025800A5E0ED /* Default Backglass.png */; };
+		876AC9CA2242025800A5E0ED /* Default Playfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9C82242025800A5E0ED /* Default Playfield.png */; };
+		879FD03A2249F0F700FAB167 /* woot.json in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0392249F0F700FAB167 /* woot.json */; };
+		879FD0BA224A2BE200FAB167 /* A Real American Hero (Original 1980).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD03C224A2BE100FAB167 /* A Real American Hero (Original 1980).png */; };
+		879FD0BB224A2BE200FAB167 /* AC;DC (Premium) (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD03D224A2BE100FAB167 /* AC;DC (Premium) (Stern 2012).png */; };
+		879FD0BC224A2BE200FAB167 /* ACDC Premium (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD03E224A2BE100FAB167 /* ACDC Premium (Stern 2012).png */; };
+		879FD0BD224A2BE200FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD03F224A2BE100FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png */; };
+		879FD0BE224A2BE200FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD040224A2BE100FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png */; };
+		879FD0BF224A2BE200FAB167 /* Amazing Spider-Man (Stern 193).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD041224A2BE100FAB167 /* Amazing Spider-Man (Stern 193).png */; };
+		879FD0C0224A2BE200FAB167 /* Attack from Mars (Midway 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD042224A2BE100FAB167 /* Attack from Mars (Midway 1995).png */; };
+		879FD0C1224A2BE200FAB167 /* Austin Powers (Stern 2001).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD043224A2BE100FAB167 /* Austin Powers (Stern 2001).png */; };
+		879FD0C2224A2BE200FAB167 /* Baby Pac-Man (Bally 1983).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD044224A2BE100FAB167 /* Baby Pac-Man (Bally 1983).png */; };
+		879FD0C3224A2BE200FAB167 /* Back to the Future (Data East 1990).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD045224A2BE100FAB167 /* Back to the Future (Data East 1990).old[1].png */; };
+		879FD0C4224A2BE200FAB167 /* Back to the Future (Data East 1990).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD046224A2BE100FAB167 /* Back to the Future (Data East 1990).old[2].png */; };
+		879FD0C5224A2BE200FAB167 /* Back to the Future (Data East 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD047224A2BE100FAB167 /* Back to the Future (Data East 1990).png */; };
+		879FD0C6224A2BE200FAB167 /* Batman (Data East 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD048224A2BE100FAB167 /* Batman (Data East 1991).png */; };
+		879FD0C7224A2BE200FAB167 /* Batman (Stern 2008).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD049224A2BE100FAB167 /* Batman (Stern 2008).png */; };
+		879FD0C8224A2BE200FAB167 /* Batman The Dark Knight (Stern 2008).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD04A224A2BE100FAB167 /* Batman The Dark Knight (Stern 2008).png */; };
+		879FD0C9224A2BE200FAB167 /* Beach Bums (Original 2018).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD04B224A2BE100FAB167 /* Beach Bums (Original 2018).png */; };
+		879FD0CA224A2BE200FAB167 /* Black Hole (Gottlieb 1981).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD04C224A2BE100FAB167 /* Black Hole (Gottlieb 1981).png */; };
+		879FD0CB224A2BE200FAB167 /* Black Knight 2000 (Williams 1989).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD04D224A2BE100FAB167 /* Black Knight 2000 (Williams 1989).png */; };
+		879FD0CC224A2BE200FAB167 /* Bubba the Redneck Werewolf (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD04E224A2BE100FAB167 /* Bubba the Redneck Werewolf (Original 2017).png */; };
+		879FD0CD224A2BE200FAB167 /* Bugs Bunny's Birthday Ball (Bally 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD04F224A2BE100FAB167 /* Bugs Bunny's Birthday Ball (Bally 1991).png */; };
+		879FD0CE224A2BE200FAB167 /* Cactus Canyon (Bally 1998).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD050224A2BE100FAB167 /* Cactus Canyon (Bally 1998).png */; };
+		879FD0CF224A2BE200FAB167 /* CARtoons RC (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD051224A2BE100FAB167 /* CARtoons RC (Original 2017).png */; };
+		879FD0D0224A2BE200FAB167 /* Cirqus Voltaire (Midway 1997).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD052224A2BE100FAB167 /* Cirqus Voltaire (Midway 1997).png */; };
+		879FD0D1224A2BE200FAB167 /* Creature from the Black Lagoon (Bally 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD053224A2BE100FAB167 /* Creature from the Black Lagoon (Bally 1992).png */; };
+		879FD0D2224A2BE200FAB167 /* Creature from the Black Lagoon (Midway 1992).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD054224A2BE100FAB167 /* Creature from the Black Lagoon (Midway 1992).old[1].png */; };
+		879FD0D3224A2BE200FAB167 /* Cyclone (Williams 1988).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD055224A2BE100FAB167 /* Cyclone (Williams 1988).png */; };
+		879FD0D4224A2BE200FAB167 /* Demolition Man (Williams 1994).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD056224A2BE100FAB167 /* Demolition Man (Williams 1994).png */; };
+		879FD0D5224A2BE200FAB167 /* Diner (Williams 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD057224A2BE100FAB167 /* Diner (Williams 1990).png */; };
+		879FD0D6224A2BE200FAB167 /* Dirty Harry (Williams 1995).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD058224A2BE100FAB167 /* Dirty Harry (Williams 1995).old[1].png */; };
+		879FD0D7224A2BE200FAB167 /* Dirty Harry (Williams 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD059224A2BE100FAB167 /* Dirty Harry (Williams 1995).png */; };
+		879FD0D8224A2BE200FAB167 /* Disney TRON Legacy (Stern 2011).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD05A224A2BE100FAB167 /* Disney TRON Legacy (Stern 2011).png */; };
+		879FD0D9224A2BE200FAB167 /* Doctor Who (Midway 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD05B224A2BE100FAB167 /* Doctor Who (Midway 1992).png */; };
+		879FD0DA224A2BE200FAB167 /* Family Guy (Stern 2007).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD05C224A2BE100FAB167 /* Family Guy (Stern 2007).png */; };
+		879FD0DB224A2BE200FAB167 /* Fire! (Williams 1987).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD05D224A2BE100FAB167 /* Fire! (Williams 1987).png */; };
+		879FD0DC224A2BE200FAB167 /* Fish Tales (Williams 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD05E224A2BE100FAB167 /* Fish Tales (Williams 1992).png */; };
+		879FD0DD224A2BE200FAB167 /* Flash Gordon (Bally 1981).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD05F224A2BE100FAB167 /* Flash Gordon (Bally 1981).png */; };
+		879FD0DE224A2BE200FAB167 /* Freddy A Nightmare on Elm Street (Premier 1994).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD060224A2BE100FAB167 /* Freddy A Nightmare on Elm Street (Premier 1994).png */; };
+		879FD0DF224A2BE200FAB167 /* Funhouse (Williams 1990).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD061224A2BE100FAB167 /* Funhouse (Williams 1990).old[1].png */; };
+		879FD0E0224A2BE200FAB167 /* Funhouse (Williams 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD062224A2BE100FAB167 /* Funhouse (Williams 1990).png */; };
+		879FD0E1224A2BE200FAB167 /* Genesis (Gottlieb 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD063224A2BE100FAB167 /* Genesis (Gottlieb 1986).png */; };
+		879FD0E2224A2BE200FAB167 /* Getaway, The - High Speed II v1.1 (Williams 1996).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD064224A2BE100FAB167 /* Getaway, The - High Speed II v1.1 (Williams 1996).png */; };
+		879FD0E3224A2BE200FAB167 /* Ghostbusters (Limited Edition) (Stern 2016).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD065224A2BE100FAB167 /* Ghostbusters (Limited Edition) (Stern 2016).png */; };
+		879FD0E4224A2BE200FAB167 /* Ghostbusters LE 1.0 (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD066224A2BE100FAB167 /* Ghostbusters LE 1.0 (Stern 2012).png */; };
+		879FD0E5224A2BE200FAB167 /* Gilligan's Island (Bally 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD067224A2BE100FAB167 /* Gilligan's Island (Bally 1991).png */; };
+		879FD0E6224A2BE200FAB167 /* Gilligan's Island (Midway 1991).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD068224A2BE100FAB167 /* Gilligan's Island (Midway 1991).old[1].png */; };
+		879FD0E7224A2BE200FAB167 /* Gilligan's Island (Midway 1991).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD069224A2BE100FAB167 /* Gilligan's Island (Midway 1991).old[2].png */; };
+		879FD0E8224A2BE200FAB167 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD06A224A2BE100FAB167 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png */; };
+		879FD0E9224A2BE200FAB167 /* Goldorak (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD06B224A2BE100FAB167 /* Goldorak (Original 2017).png */; };
+		879FD0EA224A2BE200FAB167 /* Guns N' Roses (Data East 1994).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD06C224A2BE100FAB167 /* Guns N' Roses (Data East 1994).png */; };
+		879FD0EB224A2BE200FAB167 /* Harlem Globetrotters On Tour (Bally 1979).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD06D224A2BE100FAB167 /* Harlem Globetrotters On Tour (Bally 1979).png */; };
+		879FD0EC224A2BE200FAB167 /* Harley Quinn (HauntFreaks 2017).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD06E224A2BE100FAB167 /* Harley Quinn (HauntFreaks 2017).old[1].png */; };
+		879FD0ED224A2BE200FAB167 /* Harley Quinn (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD06F224A2BE100FAB167 /* Harley Quinn (Original 2017).png */; };
+		879FD0EE224A2BE200FAB167 /* Heavy Metal Meltdown (Bally 1987).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD070224A2BE100FAB167 /* Heavy Metal Meltdown (Bally 1987).png */; };
+		879FD0EF224A2BE200FAB167 /* High Speed (Williams 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD071224A2BE100FAB167 /* High Speed (Williams 1986).png */; };
+		879FD0F0224A2BE200FAB167 /* Hook (Data East 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD072224A2BE100FAB167 /* Hook (Data East 1992).png */; };
+		879FD0F1224A2BE200FAB167 /* Indiana Jones The Pinball Adventure (Williams 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD073224A2BE100FAB167 /* Indiana Jones The Pinball Adventure (Williams 1993).png */; };
+		879FD0F2224A2BE200FAB167 /* Indianapolis 500 (Bally 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD074224A2BE100FAB167 /* Indianapolis 500 (Bally 1995).png */; };
+		879FD0F3224A2BE200FAB167 /* Indianapolis 500 (Midway 1995).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD075224A2BE100FAB167 /* Indianapolis 500 (Midway 1995).old[1].png */; };
+		879FD0F4224A2BE200FAB167 /* Iron Man (Stern 2013).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD076224A2BE100FAB167 /* Iron Man (Stern 2013).png */; };
+		879FD0F5224A2BE200FAB167 /* IronMan (Stern 2013).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD077224A2BE100FAB167 /* IronMan (Stern 2013).png */; };
+		879FD0F6224A2BE200FAB167 /* Johnny Mnemonic (Williams 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD078224A2BE100FAB167 /* Johnny Mnemonic (Williams 1995).png */; };
+		879FD0F7224A2BE200FAB167 /* Johnny Mnemonic (Williams 1996).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD079224A2BE100FAB167 /* Johnny Mnemonic (Williams 1996).png */; };
+		879FD0F8224A2BE200FAB167 /* Judge Dredd (Bally 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD07A224A2BE100FAB167 /* Judge Dredd (Bally 1993).png */; };
+		879FD0F9224A2BE200FAB167 /* Jurassic Park (Data East 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD07B224A2BE100FAB167 /* Jurassic Park (Data East 1993).png */; };
+		879FD0FA224A2BE200FAB167 /* Kidnap (CIC Play 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD07C224A2BE100FAB167 /* Kidnap (CIC Play 1986).png */; };
+		879FD0FB224A2BE200FAB167 /* Medieval Madness (Williams 1997).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD07D224A2BE100FAB167 /* Medieval Madness (Williams 1997).png */; };
+		879FD0FC224A2BE200FAB167 /* Minions (Mod 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD07E224A2BE100FAB167 /* Minions (Mod 2017).png */; };
+		879FD0FD224A2BE200FAB167 /* Monster Bash (Williams 1998).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD07F224A2BE100FAB167 /* Monster Bash (Williams 1998).old[2].png */; };
+		879FD0FE224A2BE200FAB167 /* Monster Bash (Williams 1998).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD080224A2BE100FAB167 /* Monster Bash (Williams 1998).png */; };
+		879FD0FF224A2BE200FAB167 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD081224A2BE100FAB167 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png */; };
+		879FD100224A2BE200FAB167 /* NASCAR (Stern 2005).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD082224A2BE100FAB167 /* NASCAR (Stern 2005).png */; };
+		879FD101224A2BE200FAB167 /* NBA Fastbreak (Bally 1997).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD083224A2BE100FAB167 /* NBA Fastbreak (Bally 1997).png */; };
+		879FD102224A2BE200FAB167 /* Pinball Magic (Capcom 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD084224A2BE100FAB167 /* Pinball Magic (Capcom 1995).png */; };
+		879FD103224A2BE200FAB167 /* Pirates Of the Caribbean (Stern 2006).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD085224A2BE100FAB167 /* Pirates Of the Caribbean (Stern 2006).png */; };
+		879FD104224A2BE200FAB167 /* Robocop (Data East 1989).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD086224A2BE100FAB167 /* Robocop (Data East 1989).png */; };
+		879FD105224A2BE200FAB167 /* Safe Cracker (Bally 1996).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD087224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[1].png */; };
+		879FD106224A2BE200FAB167 /* Safe Cracker (Bally 1996).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD088224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[2].png */; };
+		879FD107224A2BE200FAB167 /* Safe Cracker (Bally 1996).old[3].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD089224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[3].png */; };
+		879FD108224A2BE200FAB167 /* Scared Stiff (Bally 1996).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD08A224A2BE100FAB167 /* Scared Stiff (Bally 1996).png */; };
+		879FD109224A2BE200FAB167 /* Shrek (Stern 2008).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD08B224A2BE100FAB167 /* Shrek (Stern 2008).png */; };
+		879FD10A224A2BE200FAB167 /* South Park (Sega 1999).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD08C224A2BE100FAB167 /* South Park (Sega 1999).png */; };
+		879FD10B224A2BE200FAB167 /* Space Station (Williams 1987).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD08D224A2BE100FAB167 /* Space Station (Williams 1987).png */; };
+		879FD10C224A2BE200FAB167 /* Speed Racer (original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD08E224A2BE100FAB167 /* Speed Racer (original 2017).png */; };
+		879FD10D224A2BE200FAB167 /* Spider-Man (Stern 2007).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD08F224A2BE100FAB167 /* Spider-Man (Stern 2007).png */; };
+		879FD10E224A2BE200FAB167 /* Star Trek LE (Stern 2013).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD090224A2BE100FAB167 /* Star Trek LE (Stern 2013).png */; };
+		879FD10F224A2BE200FAB167 /* Star Trek The Next Generation (Williams 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD091224A2BE100FAB167 /* Star Trek The Next Generation (Williams 1993).png */; };
+		879FD110224A2BE200FAB167 /* Star Wars (Data East 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD092224A2BE100FAB167 /* Star Wars (Data East 1992).png */; };
+		879FD111224A2BE200FAB167 /* Stranger Things (Orbital 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD093224A2BE100FAB167 /* Stranger Things (Orbital 2017).png */; };
+		879FD112224A2BE200FAB167 /* Stranger Things (ScottyWick 2017).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD094224A2BE100FAB167 /* Stranger Things (ScottyWick 2017).old[1].png */; };
+		879FD113224A2BE200FAB167 /* Stranger Things (ScottyWick 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD095224A2BE100FAB167 /* Stranger Things (ScottyWick 2017).png */; };
+		879FD114224A2BE200FAB167 /* Tales from the Crypt (Data East 1993).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD096224A2BE100FAB167 /* Tales from the Crypt (Data East 1993).old[1].png */; };
+		879FD115224A2BE200FAB167 /* Tales from the Crypt (Data East 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD097224A2BE100FAB167 /* Tales from the Crypt (Data East 1993).png */; };
+		879FD116224A2BE200FAB167 /* Tales of the Arabian Nights (Williams 1996).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD098224A2BE100FAB167 /* Tales of the Arabian Nights (Williams 1996).old[1].png */; };
+		879FD117224A2BE200FAB167 /* Tales of the Arabian Nights (Williams 1996).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD099224A2BE100FAB167 /* Tales of the Arabian Nights (Williams 1996).png */; };
+		879FD118224A2BE200FAB167 /* Teenage Mutant Ninja Turtles (Data East 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD09A224A2BE100FAB167 /* Teenage Mutant Ninja Turtles (Data East 1991).png */; };
+		879FD119224A2BE200FAB167 /* Terminator 2 Judgment Day (Williams 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD09B224A2BE100FAB167 /* Terminator 2 Judgment Day (Williams 1991).png */; };
+		879FD11A224A2BE200FAB167 /* Terminator 3 Rise of the Machines (Stern 2003).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD09C224A2BE100FAB167 /* Terminator 3 Rise of the Machines (Stern 2003).png */; };
+		879FD11B224A2BE200FAB167 /* The Addams Family (Bally 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD09D224A2BE100FAB167 /* The Addams Family (Bally 1992).png */; };
+		879FD11C224A2BE200FAB167 /* The Amazing Spider-Man (Gottlieb 1980).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD09E224A2BE100FAB167 /* The Amazing Spider-Man (Gottlieb 1980).png */; };
+		879FD11D224A2BE200FAB167 /* The Beatles (Original 2018).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD09F224A2BE100FAB167 /* The Beatles (Original 2018).old[1].png */; };
+		879FD11E224A2BE200FAB167 /* The Getaway High Speed II (Williams 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A0224A2BE100FAB167 /* The Getaway High Speed II (Williams 1992).png */; };
+		879FD11F224A2BE200FAB167 /* The Lord of the Rings (Stern 2003).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A1224A2BE100FAB167 /* The Lord of the Rings (Stern 2003).png */; };
+		879FD120224A2BE200FAB167 /* The Machine - Bride Of Pinbot (Williams 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A2224A2BE100FAB167 /* The Machine - Bride Of Pinbot (Williams 1991).png */; };
+		879FD121224A2BE200FAB167 /* The Machine Bride of Pinbot (Williams 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A3224A2BE100FAB167 /* The Machine Bride of Pinbot (Williams 1991).png */; };
+		879FD122224A2BE200FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A4224A2BE100FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).old[1].png */; };
+		879FD123224A2BE200FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A5224A2BE100FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).png */; };
+		879FD124224A2BE200FAB167 /* The Rolling Stones (Stern 2011).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A6224A2BE100FAB167 /* The Rolling Stones (Stern 2011).png */; };
+		879FD125224A2BE200FAB167 /* The Simpsons Pinball Party (Stern 2003).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A7224A2BE100FAB167 /* The Simpsons Pinball Party (Stern 2003).png */; };
+		879FD126224A2BE200FAB167 /* The Six Million Dollar Man (Bally 1978).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A8224A2BE100FAB167 /* The Six Million Dollar Man (Bally 1978).png */; };
+		879FD127224A2BE200FAB167 /* The Twilight Zone (Bally 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0A9224A2BE100FAB167 /* The Twilight Zone (Bally 1993).png */; };
+		879FD128224A2BE200FAB167 /* The Twilight Zone (Data East 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0AA224A2BE100FAB167 /* The Twilight Zone (Data East 1993).png */; };
+		879FD129224A2BE200FAB167 /* The Walking Dead (Stern 2012).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0AB224A2BE100FAB167 /* The Walking Dead (Stern 2012).old[2].png */; };
+		879FD12A224A2BE200FAB167 /* The X Files (Sega 1997).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0AC224A2BE100FAB167 /* The X Files (Sega 1997).png */; };
+		879FD12B224A2BE200FAB167 /* Theatre of Magic (Bally 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0AD224A2BE100FAB167 /* Theatre of Magic (Bally 1995).png */; };
+		879FD12C224A2BE200FAB167 /* Time Machine (Data East 1988).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0AE224A2BE100FAB167 /* Time Machine (Data East 1988).png */; };
+		879FD12D224A2BE200FAB167 /* Tom & Jerry (Original 2018).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0AF224A2BE100FAB167 /* Tom & Jerry (Original 2018).old[1].png */; };
+		879FD12E224A2BE200FAB167 /* Tom & Jerry (Original 2018).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B0224A2BE100FAB167 /* Tom & Jerry (Original 2018).old[2].png */; };
+		879FD12F224A2BE200FAB167 /* Transformers (Pro) (Stern 2011).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B1224A2BE100FAB167 /* Transformers (Pro) (Stern 2011).png */; };
+		879FD130224A2BE200FAB167 /* TRON Classic (Original 2018).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B2224A2BE100FAB167 /* TRON Classic (Original 2018).png */; };
+		879FD131224A2BE200FAB167 /* Twilight Zone (Bally 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B3224A2BE100FAB167 /* Twilight Zone (Bally 1993).png */; };
+		879FD132224A2BE200FAB167 /* Wheel Of Fortune (Stern 2007).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B4224A2BE100FAB167 /* Wheel Of Fortune (Stern 2007).png */; };
+		879FD133224A2BE200FAB167 /* WoZ (Original 2018).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B5224A2BE100FAB167 /* WoZ (Original 2018).old[1].png */; };
+		879FD134224A2BE200FAB167 /* WoZ (Original 2018).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B6224A2BE100FAB167 /* WoZ (Original 2018).png */; };
+		879FD135224A2BE200FAB167 /* X-Men (Pro) (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B7224A2BE100FAB167 /* X-Men (Pro) (Stern 2012).png */; };
+		879FD136224A2BE200FAB167 /* X-Men Magneto LE (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B8224A2BE100FAB167 /* X-Men Magneto LE (Stern 2012).png */; };
+		879FD137224A2BE200FAB167 /* Xenon (Bally 1980).png in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0B9224A2BE100FAB167 /* Xenon (Bally 1980).png */; };
+		87B9210B225DD003006B9942 /* AllThePinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9210A225DD003006B9942 /* AllThePinsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87B9210D225DD003006B9942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876AC9A62241ED8700A5E0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876AC9AD2241ED8700A5E0ED;
+			remoteInfo = AllThePins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		874BCB0C225EB1A50075434E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876AC9AE2241ED8700A5E0ED /* AllThePins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllThePins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876AC9B32241ED8700A5E0ED /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		876AC9B52241ED8700A5E0ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		876AC9B82241ED8700A5E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876AC9BA2241ED8800A5E0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876AC9BD2241ED8800A5E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876AC9BF2241ED8800A5E0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876AC9C52241EE0200A5E0ED /* VPinTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPinTable.swift; sourceTree = "<group>"; };
+		876AC9C72242025800A5E0ED /* Default Backglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Backglass.png"; sourceTree = SOURCE_ROOT; };
+		876AC9C82242025800A5E0ED /* Default Playfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Playfield.png"; sourceTree = SOURCE_ROOT; };
+		879FD0392249F0F700FAB167 /* woot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = woot.json; sourceTree = "<group>"; };
+		879FD03C224A2BE100FAB167 /* A Real American Hero (Original 1980).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A Real American Hero (Original 1980).png"; sourceTree = "<group>"; };
+		879FD03D224A2BE100FAB167 /* AC;DC (Premium) (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AC;DC (Premium) (Stern 2012).png"; sourceTree = "<group>"; };
+		879FD03E224A2BE100FAB167 /* ACDC Premium (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACDC Premium (Stern 2012).png"; sourceTree = "<group>"; };
+		879FD03F224A2BE100FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png"; sourceTree = "<group>"; };
+		879FD040224A2BE100FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png"; sourceTree = "<group>"; };
+		879FD041224A2BE100FAB167 /* Amazing Spider-Man (Stern 193).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amazing Spider-Man (Stern 193).png"; sourceTree = "<group>"; };
+		879FD042224A2BE100FAB167 /* Attack from Mars (Midway 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attack from Mars (Midway 1995).png"; sourceTree = "<group>"; };
+		879FD043224A2BE100FAB167 /* Austin Powers (Stern 2001).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Austin Powers (Stern 2001).png"; sourceTree = "<group>"; };
+		879FD044224A2BE100FAB167 /* Baby Pac-Man (Bally 1983).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baby Pac-Man (Bally 1983).png"; sourceTree = "<group>"; };
+		879FD045224A2BE100FAB167 /* Back to the Future (Data East 1990).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back to the Future (Data East 1990).old[1].png"; sourceTree = "<group>"; };
+		879FD046224A2BE100FAB167 /* Back to the Future (Data East 1990).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back to the Future (Data East 1990).old[2].png"; sourceTree = "<group>"; };
+		879FD047224A2BE100FAB167 /* Back to the Future (Data East 1990).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back to the Future (Data East 1990).png"; sourceTree = "<group>"; };
+		879FD048224A2BE100FAB167 /* Batman (Data East 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman (Data East 1991).png"; sourceTree = "<group>"; };
+		879FD049224A2BE100FAB167 /* Batman (Stern 2008).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman (Stern 2008).png"; sourceTree = "<group>"; };
+		879FD04A224A2BE100FAB167 /* Batman The Dark Knight (Stern 2008).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman The Dark Knight (Stern 2008).png"; sourceTree = "<group>"; };
+		879FD04B224A2BE100FAB167 /* Beach Bums (Original 2018).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach Bums (Original 2018).png"; sourceTree = "<group>"; };
+		879FD04C224A2BE100FAB167 /* Black Hole (Gottlieb 1981).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Hole (Gottlieb 1981).png"; sourceTree = "<group>"; };
+		879FD04D224A2BE100FAB167 /* Black Knight 2000 (Williams 1989).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Knight 2000 (Williams 1989).png"; sourceTree = "<group>"; };
+		879FD04E224A2BE100FAB167 /* Bubba the Redneck Werewolf (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubba the Redneck Werewolf (Original 2017).png"; sourceTree = "<group>"; };
+		879FD04F224A2BE100FAB167 /* Bugs Bunny's Birthday Ball (Bally 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bugs Bunny's Birthday Ball (Bally 1991).png"; sourceTree = "<group>"; };
+		879FD050224A2BE100FAB167 /* Cactus Canyon (Bally 1998).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cactus Canyon (Bally 1998).png"; sourceTree = "<group>"; };
+		879FD051224A2BE100FAB167 /* CARtoons RC (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CARtoons RC (Original 2017).png"; sourceTree = "<group>"; };
+		879FD052224A2BE100FAB167 /* Cirqus Voltaire (Midway 1997).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cirqus Voltaire (Midway 1997).png"; sourceTree = "<group>"; };
+		879FD053224A2BE100FAB167 /* Creature from the Black Lagoon (Bally 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Creature from the Black Lagoon (Bally 1992).png"; sourceTree = "<group>"; };
+		879FD054224A2BE100FAB167 /* Creature from the Black Lagoon (Midway 1992).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Creature from the Black Lagoon (Midway 1992).old[1].png"; sourceTree = "<group>"; };
+		879FD055224A2BE100FAB167 /* Cyclone (Williams 1988).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cyclone (Williams 1988).png"; sourceTree = "<group>"; };
+		879FD056224A2BE100FAB167 /* Demolition Man (Williams 1994).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Demolition Man (Williams 1994).png"; sourceTree = "<group>"; };
+		879FD057224A2BE100FAB167 /* Diner (Williams 1990).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diner (Williams 1990).png"; sourceTree = "<group>"; };
+		879FD058224A2BE100FAB167 /* Dirty Harry (Williams 1995).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dirty Harry (Williams 1995).old[1].png"; sourceTree = "<group>"; };
+		879FD059224A2BE100FAB167 /* Dirty Harry (Williams 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dirty Harry (Williams 1995).png"; sourceTree = "<group>"; };
+		879FD05A224A2BE100FAB167 /* Disney TRON Legacy (Stern 2011).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Disney TRON Legacy (Stern 2011).png"; sourceTree = "<group>"; };
+		879FD05B224A2BE100FAB167 /* Doctor Who (Midway 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doctor Who (Midway 1992).png"; sourceTree = "<group>"; };
+		879FD05C224A2BE100FAB167 /* Family Guy (Stern 2007).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Family Guy (Stern 2007).png"; sourceTree = "<group>"; };
+		879FD05D224A2BE100FAB167 /* Fire! (Williams 1987).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fire! (Williams 1987).png"; sourceTree = "<group>"; };
+		879FD05E224A2BE100FAB167 /* Fish Tales (Williams 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fish Tales (Williams 1992).png"; sourceTree = "<group>"; };
+		879FD05F224A2BE100FAB167 /* Flash Gordon (Bally 1981).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flash Gordon (Bally 1981).png"; sourceTree = "<group>"; };
+		879FD060224A2BE100FAB167 /* Freddy A Nightmare on Elm Street (Premier 1994).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Freddy A Nightmare on Elm Street (Premier 1994).png"; sourceTree = "<group>"; };
+		879FD061224A2BE100FAB167 /* Funhouse (Williams 1990).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Funhouse (Williams 1990).old[1].png"; sourceTree = "<group>"; };
+		879FD062224A2BE100FAB167 /* Funhouse (Williams 1990).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Funhouse (Williams 1990).png"; sourceTree = "<group>"; };
+		879FD063224A2BE100FAB167 /* Genesis (Gottlieb 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Genesis (Gottlieb 1986).png"; sourceTree = "<group>"; };
+		879FD064224A2BE100FAB167 /* Getaway, The - High Speed II v1.1 (Williams 1996).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Getaway, The - High Speed II v1.1 (Williams 1996).png"; sourceTree = "<group>"; };
+		879FD065224A2BE100FAB167 /* Ghostbusters (Limited Edition) (Stern 2016).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ghostbusters (Limited Edition) (Stern 2016).png"; sourceTree = "<group>"; };
+		879FD066224A2BE100FAB167 /* Ghostbusters LE 1.0 (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ghostbusters LE 1.0 (Stern 2012).png"; sourceTree = "<group>"; };
+		879FD067224A2BE100FAB167 /* Gilligan's Island (Bally 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gilligan's Island (Bally 1991).png"; sourceTree = "<group>"; };
+		879FD068224A2BE100FAB167 /* Gilligan's Island (Midway 1991).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gilligan's Island (Midway 1991).old[1].png"; sourceTree = "<group>"; };
+		879FD069224A2BE100FAB167 /* Gilligan's Island (Midway 1991).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gilligan's Island (Midway 1991).old[2].png"; sourceTree = "<group>"; };
+		879FD06A224A2BE100FAB167 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Wings (Gottlieb 1986) (Gottlieb 1986).png"; sourceTree = "<group>"; };
+		879FD06B224A2BE100FAB167 /* Goldorak (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Goldorak (Original 2017).png"; sourceTree = "<group>"; };
+		879FD06C224A2BE100FAB167 /* Guns N' Roses (Data East 1994).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Guns N' Roses (Data East 1994).png"; sourceTree = "<group>"; };
+		879FD06D224A2BE100FAB167 /* Harlem Globetrotters On Tour (Bally 1979).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harlem Globetrotters On Tour (Bally 1979).png"; sourceTree = "<group>"; };
+		879FD06E224A2BE100FAB167 /* Harley Quinn (HauntFreaks 2017).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harley Quinn (HauntFreaks 2017).old[1].png"; sourceTree = "<group>"; };
+		879FD06F224A2BE100FAB167 /* Harley Quinn (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harley Quinn (Original 2017).png"; sourceTree = "<group>"; };
+		879FD070224A2BE100FAB167 /* Heavy Metal Meltdown (Bally 1987).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heavy Metal Meltdown (Bally 1987).png"; sourceTree = "<group>"; };
+		879FD071224A2BE100FAB167 /* High Speed (Williams 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High Speed (Williams 1986).png"; sourceTree = "<group>"; };
+		879FD072224A2BE100FAB167 /* Hook (Data East 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hook (Data East 1992).png"; sourceTree = "<group>"; };
+		879FD073224A2BE100FAB167 /* Indiana Jones The Pinball Adventure (Williams 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indiana Jones The Pinball Adventure (Williams 1993).png"; sourceTree = "<group>"; };
+		879FD074224A2BE100FAB167 /* Indianapolis 500 (Bally 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indianapolis 500 (Bally 1995).png"; sourceTree = "<group>"; };
+		879FD075224A2BE100FAB167 /* Indianapolis 500 (Midway 1995).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indianapolis 500 (Midway 1995).old[1].png"; sourceTree = "<group>"; };
+		879FD076224A2BE100FAB167 /* Iron Man (Stern 2013).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iron Man (Stern 2013).png"; sourceTree = "<group>"; };
+		879FD077224A2BE100FAB167 /* IronMan (Stern 2013).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IronMan (Stern 2013).png"; sourceTree = "<group>"; };
+		879FD078224A2BE100FAB167 /* Johnny Mnemonic (Williams 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johnny Mnemonic (Williams 1995).png"; sourceTree = "<group>"; };
+		879FD079224A2BE100FAB167 /* Johnny Mnemonic (Williams 1996).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johnny Mnemonic (Williams 1996).png"; sourceTree = "<group>"; };
+		879FD07A224A2BE100FAB167 /* Judge Dredd (Bally 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Judge Dredd (Bally 1993).png"; sourceTree = "<group>"; };
+		879FD07B224A2BE100FAB167 /* Jurassic Park (Data East 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jurassic Park (Data East 1993).png"; sourceTree = "<group>"; };
+		879FD07C224A2BE100FAB167 /* Kidnap (CIC Play 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kidnap (CIC Play 1986).png"; sourceTree = "<group>"; };
+		879FD07D224A2BE100FAB167 /* Medieval Madness (Williams 1997).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medieval Madness (Williams 1997).png"; sourceTree = "<group>"; };
+		879FD07E224A2BE100FAB167 /* Minions (Mod 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minions (Mod 2017).png"; sourceTree = "<group>"; };
+		879FD07F224A2BE100FAB167 /* Monster Bash (Williams 1998).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monster Bash (Williams 1998).old[2].png"; sourceTree = "<group>"; };
+		879FD080224A2BE100FAB167 /* Monster Bash (Williams 1998).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monster Bash (Williams 1998).png"; sourceTree = "<group>"; };
+		879FD081224A2BE100FAB167 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monster Bash X - NZ&TT 1.3 (Williams 1993).png"; sourceTree = "<group>"; };
+		879FD082224A2BE100FAB167 /* NASCAR (Stern 2005).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NASCAR (Stern 2005).png"; sourceTree = "<group>"; };
+		879FD083224A2BE100FAB167 /* NBA Fastbreak (Bally 1997).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBA Fastbreak (Bally 1997).png"; sourceTree = "<group>"; };
+		879FD084224A2BE100FAB167 /* Pinball Magic (Capcom 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pinball Magic (Capcom 1995).png"; sourceTree = "<group>"; };
+		879FD085224A2BE100FAB167 /* Pirates Of the Caribbean (Stern 2006).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pirates Of the Caribbean (Stern 2006).png"; sourceTree = "<group>"; };
+		879FD086224A2BE100FAB167 /* Robocop (Data East 1989).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Robocop (Data East 1989).png"; sourceTree = "<group>"; };
+		879FD087224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safe Cracker (Bally 1996).old[1].png"; sourceTree = "<group>"; };
+		879FD088224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safe Cracker (Bally 1996).old[2].png"; sourceTree = "<group>"; };
+		879FD089224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[3].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safe Cracker (Bally 1996).old[3].png"; sourceTree = "<group>"; };
+		879FD08A224A2BE100FAB167 /* Scared Stiff (Bally 1996).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scared Stiff (Bally 1996).png"; sourceTree = "<group>"; };
+		879FD08B224A2BE100FAB167 /* Shrek (Stern 2008).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shrek (Stern 2008).png"; sourceTree = "<group>"; };
+		879FD08C224A2BE100FAB167 /* South Park (Sega 1999).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "South Park (Sega 1999).png"; sourceTree = "<group>"; };
+		879FD08D224A2BE100FAB167 /* Space Station (Williams 1987).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Space Station (Williams 1987).png"; sourceTree = "<group>"; };
+		879FD08E224A2BE100FAB167 /* Speed Racer (original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speed Racer (original 2017).png"; sourceTree = "<group>"; };
+		879FD08F224A2BE100FAB167 /* Spider-Man (Stern 2007).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spider-Man (Stern 2007).png"; sourceTree = "<group>"; };
+		879FD090224A2BE100FAB167 /* Star Trek LE (Stern 2013).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Trek LE (Stern 2013).png"; sourceTree = "<group>"; };
+		879FD091224A2BE100FAB167 /* Star Trek The Next Generation (Williams 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Trek The Next Generation (Williams 1993).png"; sourceTree = "<group>"; };
+		879FD092224A2BE100FAB167 /* Star Wars (Data East 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Wars (Data East 1992).png"; sourceTree = "<group>"; };
+		879FD093224A2BE100FAB167 /* Stranger Things (Orbital 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stranger Things (Orbital 2017).png"; sourceTree = "<group>"; };
+		879FD094224A2BE100FAB167 /* Stranger Things (ScottyWick 2017).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stranger Things (ScottyWick 2017).old[1].png"; sourceTree = "<group>"; };
+		879FD095224A2BE100FAB167 /* Stranger Things (ScottyWick 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stranger Things (ScottyWick 2017).png"; sourceTree = "<group>"; };
+		879FD096224A2BE100FAB167 /* Tales from the Crypt (Data East 1993).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tales from the Crypt (Data East 1993).old[1].png"; sourceTree = "<group>"; };
+		879FD097224A2BE100FAB167 /* Tales from the Crypt (Data East 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tales from the Crypt (Data East 1993).png"; sourceTree = "<group>"; };
+		879FD098224A2BE100FAB167 /* Tales of the Arabian Nights (Williams 1996).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tales of the Arabian Nights (Williams 1996).old[1].png"; sourceTree = "<group>"; };
+		879FD099224A2BE100FAB167 /* Tales of the Arabian Nights (Williams 1996).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tales of the Arabian Nights (Williams 1996).png"; sourceTree = "<group>"; };
+		879FD09A224A2BE100FAB167 /* Teenage Mutant Ninja Turtles (Data East 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Teenage Mutant Ninja Turtles (Data East 1991).png"; sourceTree = "<group>"; };
+		879FD09B224A2BE100FAB167 /* Terminator 2 Judgment Day (Williams 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Terminator 2 Judgment Day (Williams 1991).png"; sourceTree = "<group>"; };
+		879FD09C224A2BE100FAB167 /* Terminator 3 Rise of the Machines (Stern 2003).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Terminator 3 Rise of the Machines (Stern 2003).png"; sourceTree = "<group>"; };
+		879FD09D224A2BE100FAB167 /* The Addams Family (Bally 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Addams Family (Bally 1992).png"; sourceTree = "<group>"; };
+		879FD09E224A2BE100FAB167 /* The Amazing Spider-Man (Gottlieb 1980).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Amazing Spider-Man (Gottlieb 1980).png"; sourceTree = "<group>"; };
+		879FD09F224A2BE100FAB167 /* The Beatles (Original 2018).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Beatles (Original 2018).old[1].png"; sourceTree = "<group>"; };
+		879FD0A0224A2BE100FAB167 /* The Getaway High Speed II (Williams 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Getaway High Speed II (Williams 1992).png"; sourceTree = "<group>"; };
+		879FD0A1224A2BE100FAB167 /* The Lord of the Rings (Stern 2003).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Lord of the Rings (Stern 2003).png"; sourceTree = "<group>"; };
+		879FD0A2224A2BE100FAB167 /* The Machine - Bride Of Pinbot (Williams 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Machine - Bride Of Pinbot (Williams 1991).png"; sourceTree = "<group>"; };
+		879FD0A3224A2BE100FAB167 /* The Machine Bride of Pinbot (Williams 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Machine Bride of Pinbot (Williams 1991).png"; sourceTree = "<group>"; };
+		879FD0A4224A2BE100FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Machine Bride of Pinﻶbot (Williams 1991).old[1].png"; sourceTree = "<group>"; };
+		879FD0A5224A2BE100FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Machine Bride of Pinﻶbot (Williams 1991).png"; sourceTree = "<group>"; };
+		879FD0A6224A2BE100FAB167 /* The Rolling Stones (Stern 2011).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Rolling Stones (Stern 2011).png"; sourceTree = "<group>"; };
+		879FD0A7224A2BE100FAB167 /* The Simpsons Pinball Party (Stern 2003).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Simpsons Pinball Party (Stern 2003).png"; sourceTree = "<group>"; };
+		879FD0A8224A2BE100FAB167 /* The Six Million Dollar Man (Bally 1978).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Six Million Dollar Man (Bally 1978).png"; sourceTree = "<group>"; };
+		879FD0A9224A2BE100FAB167 /* The Twilight Zone (Bally 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Twilight Zone (Bally 1993).png"; sourceTree = "<group>"; };
+		879FD0AA224A2BE100FAB167 /* The Twilight Zone (Data East 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Twilight Zone (Data East 1993).png"; sourceTree = "<group>"; };
+		879FD0AB224A2BE100FAB167 /* The Walking Dead (Stern 2012).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Walking Dead (Stern 2012).old[2].png"; sourceTree = "<group>"; };
+		879FD0AC224A2BE100FAB167 /* The X Files (Sega 1997).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The X Files (Sega 1997).png"; sourceTree = "<group>"; };
+		879FD0AD224A2BE100FAB167 /* Theatre of Magic (Bally 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Theatre of Magic (Bally 1995).png"; sourceTree = "<group>"; };
+		879FD0AE224A2BE100FAB167 /* Time Machine (Data East 1988).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time Machine (Data East 1988).png"; sourceTree = "<group>"; };
+		879FD0AF224A2BE100FAB167 /* Tom & Jerry (Original 2018).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tom & Jerry (Original 2018).old[1].png"; sourceTree = "<group>"; };
+		879FD0B0224A2BE100FAB167 /* Tom & Jerry (Original 2018).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tom & Jerry (Original 2018).old[2].png"; sourceTree = "<group>"; };
+		879FD0B1224A2BE100FAB167 /* Transformers (Pro) (Stern 2011).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Transformers (Pro) (Stern 2011).png"; sourceTree = "<group>"; };
+		879FD0B2224A2BE100FAB167 /* TRON Classic (Original 2018).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRON Classic (Original 2018).png"; sourceTree = "<group>"; };
+		879FD0B3224A2BE100FAB167 /* Twilight Zone (Bally 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twilight Zone (Bally 1993).png"; sourceTree = "<group>"; };
+		879FD0B4224A2BE100FAB167 /* Wheel Of Fortune (Stern 2007).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wheel Of Fortune (Stern 2007).png"; sourceTree = "<group>"; };
+		879FD0B5224A2BE100FAB167 /* WoZ (Original 2018).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WoZ (Original 2018).old[1].png"; sourceTree = "<group>"; };
+		879FD0B6224A2BE100FAB167 /* WoZ (Original 2018).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WoZ (Original 2018).png"; sourceTree = "<group>"; };
+		879FD0B7224A2BE100FAB167 /* X-Men (Pro) (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X-Men (Pro) (Stern 2012).png"; sourceTree = "<group>"; };
+		879FD0B8224A2BE100FAB167 /* X-Men Magneto LE (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X-Men Magneto LE (Stern 2012).png"; sourceTree = "<group>"; };
+		879FD0B9224A2BE100FAB167 /* Xenon (Bally 1980).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xenon (Bally 1980).png"; sourceTree = "<group>"; };
+		87B92108225DD003006B9942 /* AllThePinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllThePinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B9210A225DD003006B9942 /* AllThePinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllThePinsTests.swift; sourceTree = "<group>"; };
+		87B9210C225DD003006B9942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876AC9AB2241ED8700A5E0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B92105225DD003006B9942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876AC9A52241ED8700A5E0ED = {
+			isa = PBXGroup;
+			children = (
+				876AC9B02241ED8700A5E0ED /* AllThePins */,
+				87B92109225DD003006B9942 /* AllThePinsTests */,
+				876AC9AF2241ED8700A5E0ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876AC9AF2241ED8700A5E0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876AC9AE2241ED8700A5E0ED /* AllThePins.app */,
+				87B92108225DD003006B9942 /* AllThePinsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876AC9B02241ED8700A5E0ED /* AllThePins */ = {
+			isa = PBXGroup;
+			children = (
+				876AC9B32241ED8700A5E0ED /* MasterViewController.swift */,
+				874BCB0C225EB1A50075434E /* AppDelegate.swift */,
+				876AC9B52241ED8700A5E0ED /* DetailViewController.swift */,
+				879FD0392249F0F700FAB167 /* woot.json */,
+				876AC9C52241EE0200A5E0ED /* VPinTable.swift */,
+				879FD03B224A2BE100FAB167 /* newfiles */,
+				876AC9B72241ED8700A5E0ED /* Main.storyboard */,
+				876AC9BA2241ED8800A5E0ED /* Assets.xcassets */,
+				876AC9BC2241ED8800A5E0ED /* LaunchScreen.storyboard */,
+				876AC9C72242025800A5E0ED /* Default Backglass.png */,
+				876AC9C82242025800A5E0ED /* Default Playfield.png */,
+				876AC9BF2241ED8800A5E0ED /* Info.plist */,
+			);
+			path = AllThePins;
+			sourceTree = "<group>";
+		};
+		879FD03B224A2BE100FAB167 /* newfiles */ = {
+			isa = PBXGroup;
+			children = (
+				879FD03C224A2BE100FAB167 /* A Real American Hero (Original 1980).png */,
+				879FD03D224A2BE100FAB167 /* AC;DC (Premium) (Stern 2012).png */,
+				879FD03E224A2BE100FAB167 /* ACDC Premium (Stern 2012).png */,
+				879FD03F224A2BE100FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png */,
+				879FD040224A2BE100FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png */,
+				879FD041224A2BE100FAB167 /* Amazing Spider-Man (Stern 193).png */,
+				879FD042224A2BE100FAB167 /* Attack from Mars (Midway 1995).png */,
+				879FD043224A2BE100FAB167 /* Austin Powers (Stern 2001).png */,
+				879FD044224A2BE100FAB167 /* Baby Pac-Man (Bally 1983).png */,
+				879FD045224A2BE100FAB167 /* Back to the Future (Data East 1990).old[1].png */,
+				879FD046224A2BE100FAB167 /* Back to the Future (Data East 1990).old[2].png */,
+				879FD047224A2BE100FAB167 /* Back to the Future (Data East 1990).png */,
+				879FD048224A2BE100FAB167 /* Batman (Data East 1991).png */,
+				879FD049224A2BE100FAB167 /* Batman (Stern 2008).png */,
+				879FD04A224A2BE100FAB167 /* Batman The Dark Knight (Stern 2008).png */,
+				879FD04B224A2BE100FAB167 /* Beach Bums (Original 2018).png */,
+				879FD04C224A2BE100FAB167 /* Black Hole (Gottlieb 1981).png */,
+				879FD04D224A2BE100FAB167 /* Black Knight 2000 (Williams 1989).png */,
+				879FD04E224A2BE100FAB167 /* Bubba the Redneck Werewolf (Original 2017).png */,
+				879FD04F224A2BE100FAB167 /* Bugs Bunny's Birthday Ball (Bally 1991).png */,
+				879FD050224A2BE100FAB167 /* Cactus Canyon (Bally 1998).png */,
+				879FD051224A2BE100FAB167 /* CARtoons RC (Original 2017).png */,
+				879FD052224A2BE100FAB167 /* Cirqus Voltaire (Midway 1997).png */,
+				879FD053224A2BE100FAB167 /* Creature from the Black Lagoon (Bally 1992).png */,
+				879FD054224A2BE100FAB167 /* Creature from the Black Lagoon (Midway 1992).old[1].png */,
+				879FD055224A2BE100FAB167 /* Cyclone (Williams 1988).png */,
+				879FD056224A2BE100FAB167 /* Demolition Man (Williams 1994).png */,
+				879FD057224A2BE100FAB167 /* Diner (Williams 1990).png */,
+				879FD058224A2BE100FAB167 /* Dirty Harry (Williams 1995).old[1].png */,
+				879FD059224A2BE100FAB167 /* Dirty Harry (Williams 1995).png */,
+				879FD05A224A2BE100FAB167 /* Disney TRON Legacy (Stern 2011).png */,
+				879FD05B224A2BE100FAB167 /* Doctor Who (Midway 1992).png */,
+				879FD05C224A2BE100FAB167 /* Family Guy (Stern 2007).png */,
+				879FD05D224A2BE100FAB167 /* Fire! (Williams 1987).png */,
+				879FD05E224A2BE100FAB167 /* Fish Tales (Williams 1992).png */,
+				879FD05F224A2BE100FAB167 /* Flash Gordon (Bally 1981).png */,
+				879FD060224A2BE100FAB167 /* Freddy A Nightmare on Elm Street (Premier 1994).png */,
+				879FD061224A2BE100FAB167 /* Funhouse (Williams 1990).old[1].png */,
+				879FD062224A2BE100FAB167 /* Funhouse (Williams 1990).png */,
+				879FD063224A2BE100FAB167 /* Genesis (Gottlieb 1986).png */,
+				879FD064224A2BE100FAB167 /* Getaway, The - High Speed II v1.1 (Williams 1996).png */,
+				879FD065224A2BE100FAB167 /* Ghostbusters (Limited Edition) (Stern 2016).png */,
+				879FD066224A2BE100FAB167 /* Ghostbusters LE 1.0 (Stern 2012).png */,
+				879FD067224A2BE100FAB167 /* Gilligan's Island (Bally 1991).png */,
+				879FD068224A2BE100FAB167 /* Gilligan's Island (Midway 1991).old[1].png */,
+				879FD069224A2BE100FAB167 /* Gilligan's Island (Midway 1991).old[2].png */,
+				879FD06A224A2BE100FAB167 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png */,
+				879FD06B224A2BE100FAB167 /* Goldorak (Original 2017).png */,
+				879FD06C224A2BE100FAB167 /* Guns N' Roses (Data East 1994).png */,
+				879FD06D224A2BE100FAB167 /* Harlem Globetrotters On Tour (Bally 1979).png */,
+				879FD06E224A2BE100FAB167 /* Harley Quinn (HauntFreaks 2017).old[1].png */,
+				879FD06F224A2BE100FAB167 /* Harley Quinn (Original 2017).png */,
+				879FD070224A2BE100FAB167 /* Heavy Metal Meltdown (Bally 1987).png */,
+				879FD071224A2BE100FAB167 /* High Speed (Williams 1986).png */,
+				879FD072224A2BE100FAB167 /* Hook (Data East 1992).png */,
+				879FD073224A2BE100FAB167 /* Indiana Jones The Pinball Adventure (Williams 1993).png */,
+				879FD074224A2BE100FAB167 /* Indianapolis 500 (Bally 1995).png */,
+				879FD075224A2BE100FAB167 /* Indianapolis 500 (Midway 1995).old[1].png */,
+				879FD076224A2BE100FAB167 /* Iron Man (Stern 2013).png */,
+				879FD077224A2BE100FAB167 /* IronMan (Stern 2013).png */,
+				879FD078224A2BE100FAB167 /* Johnny Mnemonic (Williams 1995).png */,
+				879FD079224A2BE100FAB167 /* Johnny Mnemonic (Williams 1996).png */,
+				879FD07A224A2BE100FAB167 /* Judge Dredd (Bally 1993).png */,
+				879FD07B224A2BE100FAB167 /* Jurassic Park (Data East 1993).png */,
+				879FD07C224A2BE100FAB167 /* Kidnap (CIC Play 1986).png */,
+				879FD07D224A2BE100FAB167 /* Medieval Madness (Williams 1997).png */,
+				879FD07E224A2BE100FAB167 /* Minions (Mod 2017).png */,
+				879FD07F224A2BE100FAB167 /* Monster Bash (Williams 1998).old[2].png */,
+				879FD080224A2BE100FAB167 /* Monster Bash (Williams 1998).png */,
+				879FD081224A2BE100FAB167 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png */,
+				879FD082224A2BE100FAB167 /* NASCAR (Stern 2005).png */,
+				879FD083224A2BE100FAB167 /* NBA Fastbreak (Bally 1997).png */,
+				879FD084224A2BE100FAB167 /* Pinball Magic (Capcom 1995).png */,
+				879FD085224A2BE100FAB167 /* Pirates Of the Caribbean (Stern 2006).png */,
+				879FD086224A2BE100FAB167 /* Robocop (Data East 1989).png */,
+				879FD087224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[1].png */,
+				879FD088224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[2].png */,
+				879FD089224A2BE100FAB167 /* Safe Cracker (Bally 1996).old[3].png */,
+				879FD08A224A2BE100FAB167 /* Scared Stiff (Bally 1996).png */,
+				879FD08B224A2BE100FAB167 /* Shrek (Stern 2008).png */,
+				879FD08C224A2BE100FAB167 /* South Park (Sega 1999).png */,
+				879FD08D224A2BE100FAB167 /* Space Station (Williams 1987).png */,
+				879FD08E224A2BE100FAB167 /* Speed Racer (original 2017).png */,
+				879FD08F224A2BE100FAB167 /* Spider-Man (Stern 2007).png */,
+				879FD090224A2BE100FAB167 /* Star Trek LE (Stern 2013).png */,
+				879FD091224A2BE100FAB167 /* Star Trek The Next Generation (Williams 1993).png */,
+				879FD092224A2BE100FAB167 /* Star Wars (Data East 1992).png */,
+				879FD093224A2BE100FAB167 /* Stranger Things (Orbital 2017).png */,
+				879FD094224A2BE100FAB167 /* Stranger Things (ScottyWick 2017).old[1].png */,
+				879FD095224A2BE100FAB167 /* Stranger Things (ScottyWick 2017).png */,
+				879FD096224A2BE100FAB167 /* Tales from the Crypt (Data East 1993).old[1].png */,
+				879FD097224A2BE100FAB167 /* Tales from the Crypt (Data East 1993).png */,
+				879FD098224A2BE100FAB167 /* Tales of the Arabian Nights (Williams 1996).old[1].png */,
+				879FD099224A2BE100FAB167 /* Tales of the Arabian Nights (Williams 1996).png */,
+				879FD09A224A2BE100FAB167 /* Teenage Mutant Ninja Turtles (Data East 1991).png */,
+				879FD09B224A2BE100FAB167 /* Terminator 2 Judgment Day (Williams 1991).png */,
+				879FD09C224A2BE100FAB167 /* Terminator 3 Rise of the Machines (Stern 2003).png */,
+				879FD09D224A2BE100FAB167 /* The Addams Family (Bally 1992).png */,
+				879FD09E224A2BE100FAB167 /* The Amazing Spider-Man (Gottlieb 1980).png */,
+				879FD09F224A2BE100FAB167 /* The Beatles (Original 2018).old[1].png */,
+				879FD0A0224A2BE100FAB167 /* The Getaway High Speed II (Williams 1992).png */,
+				879FD0A1224A2BE100FAB167 /* The Lord of the Rings (Stern 2003).png */,
+				879FD0A2224A2BE100FAB167 /* The Machine - Bride Of Pinbot (Williams 1991).png */,
+				879FD0A3224A2BE100FAB167 /* The Machine Bride of Pinbot (Williams 1991).png */,
+				879FD0A4224A2BE100FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).old[1].png */,
+				879FD0A5224A2BE100FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).png */,
+				879FD0A6224A2BE100FAB167 /* The Rolling Stones (Stern 2011).png */,
+				879FD0A7224A2BE100FAB167 /* The Simpsons Pinball Party (Stern 2003).png */,
+				879FD0A8224A2BE100FAB167 /* The Six Million Dollar Man (Bally 1978).png */,
+				879FD0A9224A2BE100FAB167 /* The Twilight Zone (Bally 1993).png */,
+				879FD0AA224A2BE100FAB167 /* The Twilight Zone (Data East 1993).png */,
+				879FD0AB224A2BE100FAB167 /* The Walking Dead (Stern 2012).old[2].png */,
+				879FD0AC224A2BE100FAB167 /* The X Files (Sega 1997).png */,
+				879FD0AD224A2BE100FAB167 /* Theatre of Magic (Bally 1995).png */,
+				879FD0AE224A2BE100FAB167 /* Time Machine (Data East 1988).png */,
+				879FD0AF224A2BE100FAB167 /* Tom & Jerry (Original 2018).old[1].png */,
+				879FD0B0224A2BE100FAB167 /* Tom & Jerry (Original 2018).old[2].png */,
+				879FD0B1224A2BE100FAB167 /* Transformers (Pro) (Stern 2011).png */,
+				879FD0B2224A2BE100FAB167 /* TRON Classic (Original 2018).png */,
+				879FD0B3224A2BE100FAB167 /* Twilight Zone (Bally 1993).png */,
+				879FD0B4224A2BE100FAB167 /* Wheel Of Fortune (Stern 2007).png */,
+				879FD0B5224A2BE100FAB167 /* WoZ (Original 2018).old[1].png */,
+				879FD0B6224A2BE100FAB167 /* WoZ (Original 2018).png */,
+				879FD0B7224A2BE100FAB167 /* X-Men (Pro) (Stern 2012).png */,
+				879FD0B8224A2BE100FAB167 /* X-Men Magneto LE (Stern 2012).png */,
+				879FD0B9224A2BE100FAB167 /* Xenon (Bally 1980).png */,
+			);
+			path = newfiles;
+			sourceTree = "<group>";
+		};
+		87B92109225DD003006B9942 /* AllThePinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				87B9210A225DD003006B9942 /* AllThePinsTests.swift */,
+				87B9210C225DD003006B9942 /* Info.plist */,
+			);
+			path = AllThePinsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876AC9AD2241ED8700A5E0ED /* AllThePins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876AC9C22241ED8800A5E0ED /* Build configuration list for PBXNativeTarget "AllThePins" */;
+			buildPhases = (
+				876AC9AA2241ED8700A5E0ED /* Sources */,
+				876AC9AB2241ED8700A5E0ED /* Frameworks */,
+				876AC9AC2241ED8700A5E0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllThePins;
+			productName = AllThePins;
+			productReference = 876AC9AE2241ED8700A5E0ED /* AllThePins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87B92107225DD003006B9942 /* AllThePinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B9210F225DD003006B9942 /* Build configuration list for PBXNativeTarget "AllThePinsTests" */;
+			buildPhases = (
+				87B92104225DD003006B9942 /* Sources */,
+				87B92105225DD003006B9942 /* Frameworks */,
+				87B92106225DD003006B9942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B9210E225DD003006B9942 /* PBXTargetDependency */,
+			);
+			name = AllThePinsTests;
+			productName = AllThePinsTests;
+			productReference = 87B92108225DD003006B9942 /* AllThePinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876AC9A62241ED8700A5E0ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = RnSKSoft;
+				TargetAttributes = {
+					876AC9AD2241ED8700A5E0ED = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					87B92107225DD003006B9942 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 876AC9AD2241ED8700A5E0ED;
+					};
+				};
+			};
+			buildConfigurationList = 876AC9A92241ED8700A5E0ED /* Build configuration list for PBXProject "AllThePins" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876AC9A52241ED8700A5E0ED;
+			productRefGroup = 876AC9AF2241ED8700A5E0ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876AC9AD2241ED8700A5E0ED /* AllThePins */,
+				87B92107225DD003006B9942 /* AllThePinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876AC9AC2241ED8700A5E0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879FD0E0224A2BE200FAB167 /* Funhouse (Williams 1990).png in Resources */,
+				879FD125224A2BE200FAB167 /* The Simpsons Pinball Party (Stern 2003).png in Resources */,
+				879FD0D8224A2BE200FAB167 /* Disney TRON Legacy (Stern 2011).png in Resources */,
+				879FD0F7224A2BE200FAB167 /* Johnny Mnemonic (Williams 1996).png in Resources */,
+				879FD109224A2BE200FAB167 /* Shrek (Stern 2008).png in Resources */,
+				879FD0CA224A2BE200FAB167 /* Black Hole (Gottlieb 1981).png in Resources */,
+				879FD10F224A2BE200FAB167 /* Star Trek The Next Generation (Williams 1993).png in Resources */,
+				876AC9C92242025800A5E0ED /* Default Backglass.png in Resources */,
+				879FD120224A2BE200FAB167 /* The Machine - Bride Of Pinbot (Williams 1991).png in Resources */,
+				879FD128224A2BE200FAB167 /* The Twilight Zone (Data East 1993).png in Resources */,
+				879FD10D224A2BE200FAB167 /* Spider-Man (Stern 2007).png in Resources */,
+				879FD115224A2BE200FAB167 /* Tales from the Crypt (Data East 1993).png in Resources */,
+				879FD0DF224A2BE200FAB167 /* Funhouse (Williams 1990).old[1].png in Resources */,
+				879FD114224A2BE200FAB167 /* Tales from the Crypt (Data East 1993).old[1].png in Resources */,
+				879FD0FB224A2BE200FAB167 /* Medieval Madness (Williams 1997).png in Resources */,
+				879FD11B224A2BE200FAB167 /* The Addams Family (Bally 1992).png in Resources */,
+				879FD0E1224A2BE200FAB167 /* Genesis (Gottlieb 1986).png in Resources */,
+				879FD0ED224A2BE200FAB167 /* Harley Quinn (Original 2017).png in Resources */,
+				879FD131224A2BE200FAB167 /* Twilight Zone (Bally 1993).png in Resources */,
+				879FD0EC224A2BE200FAB167 /* Harley Quinn (HauntFreaks 2017).old[1].png in Resources */,
+				879FD0E5224A2BE200FAB167 /* Gilligan's Island (Bally 1991).png in Resources */,
+				879FD118224A2BE200FAB167 /* Teenage Mutant Ninja Turtles (Data East 1991).png in Resources */,
+				879FD107224A2BE200FAB167 /* Safe Cracker (Bally 1996).old[3].png in Resources */,
+				879FD104224A2BE200FAB167 /* Robocop (Data East 1989).png in Resources */,
+				879FD133224A2BE200FAB167 /* WoZ (Original 2018).old[1].png in Resources */,
+				879FD0CB224A2BE200FAB167 /* Black Knight 2000 (Williams 1989).png in Resources */,
+				879FD112224A2BE200FAB167 /* Stranger Things (ScottyWick 2017).old[1].png in Resources */,
+				879FD132224A2BE200FAB167 /* Wheel Of Fortune (Stern 2007).png in Resources */,
+				879FD0E4224A2BE200FAB167 /* Ghostbusters LE 1.0 (Stern 2012).png in Resources */,
+				879FD0C5224A2BE200FAB167 /* Back to the Future (Data East 1990).png in Resources */,
+				879FD0D6224A2BE200FAB167 /* Dirty Harry (Williams 1995).old[1].png in Resources */,
+				879FD0EA224A2BE200FAB167 /* Guns N' Roses (Data East 1994).png in Resources */,
+				879FD122224A2BE200FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).old[1].png in Resources */,
+				879FD0CE224A2BE200FAB167 /* Cactus Canyon (Bally 1998).png in Resources */,
+				879FD116224A2BE200FAB167 /* Tales of the Arabian Nights (Williams 1996).old[1].png in Resources */,
+				879FD0FE224A2BE200FAB167 /* Monster Bash (Williams 1998).png in Resources */,
+				879FD0BD224A2BE200FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png in Resources */,
+				879FD12D224A2BE200FAB167 /* Tom & Jerry (Original 2018).old[1].png in Resources */,
+				879FD0DA224A2BE200FAB167 /* Family Guy (Stern 2007).png in Resources */,
+				879FD0D7224A2BE200FAB167 /* Dirty Harry (Williams 1995).png in Resources */,
+				879FD111224A2BE200FAB167 /* Stranger Things (Orbital 2017).png in Resources */,
+				879FD11A224A2BE200FAB167 /* Terminator 3 Rise of the Machines (Stern 2003).png in Resources */,
+				879FD110224A2BE200FAB167 /* Star Wars (Data East 1992).png in Resources */,
+				879FD0C8224A2BE200FAB167 /* Batman The Dark Knight (Stern 2008).png in Resources */,
+				879FD103224A2BE200FAB167 /* Pirates Of the Caribbean (Stern 2006).png in Resources */,
+				879FD0C3224A2BE200FAB167 /* Back to the Future (Data East 1990).old[1].png in Resources */,
+				879FD102224A2BE200FAB167 /* Pinball Magic (Capcom 1995).png in Resources */,
+				879FD0DC224A2BE200FAB167 /* Fish Tales (Williams 1992).png in Resources */,
+				879FD126224A2BE200FAB167 /* The Six Million Dollar Man (Bally 1978).png in Resources */,
+				879FD0D3224A2BE200FAB167 /* Cyclone (Williams 1988).png in Resources */,
+				879FD0F3224A2BE200FAB167 /* Indianapolis 500 (Midway 1995).old[1].png in Resources */,
+				879FD0C7224A2BE200FAB167 /* Batman (Stern 2008).png in Resources */,
+				879FD0F9224A2BE200FAB167 /* Jurassic Park (Data East 1993).png in Resources */,
+				879FD0F1224A2BE200FAB167 /* Indiana Jones The Pinball Adventure (Williams 1993).png in Resources */,
+				879FD0C6224A2BE200FAB167 /* Batman (Data East 1991).png in Resources */,
+				879FD10A224A2BE200FAB167 /* South Park (Sega 1999).png in Resources */,
+				879FD0FC224A2BE200FAB167 /* Minions (Mod 2017).png in Resources */,
+				879FD124224A2BE200FAB167 /* The Rolling Stones (Stern 2011).png in Resources */,
+				879FD0BF224A2BE200FAB167 /* Amazing Spider-Man (Stern 193).png in Resources */,
+				879FD108224A2BE200FAB167 /* Scared Stiff (Bally 1996).png in Resources */,
+				879FD12C224A2BE200FAB167 /* Time Machine (Data East 1988).png in Resources */,
+				879FD0CC224A2BE200FAB167 /* Bubba the Redneck Werewolf (Original 2017).png in Resources */,
+				876AC9BE2241ED8800A5E0ED /* LaunchScreen.storyboard in Resources */,
+				876AC9BB2241ED8800A5E0ED /* Assets.xcassets in Resources */,
+				879FD137224A2BE200FAB167 /* Xenon (Bally 1980).png in Resources */,
+				879FD0F5224A2BE200FAB167 /* IronMan (Stern 2013).png in Resources */,
+				879FD0F2224A2BE200FAB167 /* Indianapolis 500 (Bally 1995).png in Resources */,
+				879FD0F4224A2BE200FAB167 /* Iron Man (Stern 2013).png in Resources */,
+				879FD0EE224A2BE200FAB167 /* Heavy Metal Meltdown (Bally 1987).png in Resources */,
+				879FD0EF224A2BE200FAB167 /* High Speed (Williams 1986).png in Resources */,
+				879FD0DE224A2BE200FAB167 /* Freddy A Nightmare on Elm Street (Premier 1994).png in Resources */,
+				879FD12E224A2BE200FAB167 /* Tom & Jerry (Original 2018).old[2].png in Resources */,
+				879FD0FF224A2BE200FAB167 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png in Resources */,
+				879FD129224A2BE200FAB167 /* The Walking Dead (Stern 2012).old[2].png in Resources */,
+				879FD136224A2BE200FAB167 /* X-Men Magneto LE (Stern 2012).png in Resources */,
+				879FD0C4224A2BE200FAB167 /* Back to the Future (Data East 1990).old[2].png in Resources */,
+				879FD0D1224A2BE200FAB167 /* Creature from the Black Lagoon (Bally 1992).png in Resources */,
+				879FD0E7224A2BE200FAB167 /* Gilligan's Island (Midway 1991).old[2].png in Resources */,
+				879FD106224A2BE200FAB167 /* Safe Cracker (Bally 1996).old[2].png in Resources */,
+				879FD113224A2BE200FAB167 /* Stranger Things (ScottyWick 2017).png in Resources */,
+				879FD0E3224A2BE200FAB167 /* Ghostbusters (Limited Edition) (Stern 2016).png in Resources */,
+				879FD11F224A2BE200FAB167 /* The Lord of the Rings (Stern 2003).png in Resources */,
+				879FD101224A2BE200FAB167 /* NBA Fastbreak (Bally 1997).png in Resources */,
+				879FD11D224A2BE200FAB167 /* The Beatles (Original 2018).old[1].png in Resources */,
+				879FD12A224A2BE200FAB167 /* The X Files (Sega 1997).png in Resources */,
+				879FD0D2224A2BE200FAB167 /* Creature from the Black Lagoon (Midway 1992).old[1].png in Resources */,
+				879FD10C224A2BE200FAB167 /* Speed Racer (original 2017).png in Resources */,
+				879FD134224A2BE200FAB167 /* WoZ (Original 2018).png in Resources */,
+				879FD0D9224A2BE200FAB167 /* Doctor Who (Midway 1992).png in Resources */,
+				879FD0D0224A2BE200FAB167 /* Cirqus Voltaire (Midway 1997).png in Resources */,
+				879FD117224A2BE200FAB167 /* Tales of the Arabian Nights (Williams 1996).png in Resources */,
+				879FD10B224A2BE200FAB167 /* Space Station (Williams 1987).png in Resources */,
+				879FD135224A2BE200FAB167 /* X-Men (Pro) (Stern 2012).png in Resources */,
+				879FD0F0224A2BE200FAB167 /* Hook (Data East 1992).png in Resources */,
+				879FD0F6224A2BE200FAB167 /* Johnny Mnemonic (Williams 1995).png in Resources */,
+				879FD0BA224A2BE200FAB167 /* A Real American Hero (Original 1980).png in Resources */,
+				879FD0E9224A2BE200FAB167 /* Goldorak (Original 2017).png in Resources */,
+				879FD11E224A2BE200FAB167 /* The Getaway High Speed II (Williams 1992).png in Resources */,
+				879FD0FD224A2BE200FAB167 /* Monster Bash (Williams 1998).old[2].png in Resources */,
+				876AC9B92241ED8700A5E0ED /* Main.storyboard in Resources */,
+				879FD130224A2BE200FAB167 /* TRON Classic (Original 2018).png in Resources */,
+				879FD03A2249F0F700FAB167 /* woot.json in Resources */,
+				879FD0D5224A2BE200FAB167 /* Diner (Williams 1990).png in Resources */,
+				879FD12B224A2BE200FAB167 /* Theatre of Magic (Bally 1995).png in Resources */,
+				879FD0BB224A2BE200FAB167 /* AC;DC (Premium) (Stern 2012).png in Resources */,
+				879FD0E8224A2BE200FAB167 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png in Resources */,
+				879FD0BC224A2BE200FAB167 /* ACDC Premium (Stern 2012).png in Resources */,
+				879FD0DD224A2BE200FAB167 /* Flash Gordon (Bally 1981).png in Resources */,
+				879FD0BE224A2BE200FAB167 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png in Resources */,
+				879FD11C224A2BE200FAB167 /* The Amazing Spider-Man (Gottlieb 1980).png in Resources */,
+				879FD10E224A2BE200FAB167 /* Star Trek LE (Stern 2013).png in Resources */,
+				879FD123224A2BE200FAB167 /* The Machine Bride of Pinﻶbot (Williams 1991).png in Resources */,
+				879FD0DB224A2BE200FAB167 /* Fire! (Williams 1987).png in Resources */,
+				879FD0C1224A2BE200FAB167 /* Austin Powers (Stern 2001).png in Resources */,
+				879FD0F8224A2BE200FAB167 /* Judge Dredd (Bally 1993).png in Resources */,
+				879FD0C9224A2BE200FAB167 /* Beach Bums (Original 2018).png in Resources */,
+				879FD127224A2BE200FAB167 /* The Twilight Zone (Bally 1993).png in Resources */,
+				879FD0E6224A2BE200FAB167 /* Gilligan's Island (Midway 1991).old[1].png in Resources */,
+				879FD119224A2BE200FAB167 /* Terminator 2 Judgment Day (Williams 1991).png in Resources */,
+				876AC9CA2242025800A5E0ED /* Default Playfield.png in Resources */,
+				879FD0CF224A2BE200FAB167 /* CARtoons RC (Original 2017).png in Resources */,
+				879FD0C2224A2BE200FAB167 /* Baby Pac-Man (Bally 1983).png in Resources */,
+				879FD0E2224A2BE200FAB167 /* Getaway, The - High Speed II v1.1 (Williams 1996).png in Resources */,
+				879FD105224A2BE200FAB167 /* Safe Cracker (Bally 1996).old[1].png in Resources */,
+				879FD0D4224A2BE200FAB167 /* Demolition Man (Williams 1994).png in Resources */,
+				879FD0CD224A2BE200FAB167 /* Bugs Bunny's Birthday Ball (Bally 1991).png in Resources */,
+				879FD0C0224A2BE200FAB167 /* Attack from Mars (Midway 1995).png in Resources */,
+				879FD121224A2BE200FAB167 /* The Machine Bride of Pinbot (Williams 1991).png in Resources */,
+				879FD0FA224A2BE200FAB167 /* Kidnap (CIC Play 1986).png in Resources */,
+				879FD0EB224A2BE200FAB167 /* Harlem Globetrotters On Tour (Bally 1979).png in Resources */,
+				879FD100224A2BE200FAB167 /* NASCAR (Stern 2005).png in Resources */,
+				879FD12F224A2BE200FAB167 /* Transformers (Pro) (Stern 2011).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B92106225DD003006B9942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876AC9AA2241ED8700A5E0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */,
+				876AC9B62241ED8700A5E0ED /* DetailViewController.swift in Sources */,
+				876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */,
+				876AC9C62241EE0200A5E0ED /* VPinTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B92104225DD003006B9942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B9210B225DD003006B9942 /* AllThePinsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87B9210E225DD003006B9942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876AC9AD2241ED8700A5E0ED /* AllThePins */;
+			targetProxy = 87B9210D225DD003006B9942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876AC9B72241ED8700A5E0ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876AC9B82241ED8700A5E0ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876AC9BC2241ED8800A5E0ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876AC9BD2241ED8800A5E0ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876AC9C02241ED8800A5E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		876AC9C12241ED8800A5E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876AC9C32241ED8800A5E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPUGVKL8KJ;
+				INFOPLIST_FILE = AllThePins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876AC9C42241ED8800A5E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPUGVKL8KJ;
+				INFOPLIST_FILE = AllThePins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87B92110225DD003006B9942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPUGVKL8KJ;
+				INFOPLIST_FILE = AllThePinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllThePins.app/AllThePins";
+			};
+			name = Debug;
+		};
+		87B92111225DD003006B9942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPUGVKL8KJ;
+				INFOPLIST_FILE = AllThePinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllThePins.app/AllThePins";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876AC9A92241ED8700A5E0ED /* Build configuration list for PBXProject "AllThePins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876AC9C02241ED8800A5E0ED /* Debug */,
+				876AC9C12241ED8800A5E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876AC9C22241ED8800A5E0ED /* Build configuration list for PBXNativeTarget "AllThePins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876AC9C32241ED8800A5E0ED /* Debug */,
+				876AC9C42241ED8800A5E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B9210F225DD003006B9942 /* Build configuration list for PBXNativeTarget "AllThePinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B92110225DD003006B9942 /* Debug */,
+				87B92111225DD003006B9942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876AC9A62241ED8700A5E0ED /* Project object */;
+}
