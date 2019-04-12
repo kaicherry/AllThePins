@@ -1,8 +1,7 @@
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_application")
-#load("//apple:versioning.bzl","apple_bundle_version")
-
+load("@build_bazel_rules_apple//apple:resources.bzl", "apple_resource_group")
 
 swift_library(
 name = "Sources",
@@ -12,7 +11,22 @@ srcs = [
 "MasterViewController.swift",
 "VPinTable.swift",
 ],
+data = [":Resources", ":Images"],
+)
 
+apple_resource_group(
+name = "Resources",
+resources = [
+"Base.lproj/Main.storyboard",
+#glob(["newfiles/*"]),
+],
+structured_resources = [],
+)
+
+apple_resource_group(
+name = "Images",
+resources = glob(["newfiles/**"]),
+structured_resources = glob(["newfiles/**"]),
 )
 
 ios_application(
@@ -22,10 +36,10 @@ families = [
 "iphone",
 "ipad",
 ],
-minimum_os_version = "12.1",
+minimum_os_version = "12.2",
 infoplists = ["Info.plist"],
 visibility = ["//visibility:public"],
 app_icons = glob(["Assets.xcassets/**"]),
-deps = [],
-
+launch_storyboard = "Resources/LaunchScreen.storyboard",
+deps = [":Sources"],
 )
