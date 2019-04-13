@@ -25,7 +25,6 @@ structured_resources = [],
 
 apple_resource_group(
 name = "Images",
-resources = glob(["newfiles/**"]),
 structured_resources = glob(["newfiles/**"]),
 )
 
@@ -42,4 +41,5 @@ visibility = ["//visibility:public"],
 app_icons = glob(["Assets.xcassets/**"]),
 launch_storyboard = "Resources/LaunchScreen.storyboard",
 deps = [":Sources"],
+
 )
