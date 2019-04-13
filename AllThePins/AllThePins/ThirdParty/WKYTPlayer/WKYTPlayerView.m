@@ -909,9 +909,12 @@ NSString static *const kWKYTPlayerSyndicationRegexPattern = @"^https://tpc.googl
     [self addConstraints:constraints];
     
     NSError *error = nil;
-    NSString *path = [[NSBundle bundleForClass:[WKYTPlayerView class]] pathForResource:@"YTPlayerView-iframe-player"
-                                                                                ofType:@"html"
-                                                                           inDirectory:@"Assets"];
+    NSString *path =[[NSBundle mainBundle] pathForResource:@"YTPlayerView-iframe-player"
+                                                    ofType:@"html"];
+    
+    //NSString *path = [[NSBundle bundleForClass:[WKYTPlayerView class]] pathForResource:@"YTPlayerView-iframe-player"
+    //                                                                            ofType:@"html"
+    //                                                                       inDirectory:@"Assets"];
     
     // in case of using Swift and embedded frameworks, resources included not in main bundle,
     // but in framework bundle

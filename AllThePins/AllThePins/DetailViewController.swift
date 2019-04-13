@@ -31,6 +31,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var backglassImageView: UIImageView!
     @IBOutlet weak var playfieldImageView: UIImageView!
     @IBOutlet weak var backGroundImageView: UIImageView!
+    @IBOutlet weak var youTubePlayer: WKYTPlayerView!
     
     func configureView() {
         // Update the user interface for the detail item.
@@ -69,6 +70,13 @@ class DetailViewController: UIViewController {
                 playfieldView.image = playfieldImage
                 backView.image = playfieldImage
             }
+            
+            if let youTube = youTubePlayer {
+               youTube.load(withVideoId: "2Txd5x3QWCY")
+               
+                youTube.playVideo()
+            }
+            
             
             
         }

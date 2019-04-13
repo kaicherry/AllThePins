@@ -7,8 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870A1A5522629A00004E9843 /* Indianapolis 500 (Bally 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A08226299FF004E9843 /* Indianapolis 500 (Bally 1995).png */; };
+		870A1A5622629A00004E9843 /* CARtoons RC (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A09226299FF004E9843 /* CARtoons RC (Original 2017).png */; };
+		870A1A5722629A00004E9843 /* Fire! (Williams 1987).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A0A226299FF004E9843 /* Fire! (Williams 1987).png */; };
+		870A1A5822629A00004E9843 /* Iron Man (Stern 2013).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A0B226299FF004E9843 /* Iron Man (Stern 2013).png */; };
+		870A1A5922629A00004E9843 /* Pirates Of the Caribbean (Stern 2006).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A0C226299FF004E9843 /* Pirates Of the Caribbean (Stern 2006).png */; };
+		870A1A5A22629A00004E9843 /* Robocop (Data East 1989).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A0D226299FF004E9843 /* Robocop (Data East 1989).png */; };
+		870A1A5B22629A00004E9843 /* Monster Bash (Williams 1998).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A0E226299FF004E9843 /* Monster Bash (Williams 1998).old[2].png */; };
+		870A1A5C22629A00004E9843 /* Ghostbusters LE 1.0 (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A0F226299FF004E9843 /* Ghostbusters LE 1.0 (Stern 2012).png */; };
+		870A1A5D22629A00004E9843 /* Cyclone (Williams 1988).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A10226299FF004E9843 /* Cyclone (Williams 1988).png */; };
+		870A1A5E22629A00004E9843 /* Creature from the Black Lagoon (Bally 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A11226299FF004E9843 /* Creature from the Black Lagoon (Bally 1992).png */; };
+		870A1A5F22629A00004E9843 /* Demolition Man (Williams 1994).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A12226299FF004E9843 /* Demolition Man (Williams 1994).png */; };
+		870A1A6022629A00004E9843 /* Amazing Spider-Man (Stern 193).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A13226299FF004E9843 /* Amazing Spider-Man (Stern 193).png */; };
+		870A1A6122629A00004E9843 /* Back to the Future (Data East 1990).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A14226299FF004E9843 /* Back to the Future (Data East 1990).old[1].png */; };
+		870A1A6222629A00004E9843 /* High Speed (Williams 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A15226299FF004E9843 /* High Speed (Williams 1986).png */; };
+		870A1A6322629A00004E9843 /* Family Guy (Stern 2007).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A16226299FF004E9843 /* Family Guy (Stern 2007).png */; };
+		870A1A6422629A00004E9843 /* Johnny Mnemonic (Williams 1996).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A17226299FF004E9843 /* Johnny Mnemonic (Williams 1996).png */; };
+		870A1A6522629A00004E9843 /* Ghostbusters (Limited Edition) (Stern 2016).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A18226299FF004E9843 /* Ghostbusters (Limited Edition) (Stern 2016).png */; };
+		870A1A6622629A00004E9843 /* Funhouse (Williams 1990).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A19226299FF004E9843 /* Funhouse (Williams 1990).old[1].png */; };
+		870A1A6722629A00004E9843 /* Austin Powers (Stern 2001).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A1A226299FF004E9843 /* Austin Powers (Stern 2001).png */; };
+		870A1A6822629A00004E9843 /* Harley Quinn (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A1B226299FF004E9843 /* Harley Quinn (Original 2017).png */; };
+		870A1A6922629A00004E9843 /* Gilligan's Island (Bally 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A1C226299FF004E9843 /* Gilligan's Island (Bally 1991).png */; };
+		870A1A6A22629A00004E9843 /* A Real American Hero (Original 1980).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A1D226299FF004E9843 /* A Real American Hero (Original 1980).png */; };
+		870A1A6B22629A00004E9843 /* Fish Tales (Williams 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A1E226299FF004E9843 /* Fish Tales (Williams 1992).png */; };
+		870A1A6C22629A00004E9843 /* Monster Bash (Williams 1998).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A1F226299FF004E9843 /* Monster Bash (Williams 1998).png */; };
+		870A1A6D22629A00004E9843 /* Bugs Bunny's Birthday Ball (Bally 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A20226299FF004E9843 /* Bugs Bunny's Birthday Ball (Bally 1991).png */; };
+		870A1A6E22629A00004E9843 /* Disney TRON Legacy (Stern 2011).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A21226299FF004E9843 /* Disney TRON Legacy (Stern 2011).png */; };
+		870A1A6F22629A00004E9843 /* Beach Bums (Original 2018).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A22226299FF004E9843 /* Beach Bums (Original 2018).png */; };
+		870A1A7022629A00004E9843 /* Dirty Harry (Williams 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A23226299FF004E9843 /* Dirty Harry (Williams 1995).png */; };
+		870A1A7122629A00004E9843 /* Batman (Stern 2008).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A24226299FF004E9843 /* Batman (Stern 2008).png */; };
+		870A1A7222629A00004E9843 /* Back to the Future (Data East 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A25226299FF004E9843 /* Back to the Future (Data East 1990).png */; };
+		870A1A7322629A00004E9843 /* Pinball Magic (Capcom 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A26226299FF004E9843 /* Pinball Magic (Capcom 1995).png */; };
+		870A1A7422629A00004E9843 /* Cirqus Voltaire (Midway 1997).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A27226299FF004E9843 /* Cirqus Voltaire (Midway 1997).png */; };
+		870A1A7522629A00004E9843 /* Goldorak (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A28226299FF004E9843 /* Goldorak (Original 2017).png */; };
+		870A1A7622629A00004E9843 /* Safe Cracker (Bally 1996).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A29226299FF004E9843 /* Safe Cracker (Bally 1996).old[2].png */; };
+		870A1A7722629A00004E9843 /* Gilligan's Island (Midway 1991).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A2A226299FF004E9843 /* Gilligan's Island (Midway 1991).old[1].png */; };
+		870A1A7822629A00004E9843 /* IronMan (Stern 2013).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A2B226299FF004E9843 /* IronMan (Stern 2013).png */; };
+		870A1A7922629A00004E9843 /* Safe Cracker (Bally 1996).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A2C226299FF004E9843 /* Safe Cracker (Bally 1996).old[1].png */; };
+		870A1A7A22629A00004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A2D226299FF004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png */; };
+		870A1A7B22629A00004E9843 /* Batman The Dark Knight (Stern 2008).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A2E226299FF004E9843 /* Batman The Dark Knight (Stern 2008).png */; };
+		870A1A7C22629A00004E9843 /* Gilligan's Island (Midway 1991).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A2F226299FF004E9843 /* Gilligan's Island (Midway 1991).old[2].png */; };
+		870A1A7D22629A00004E9843 /* NBA Fastbreak (Bally 1997).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A30226299FF004E9843 /* NBA Fastbreak (Bally 1997).png */; };
+		870A1A7E22629A00004E9843 /* Genesis (Gottlieb 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A31226299FF004E9843 /* Genesis (Gottlieb 1986).png */; };
+		870A1A7F22629A00004E9843 /* Dirty Harry (Williams 1995).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A32226299FF004E9843 /* Dirty Harry (Williams 1995).old[1].png */; };
+		870A1A8022629A00004E9843 /* Creature from the Black Lagoon (Midway 1992).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A33226299FF004E9843 /* Creature from the Black Lagoon (Midway 1992).old[1].png */; };
+		870A1A8122629A00004E9843 /* ACDC Premium (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A34226299FF004E9843 /* ACDC Premium (Stern 2012).png */; };
+		870A1A8222629A00004E9843 /* Guns N' Roses (Data East 1994).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A35226299FF004E9843 /* Guns N' Roses (Data East 1994).png */; };
+		870A1A8322629A00004E9843 /* Doctor Who (Midway 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A36226299FF004E9843 /* Doctor Who (Midway 1992).png */; };
+		870A1A8422629A00004E9843 /* Minions (Mod 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A37226299FF004E9843 /* Minions (Mod 2017).png */; };
+		870A1A8522629A00004E9843 /* Kidnap (CIC Play 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A38226299FF004E9843 /* Kidnap (CIC Play 1986).png */; };
+		870A1A8622629A00004E9843 /* Judge Dredd (Bally 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A39226299FF004E9843 /* Judge Dredd (Bally 1993).png */; };
+		870A1A8722629A00004E9843 /* Baby Pac-Man (Bally 1983).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A3A226299FF004E9843 /* Baby Pac-Man (Bally 1983).png */; };
+		870A1A8822629A00004E9843 /* Medieval Madness (Williams 1997).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A3B226299FF004E9843 /* Medieval Madness (Williams 1997).png */; };
+		870A1A8922629A00004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A3C226299FF004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png */; };
+		870A1A8A22629A00004E9843 /* AC;DC (Premium) (Stern 2012).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A3D226299FF004E9843 /* AC;DC (Premium) (Stern 2012).png */; };
+		870A1A8B22629A00004E9843 /* Cactus Canyon (Bally 1998).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A3E226299FF004E9843 /* Cactus Canyon (Bally 1998).png */; };
+		870A1A8C22629A00004E9843 /* Heavy Metal Meltdown (Bally 1987).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A3F226299FF004E9843 /* Heavy Metal Meltdown (Bally 1987).png */; };
+		870A1A8D22629A00004E9843 /* Freddy A Nightmare on Elm Street (Premier 1994).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A40226299FF004E9843 /* Freddy A Nightmare on Elm Street (Premier 1994).png */; };
+		870A1A8E22629A00004E9843 /* Indiana Jones The Pinball Adventure (Williams 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A41226299FF004E9843 /* Indiana Jones The Pinball Adventure (Williams 1993).png */; };
+		870A1A8F22629A00004E9843 /* Flash Gordon (Bally 1981).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A42226299FF004E9843 /* Flash Gordon (Bally 1981).png */; };
+		870A1A9022629A00004E9843 /* Bubba the Redneck Werewolf (Original 2017).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A43226299FF004E9843 /* Bubba the Redneck Werewolf (Original 2017).png */; };
+		870A1A9122629A00004E9843 /* NASCAR (Stern 2005).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A44226299FF004E9843 /* NASCAR (Stern 2005).png */; };
+		870A1A9222629A00004E9843 /* Johnny Mnemonic (Williams 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A45226299FF004E9843 /* Johnny Mnemonic (Williams 1995).png */; };
+		870A1A9322629A00004E9843 /* Harlem Globetrotters On Tour (Bally 1979).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A46226299FF004E9843 /* Harlem Globetrotters On Tour (Bally 1979).png */; };
+		870A1A9422629A00004E9843 /* Black Hole (Gottlieb 1981).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A47226299FF004E9843 /* Black Hole (Gottlieb 1981).png */; };
+		870A1A9522629A00004E9843 /* Attack from Mars (Midway 1995).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A48226299FF004E9843 /* Attack from Mars (Midway 1995).png */; };
+		870A1A9622629A00004E9843 /* Indianapolis 500 (Midway 1995).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A49226299FF004E9843 /* Indianapolis 500 (Midway 1995).old[1].png */; };
+		870A1A9722629A00004E9843 /* Getaway, The - High Speed II v1.1 (Williams 1996).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A4A226299FF004E9843 /* Getaway, The - High Speed II v1.1 (Williams 1996).png */; };
+		870A1A9822629A00004E9843 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A4B226299FF004E9843 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png */; };
+		870A1A9922629A00004E9843 /* Back to the Future (Data East 1990).old[2].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A4C226299FF004E9843 /* Back to the Future (Data East 1990).old[2].png */; };
+		870A1A9A22629A00004E9843 /* Funhouse (Williams 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A4D226299FF004E9843 /* Funhouse (Williams 1990).png */; };
+		870A1A9B22629A00004E9843 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A4E226299FF004E9843 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png */; };
+		870A1A9C22629A00004E9843 /* Black Knight 2000 (Williams 1989).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A4F226299FF004E9843 /* Black Knight 2000 (Williams 1989).png */; };
+		870A1A9D22629A00004E9843 /* Jurassic Park (Data East 1993).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A50226299FF004E9843 /* Jurassic Park (Data East 1993).png */; };
+		870A1A9E22629A00004E9843 /* Batman (Data East 1991).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A51226299FF004E9843 /* Batman (Data East 1991).png */; };
+		870A1A9F22629A00004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A52226299FF004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png */; };
+		870A1AA022629A00004E9843 /* Diner (Williams 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A53226299FF004E9843 /* Diner (Williams 1990).png */; };
+		870A1AA122629A00004E9843 /* Hook (Data East 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A54226299FF004E9843 /* Hook (Data East 1992).png */; };
 		874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874BCB0C225EB1A50075434E /* AppDelegate.swift */; };
-		875C9DC522628C3C007A1BD6 /* newfiles in Resources */ = {isa = PBXBuildFile; fileRef = 875C9DC422628C3C007A1BD6 /* newfiles */; };
 		875C9DCE22628F05007A1BD6 /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */; };
 		875C9DCF22628F05007A1BD6 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */; };
 		876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9B32241ED8700A5E0ED /* MasterViewController.swift */; };
@@ -34,12 +110,89 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		870A1A08226299FF004E9843 /* Indianapolis 500 (Bally 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indianapolis 500 (Bally 1995).png"; sourceTree = "<group>"; };
+		870A1A09226299FF004E9843 /* CARtoons RC (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CARtoons RC (Original 2017).png"; sourceTree = "<group>"; };
+		870A1A0A226299FF004E9843 /* Fire! (Williams 1987).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fire! (Williams 1987).png"; sourceTree = "<group>"; };
+		870A1A0B226299FF004E9843 /* Iron Man (Stern 2013).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iron Man (Stern 2013).png"; sourceTree = "<group>"; };
+		870A1A0C226299FF004E9843 /* Pirates Of the Caribbean (Stern 2006).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pirates Of the Caribbean (Stern 2006).png"; sourceTree = "<group>"; };
+		870A1A0D226299FF004E9843 /* Robocop (Data East 1989).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Robocop (Data East 1989).png"; sourceTree = "<group>"; };
+		870A1A0E226299FF004E9843 /* Monster Bash (Williams 1998).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monster Bash (Williams 1998).old[2].png"; sourceTree = "<group>"; };
+		870A1A0F226299FF004E9843 /* Ghostbusters LE 1.0 (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ghostbusters LE 1.0 (Stern 2012).png"; sourceTree = "<group>"; };
+		870A1A10226299FF004E9843 /* Cyclone (Williams 1988).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cyclone (Williams 1988).png"; sourceTree = "<group>"; };
+		870A1A11226299FF004E9843 /* Creature from the Black Lagoon (Bally 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Creature from the Black Lagoon (Bally 1992).png"; sourceTree = "<group>"; };
+		870A1A12226299FF004E9843 /* Demolition Man (Williams 1994).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Demolition Man (Williams 1994).png"; sourceTree = "<group>"; };
+		870A1A13226299FF004E9843 /* Amazing Spider-Man (Stern 193).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amazing Spider-Man (Stern 193).png"; sourceTree = "<group>"; };
+		870A1A14226299FF004E9843 /* Back to the Future (Data East 1990).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back to the Future (Data East 1990).old[1].png"; sourceTree = "<group>"; };
+		870A1A15226299FF004E9843 /* High Speed (Williams 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High Speed (Williams 1986).png"; sourceTree = "<group>"; };
+		870A1A16226299FF004E9843 /* Family Guy (Stern 2007).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Family Guy (Stern 2007).png"; sourceTree = "<group>"; };
+		870A1A17226299FF004E9843 /* Johnny Mnemonic (Williams 1996).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johnny Mnemonic (Williams 1996).png"; sourceTree = "<group>"; };
+		870A1A18226299FF004E9843 /* Ghostbusters (Limited Edition) (Stern 2016).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ghostbusters (Limited Edition) (Stern 2016).png"; sourceTree = "<group>"; };
+		870A1A19226299FF004E9843 /* Funhouse (Williams 1990).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Funhouse (Williams 1990).old[1].png"; sourceTree = "<group>"; };
+		870A1A1A226299FF004E9843 /* Austin Powers (Stern 2001).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Austin Powers (Stern 2001).png"; sourceTree = "<group>"; };
+		870A1A1B226299FF004E9843 /* Harley Quinn (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harley Quinn (Original 2017).png"; sourceTree = "<group>"; };
+		870A1A1C226299FF004E9843 /* Gilligan's Island (Bally 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gilligan's Island (Bally 1991).png"; sourceTree = "<group>"; };
+		870A1A1D226299FF004E9843 /* A Real American Hero (Original 1980).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A Real American Hero (Original 1980).png"; sourceTree = "<group>"; };
+		870A1A1E226299FF004E9843 /* Fish Tales (Williams 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fish Tales (Williams 1992).png"; sourceTree = "<group>"; };
+		870A1A1F226299FF004E9843 /* Monster Bash (Williams 1998).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monster Bash (Williams 1998).png"; sourceTree = "<group>"; };
+		870A1A20226299FF004E9843 /* Bugs Bunny's Birthday Ball (Bally 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bugs Bunny's Birthday Ball (Bally 1991).png"; sourceTree = "<group>"; };
+		870A1A21226299FF004E9843 /* Disney TRON Legacy (Stern 2011).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Disney TRON Legacy (Stern 2011).png"; sourceTree = "<group>"; };
+		870A1A22226299FF004E9843 /* Beach Bums (Original 2018).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beach Bums (Original 2018).png"; sourceTree = "<group>"; };
+		870A1A23226299FF004E9843 /* Dirty Harry (Williams 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dirty Harry (Williams 1995).png"; sourceTree = "<group>"; };
+		870A1A24226299FF004E9843 /* Batman (Stern 2008).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman (Stern 2008).png"; sourceTree = "<group>"; };
+		870A1A25226299FF004E9843 /* Back to the Future (Data East 1990).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back to the Future (Data East 1990).png"; sourceTree = "<group>"; };
+		870A1A26226299FF004E9843 /* Pinball Magic (Capcom 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pinball Magic (Capcom 1995).png"; sourceTree = "<group>"; };
+		870A1A27226299FF004E9843 /* Cirqus Voltaire (Midway 1997).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cirqus Voltaire (Midway 1997).png"; sourceTree = "<group>"; };
+		870A1A28226299FF004E9843 /* Goldorak (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Goldorak (Original 2017).png"; sourceTree = "<group>"; };
+		870A1A29226299FF004E9843 /* Safe Cracker (Bally 1996).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safe Cracker (Bally 1996).old[2].png"; sourceTree = "<group>"; };
+		870A1A2A226299FF004E9843 /* Gilligan's Island (Midway 1991).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gilligan's Island (Midway 1991).old[1].png"; sourceTree = "<group>"; };
+		870A1A2B226299FF004E9843 /* IronMan (Stern 2013).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IronMan (Stern 2013).png"; sourceTree = "<group>"; };
+		870A1A2C226299FF004E9843 /* Safe Cracker (Bally 1996).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safe Cracker (Bally 1996).old[1].png"; sourceTree = "<group>"; };
+		870A1A2D226299FF004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png"; sourceTree = "<group>"; };
+		870A1A2E226299FF004E9843 /* Batman The Dark Knight (Stern 2008).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman The Dark Knight (Stern 2008).png"; sourceTree = "<group>"; };
+		870A1A2F226299FF004E9843 /* Gilligan's Island (Midway 1991).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gilligan's Island (Midway 1991).old[2].png"; sourceTree = "<group>"; };
+		870A1A30226299FF004E9843 /* NBA Fastbreak (Bally 1997).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBA Fastbreak (Bally 1997).png"; sourceTree = "<group>"; };
+		870A1A31226299FF004E9843 /* Genesis (Gottlieb 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Genesis (Gottlieb 1986).png"; sourceTree = "<group>"; };
+		870A1A32226299FF004E9843 /* Dirty Harry (Williams 1995).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dirty Harry (Williams 1995).old[1].png"; sourceTree = "<group>"; };
+		870A1A33226299FF004E9843 /* Creature from the Black Lagoon (Midway 1992).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Creature from the Black Lagoon (Midway 1992).old[1].png"; sourceTree = "<group>"; };
+		870A1A34226299FF004E9843 /* ACDC Premium (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACDC Premium (Stern 2012).png"; sourceTree = "<group>"; };
+		870A1A35226299FF004E9843 /* Guns N' Roses (Data East 1994).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Guns N' Roses (Data East 1994).png"; sourceTree = "<group>"; };
+		870A1A36226299FF004E9843 /* Doctor Who (Midway 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doctor Who (Midway 1992).png"; sourceTree = "<group>"; };
+		870A1A37226299FF004E9843 /* Minions (Mod 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minions (Mod 2017).png"; sourceTree = "<group>"; };
+		870A1A38226299FF004E9843 /* Kidnap (CIC Play 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kidnap (CIC Play 1986).png"; sourceTree = "<group>"; };
+		870A1A39226299FF004E9843 /* Judge Dredd (Bally 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Judge Dredd (Bally 1993).png"; sourceTree = "<group>"; };
+		870A1A3A226299FF004E9843 /* Baby Pac-Man (Bally 1983).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baby Pac-Man (Bally 1983).png"; sourceTree = "<group>"; };
+		870A1A3B226299FF004E9843 /* Medieval Madness (Williams 1997).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medieval Madness (Williams 1997).png"; sourceTree = "<group>"; };
+		870A1A3C226299FF004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png"; sourceTree = "<group>"; };
+		870A1A3D226299FF004E9843 /* AC;DC (Premium) (Stern 2012).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AC;DC (Premium) (Stern 2012).png"; sourceTree = "<group>"; };
+		870A1A3E226299FF004E9843 /* Cactus Canyon (Bally 1998).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cactus Canyon (Bally 1998).png"; sourceTree = "<group>"; };
+		870A1A3F226299FF004E9843 /* Heavy Metal Meltdown (Bally 1987).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heavy Metal Meltdown (Bally 1987).png"; sourceTree = "<group>"; };
+		870A1A40226299FF004E9843 /* Freddy A Nightmare on Elm Street (Premier 1994).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Freddy A Nightmare on Elm Street (Premier 1994).png"; sourceTree = "<group>"; };
+		870A1A41226299FF004E9843 /* Indiana Jones The Pinball Adventure (Williams 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indiana Jones The Pinball Adventure (Williams 1993).png"; sourceTree = "<group>"; };
+		870A1A42226299FF004E9843 /* Flash Gordon (Bally 1981).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flash Gordon (Bally 1981).png"; sourceTree = "<group>"; };
+		870A1A43226299FF004E9843 /* Bubba the Redneck Werewolf (Original 2017).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubba the Redneck Werewolf (Original 2017).png"; sourceTree = "<group>"; };
+		870A1A44226299FF004E9843 /* NASCAR (Stern 2005).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NASCAR (Stern 2005).png"; sourceTree = "<group>"; };
+		870A1A45226299FF004E9843 /* Johnny Mnemonic (Williams 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johnny Mnemonic (Williams 1995).png"; sourceTree = "<group>"; };
+		870A1A46226299FF004E9843 /* Harlem Globetrotters On Tour (Bally 1979).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harlem Globetrotters On Tour (Bally 1979).png"; sourceTree = "<group>"; };
+		870A1A47226299FF004E9843 /* Black Hole (Gottlieb 1981).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Hole (Gottlieb 1981).png"; sourceTree = "<group>"; };
+		870A1A48226299FF004E9843 /* Attack from Mars (Midway 1995).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attack from Mars (Midway 1995).png"; sourceTree = "<group>"; };
+		870A1A49226299FF004E9843 /* Indianapolis 500 (Midway 1995).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indianapolis 500 (Midway 1995).old[1].png"; sourceTree = "<group>"; };
+		870A1A4A226299FF004E9843 /* Getaway, The - High Speed II v1.1 (Williams 1996).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Getaway, The - High Speed II v1.1 (Williams 1996).png"; sourceTree = "<group>"; };
+		870A1A4B226299FF004E9843 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Wings (Gottlieb 1986) (Gottlieb 1986).png"; sourceTree = "<group>"; };
+		870A1A4C226299FF004E9843 /* Back to the Future (Data East 1990).old[2].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back to the Future (Data East 1990).old[2].png"; sourceTree = "<group>"; };
+		870A1A4D226299FF004E9843 /* Funhouse (Williams 1990).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Funhouse (Williams 1990).png"; sourceTree = "<group>"; };
+		870A1A4E226299FF004E9843 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monster Bash X - NZ&TT 1.3 (Williams 1993).png"; sourceTree = "<group>"; };
+		870A1A4F226299FF004E9843 /* Black Knight 2000 (Williams 1989).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Knight 2000 (Williams 1989).png"; sourceTree = "<group>"; };
+		870A1A50226299FF004E9843 /* Jurassic Park (Data East 1993).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jurassic Park (Data East 1993).png"; sourceTree = "<group>"; };
+		870A1A51226299FF004E9843 /* Batman (Data East 1991).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman (Data East 1991).png"; sourceTree = "<group>"; };
+		870A1A52226299FF004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harley Quinn (HauntFreaks 2017).old[1].png"; sourceTree = "<group>"; };
+		870A1A53226299FF004E9843 /* Diner (Williams 1990).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diner (Williams 1990).png"; sourceTree = "<group>"; };
+		870A1A54226299FF004E9843 /* Hook (Data East 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hook (Data East 1992).png"; sourceTree = "<group>"; };
+		870A1AA222629F9D004E9843 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "YTPlayerView-iframe-player.html"; path = "ThirdParty/WKYTPlayer/WKYTPlayerView.bundle/Assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 		874BCB0C225EB1A50075434E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		875C9DC422628C3C007A1BD6 /* newfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = newfiles; sourceTree = "<group>"; };
 		875C9DCA22628F05007A1BD6 /* AllThePins-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllThePins-Bridging-Header.h"; sourceTree = "<group>"; };
-		875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WKYTPlayerView.bundle; sourceTree = "<group>"; };
-		875C9DCC22628F05007A1BD6 /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKYTPlayerView.h; sourceTree = "<group>"; };
-		875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKYTPlayerView.m; sourceTree = "<group>"; };
+		875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WKYTPlayerView.bundle; path = ThirdParty/WKYTPlayer/WKYTPlayerView.bundle; sourceTree = "<group>"; };
+		875C9DCC22628F05007A1BD6 /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKYTPlayerView.h; path = ThirdParty/WKYTPlayer/WKYTPlayerView.h; sourceTree = "<group>"; };
+		875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKYTPlayerView.m; path = ThirdParty/WKYTPlayer/WKYTPlayerView.m; sourceTree = "<group>"; };
 		876AC9AE2241ED8700A5E0ED /* AllThePins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllThePins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876AC9B32241ED8700A5E0ED /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		876AC9B52241ED8700A5E0ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +227,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		870A1A07226299FF004E9843 /* newfiles */ = {
+			isa = PBXGroup;
+			children = (
+				870A1A08226299FF004E9843 /* Indianapolis 500 (Bally 1995).png */,
+				870A1A09226299FF004E9843 /* CARtoons RC (Original 2017).png */,
+				870A1A0A226299FF004E9843 /* Fire! (Williams 1987).png */,
+				870A1A0B226299FF004E9843 /* Iron Man (Stern 2013).png */,
+				870A1A0C226299FF004E9843 /* Pirates Of the Caribbean (Stern 2006).png */,
+				870A1A0D226299FF004E9843 /* Robocop (Data East 1989).png */,
+				870A1A0E226299FF004E9843 /* Monster Bash (Williams 1998).old[2].png */,
+				870A1A0F226299FF004E9843 /* Ghostbusters LE 1.0 (Stern 2012).png */,
+				870A1A10226299FF004E9843 /* Cyclone (Williams 1988).png */,
+				870A1A11226299FF004E9843 /* Creature from the Black Lagoon (Bally 1992).png */,
+				870A1A12226299FF004E9843 /* Demolition Man (Williams 1994).png */,
+				870A1A13226299FF004E9843 /* Amazing Spider-Man (Stern 193).png */,
+				870A1A14226299FF004E9843 /* Back to the Future (Data East 1990).old[1].png */,
+				870A1A15226299FF004E9843 /* High Speed (Williams 1986).png */,
+				870A1A16226299FF004E9843 /* Family Guy (Stern 2007).png */,
+				870A1A17226299FF004E9843 /* Johnny Mnemonic (Williams 1996).png */,
+				870A1A18226299FF004E9843 /* Ghostbusters (Limited Edition) (Stern 2016).png */,
+				870A1A19226299FF004E9843 /* Funhouse (Williams 1990).old[1].png */,
+				870A1A1A226299FF004E9843 /* Austin Powers (Stern 2001).png */,
+				870A1A1B226299FF004E9843 /* Harley Quinn (Original 2017).png */,
+				870A1A1C226299FF004E9843 /* Gilligan's Island (Bally 1991).png */,
+				870A1A1D226299FF004E9843 /* A Real American Hero (Original 1980).png */,
+				870A1A1E226299FF004E9843 /* Fish Tales (Williams 1992).png */,
+				870A1A1F226299FF004E9843 /* Monster Bash (Williams 1998).png */,
+				870A1A20226299FF004E9843 /* Bugs Bunny's Birthday Ball (Bally 1991).png */,
+				870A1A21226299FF004E9843 /* Disney TRON Legacy (Stern 2011).png */,
+				870A1A22226299FF004E9843 /* Beach Bums (Original 2018).png */,
+				870A1A23226299FF004E9843 /* Dirty Harry (Williams 1995).png */,
+				870A1A24226299FF004E9843 /* Batman (Stern 2008).png */,
+				870A1A25226299FF004E9843 /* Back to the Future (Data East 1990).png */,
+				870A1A26226299FF004E9843 /* Pinball Magic (Capcom 1995).png */,
+				870A1A27226299FF004E9843 /* Cirqus Voltaire (Midway 1997).png */,
+				870A1A28226299FF004E9843 /* Goldorak (Original 2017).png */,
+				870A1A29226299FF004E9843 /* Safe Cracker (Bally 1996).old[2].png */,
+				870A1A2A226299FF004E9843 /* Gilligan's Island (Midway 1991).old[1].png */,
+				870A1A2B226299FF004E9843 /* IronMan (Stern 2013).png */,
+				870A1A2C226299FF004E9843 /* Safe Cracker (Bally 1996).old[1].png */,
+				870A1A2D226299FF004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png */,
+				870A1A2E226299FF004E9843 /* Batman The Dark Knight (Stern 2008).png */,
+				870A1A2F226299FF004E9843 /* Gilligan's Island (Midway 1991).old[2].png */,
+				870A1A30226299FF004E9843 /* NBA Fastbreak (Bally 1997).png */,
+				870A1A31226299FF004E9843 /* Genesis (Gottlieb 1986).png */,
+				870A1A32226299FF004E9843 /* Dirty Harry (Williams 1995).old[1].png */,
+				870A1A33226299FF004E9843 /* Creature from the Black Lagoon (Midway 1992).old[1].png */,
+				870A1A34226299FF004E9843 /* ACDC Premium (Stern 2012).png */,
+				870A1A35226299FF004E9843 /* Guns N' Roses (Data East 1994).png */,
+				870A1A36226299FF004E9843 /* Doctor Who (Midway 1992).png */,
+				870A1A37226299FF004E9843 /* Minions (Mod 2017).png */,
+				870A1A38226299FF004E9843 /* Kidnap (CIC Play 1986).png */,
+				870A1A39226299FF004E9843 /* Judge Dredd (Bally 1993).png */,
+				870A1A3A226299FF004E9843 /* Baby Pac-Man (Bally 1983).png */,
+				870A1A3B226299FF004E9843 /* Medieval Madness (Williams 1997).png */,
+				870A1A3C226299FF004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png */,
+				870A1A3D226299FF004E9843 /* AC;DC (Premium) (Stern 2012).png */,
+				870A1A3E226299FF004E9843 /* Cactus Canyon (Bally 1998).png */,
+				870A1A3F226299FF004E9843 /* Heavy Metal Meltdown (Bally 1987).png */,
+				870A1A40226299FF004E9843 /* Freddy A Nightmare on Elm Street (Premier 1994).png */,
+				870A1A41226299FF004E9843 /* Indiana Jones The Pinball Adventure (Williams 1993).png */,
+				870A1A42226299FF004E9843 /* Flash Gordon (Bally 1981).png */,
+				870A1A43226299FF004E9843 /* Bubba the Redneck Werewolf (Original 2017).png */,
+				870A1A44226299FF004E9843 /* NASCAR (Stern 2005).png */,
+				870A1A45226299FF004E9843 /* Johnny Mnemonic (Williams 1995).png */,
+				870A1A46226299FF004E9843 /* Harlem Globetrotters On Tour (Bally 1979).png */,
+				870A1A47226299FF004E9843 /* Black Hole (Gottlieb 1981).png */,
+				870A1A48226299FF004E9843 /* Attack from Mars (Midway 1995).png */,
+				870A1A49226299FF004E9843 /* Indianapolis 500 (Midway 1995).old[1].png */,
+				870A1A4A226299FF004E9843 /* Getaway, The - High Speed II v1.1 (Williams 1996).png */,
+				870A1A4B226299FF004E9843 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png */,
+				870A1A4C226299FF004E9843 /* Back to the Future (Data East 1990).old[2].png */,
+				870A1A4D226299FF004E9843 /* Funhouse (Williams 1990).png */,
+				870A1A4E226299FF004E9843 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png */,
+				870A1A4F226299FF004E9843 /* Black Knight 2000 (Williams 1989).png */,
+				870A1A50226299FF004E9843 /* Jurassic Park (Data East 1993).png */,
+				870A1A51226299FF004E9843 /* Batman (Data East 1991).png */,
+				870A1A52226299FF004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png */,
+				870A1A53226299FF004E9843 /* Diner (Williams 1990).png */,
+				870A1A54226299FF004E9843 /* Hook (Data East 1992).png */,
+			);
+			path = newfiles;
+			sourceTree = "<group>";
+		};
 		875C9DD022628F2B007A1BD6 /* WKYTPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,10 +358,11 @@
 				879FD0392249F0F700FAB167 /* woot.json */,
 				876AC9C52241EE0200A5E0ED /* VPinTable.swift */,
 				876AC9B72241ED8700A5E0ED /* Main.storyboard */,
+				870A1AA222629F9D004E9843 /* YTPlayerView-iframe-player.html */,
 				876AC9BA2241ED8800A5E0ED /* Assets.xcassets */,
 				876AC9BC2241ED8800A5E0ED /* LaunchScreen.storyboard */,
-				875C9DC422628C3C007A1BD6 /* newfiles */,
 				876AC9C72242025800A5E0ED /* Default Backglass.png */,
+				870A1A07226299FF004E9843 /* newfiles */,
 				876AC9C82242025800A5E0ED /* Default Playfield.png */,
 				876AC9BF2241ED8800A5E0ED /* Info.plist */,
 			);
@@ -222,14 +460,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875C9DC522628C3C007A1BD6 /* newfiles in Resources */,
+				870A1A8E22629A00004E9843 /* Indiana Jones The Pinball Adventure (Williams 1993).png in Resources */,
+				870A1A6E22629A00004E9843 /* Disney TRON Legacy (Stern 2011).png in Resources */,
+				870A1AA122629A00004E9843 /* Hook (Data East 1992).png in Resources */,
+				870A1A6D22629A00004E9843 /* Bugs Bunny's Birthday Ball (Bally 1991).png in Resources */,
+				870A1A8522629A00004E9843 /* Kidnap (CIC Play 1986).png in Resources */,
+				870A1A7522629A00004E9843 /* Goldorak (Original 2017).png in Resources */,
 				876AC9C92242025800A5E0ED /* Default Backglass.png in Resources */,
+				870A1AA022629A00004E9843 /* Diner (Williams 1990).png in Resources */,
+				870A1A7D22629A00004E9843 /* NBA Fastbreak (Bally 1997).png in Resources */,
+				870A1A6722629A00004E9843 /* Austin Powers (Stern 2001).png in Resources */,
+				870A1A7222629A00004E9843 /* Back to the Future (Data East 1990).png in Resources */,
+				870A1A5722629A00004E9843 /* Fire! (Williams 1987).png in Resources */,
+				870A1A9F22629A00004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png in Resources */,
+				870A1A8A22629A00004E9843 /* AC;DC (Premium) (Stern 2012).png in Resources */,
+				870A1A7722629A00004E9843 /* Gilligan's Island (Midway 1991).old[1].png in Resources */,
+				870A1A7022629A00004E9843 /* Dirty Harry (Williams 1995).png in Resources */,
+				870A1A8F22629A00004E9843 /* Flash Gordon (Bally 1981).png in Resources */,
+				870A1A6522629A00004E9843 /* Ghostbusters (Limited Edition) (Stern 2016).png in Resources */,
+				870A1A6B22629A00004E9843 /* Fish Tales (Williams 1992).png in Resources */,
+				870A1A8622629A00004E9843 /* Judge Dredd (Bally 1993).png in Resources */,
+				870A1A7122629A00004E9843 /* Batman (Stern 2008).png in Resources */,
 				876AC9BE2241ED8800A5E0ED /* LaunchScreen.storyboard in Resources */,
+				870A1A7F22629A00004E9843 /* Dirty Harry (Williams 1995).old[1].png in Resources */,
+				870A1A5F22629A00004E9843 /* Demolition Man (Williams 1994).png in Resources */,
+				870A1A7622629A00004E9843 /* Safe Cracker (Bally 1996).old[2].png in Resources */,
+				870A1A9122629A00004E9843 /* NASCAR (Stern 2005).png in Resources */,
+				870A1A8422629A00004E9843 /* Minions (Mod 2017).png in Resources */,
+				870A1A9622629A00004E9843 /* Indianapolis 500 (Midway 1995).old[1].png in Resources */,
+				870A1A9D22629A00004E9843 /* Jurassic Park (Data East 1993).png in Resources */,
+				870A1A9722629A00004E9843 /* Getaway, The - High Speed II v1.1 (Williams 1996).png in Resources */,
+				870A1A8322629A00004E9843 /* Doctor Who (Midway 1992).png in Resources */,
+				870A1A5B22629A00004E9843 /* Monster Bash (Williams 1998).old[2].png in Resources */,
+				870A1A5E22629A00004E9843 /* Creature from the Black Lagoon (Bally 1992).png in Resources */,
+				870A1A9E22629A00004E9843 /* Batman (Data East 1991).png in Resources */,
+				870A1A6422629A00004E9843 /* Johnny Mnemonic (Williams 1996).png in Resources */,
+				870A1A7822629A00004E9843 /* IronMan (Stern 2013).png in Resources */,
+				870A1A8B22629A00004E9843 /* Cactus Canyon (Bally 1998).png in Resources */,
+				870A1A7322629A00004E9843 /* Pinball Magic (Capcom 1995).png in Resources */,
+				870A1A5622629A00004E9843 /* CARtoons RC (Original 2017).png in Resources */,
+				870A1A9C22629A00004E9843 /* Black Knight 2000 (Williams 1989).png in Resources */,
 				876AC9BB2241ED8800A5E0ED /* Assets.xcassets in Resources */,
+				870A1A5522629A00004E9843 /* Indianapolis 500 (Bally 1995).png in Resources */,
+				870A1A7E22629A00004E9843 /* Genesis (Gottlieb 1986).png in Resources */,
+				870A1A5822629A00004E9843 /* Iron Man (Stern 2013).png in Resources */,
+				870A1A9222629A00004E9843 /* Johnny Mnemonic (Williams 1995).png in Resources */,
+				870A1A5D22629A00004E9843 /* Cyclone (Williams 1988).png in Resources */,
+				870A1A5C22629A00004E9843 /* Ghostbusters LE 1.0 (Stern 2012).png in Resources */,
+				870A1A8822629A00004E9843 /* Medieval Madness (Williams 1997).png in Resources */,
 				875C9DCE22628F05007A1BD6 /* WKYTPlayerView.bundle in Resources */,
+				870A1A6A22629A00004E9843 /* A Real American Hero (Original 1980).png in Resources */,
+				870A1A8922629A00004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png in Resources */,
+				870A1A6622629A00004E9843 /* Funhouse (Williams 1990).old[1].png in Resources */,
+				870A1A5A22629A00004E9843 /* Robocop (Data East 1989).png in Resources */,
+				870A1A8722629A00004E9843 /* Baby Pac-Man (Bally 1983).png in Resources */,
 				876AC9B92241ED8700A5E0ED /* Main.storyboard in Resources */,
+				870A1A7A22629A00004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).old[1].png in Resources */,
 				879FD03A2249F0F700FAB167 /* woot.json in Resources */,
+				870A1A7422629A00004E9843 /* Cirqus Voltaire (Midway 1997).png in Resources */,
+				870A1A7922629A00004E9843 /* Safe Cracker (Bally 1996).old[1].png in Resources */,
+				870A1A6F22629A00004E9843 /* Beach Bums (Original 2018).png in Resources */,
+				870A1A5922629A00004E9843 /* Pirates Of the Caribbean (Stern 2006).png in Resources */,
+				870A1A8122629A00004E9843 /* ACDC Premium (Stern 2012).png in Resources */,
+				870A1A9A22629A00004E9843 /* Funhouse (Williams 1990).png in Resources */,
+				870A1A8D22629A00004E9843 /* Freddy A Nightmare on Elm Street (Premier 1994).png in Resources */,
+				870A1A6822629A00004E9843 /* Harley Quinn (Original 2017).png in Resources */,
+				870A1A9422629A00004E9843 /* Black Hole (Gottlieb 1981).png in Resources */,
+				870A1A6922629A00004E9843 /* Gilligan's Island (Bally 1991).png in Resources */,
+				870A1A8022629A00004E9843 /* Creature from the Black Lagoon (Midway 1992).old[1].png in Resources */,
+				870A1A6022629A00004E9843 /* Amazing Spider-Man (Stern 193).png in Resources */,
+				870A1A8222629A00004E9843 /* Guns N' Roses (Data East 1994).png in Resources */,
+				870A1A6122629A00004E9843 /* Back to the Future (Data East 1990).old[1].png in Resources */,
+				870A1A8C22629A00004E9843 /* Heavy Metal Meltdown (Bally 1987).png in Resources */,
+				870A1A6322629A00004E9843 /* Family Guy (Stern 2007).png in Resources */,
+				870A1A9B22629A00004E9843 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png in Resources */,
+				870A1A9522629A00004E9843 /* Attack from Mars (Midway 1995).png in Resources */,
+				870A1A9022629A00004E9843 /* Bubba the Redneck Werewolf (Original 2017).png in Resources */,
+				870A1A9822629A00004E9843 /* Gold Wings (Gottlieb 1986) (Gottlieb 1986).png in Resources */,
+				870A1A6C22629A00004E9843 /* Monster Bash (Williams 1998).png in Resources */,
 				876AC9CA2242025800A5E0ED /* Default Playfield.png in Resources */,
+				870A1A9922629A00004E9843 /* Back to the Future (Data East 1990).old[2].png in Resources */,
+				870A1A7B22629A00004E9843 /* Batman The Dark Knight (Stern 2008).png in Resources */,
+				870A1A7C22629A00004E9843 /* Gilligan's Island (Midway 1991).old[2].png in Resources */,
+				870A1A6222629A00004E9843 /* High Speed (Williams 1986).png in Resources */,
+				870A1A9322629A00004E9843 /* Harlem Globetrotters On Tour (Bally 1979).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

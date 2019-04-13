@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H1p-Uh-vWS">
     <device id="ipad11_0rounded" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,7 +34,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="818.5" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bugs Bunny's Birthday Ball (Bally 1991).png" translatesAutoresizingMaskIntoConstraints="NO" id="SgJ-RF-hpD">
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Funhouse (Williams 1990).png" translatesAutoresizingMaskIntoConstraints="NO" id="SgJ-RF-hpD">
                                 <rect key="frame" x="-278" y="-441" width="1119" height="1646"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -333,11 +333,21 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gxw-sb-8Dx" customClass="WKYTPlayerView">
+                                <rect key="frame" x="497" y="638" width="291" height="164"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="TQ6-KZ-96C"/>
+                                    <constraint firstAttribute="width" constant="291" id="ieK-WQ-fuB"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="aeT-ZI-a6z" firstAttribute="leading" secondItem="bZR-y3-fmb" secondAttribute="trailing" constant="15" id="010-qw-3ef"/>
+                            <constraint firstItem="VUw-jc-0yf" firstAttribute="trailing" secondItem="Gxw-sb-8Dx" secondAttribute="trailing" constant="30.5" id="0oC-3s-HaK"/>
                             <constraint firstItem="w83-B2-J3j" firstAttribute="top" secondItem="gGJ-JR-csw" secondAttribute="bottom" constant="2" id="2WZ-mS-jyi"/>
+                            <constraint firstItem="VUw-jc-0yf" firstAttribute="bottom" secondItem="Gxw-sb-8Dx" secondAttribute="bottom" constant="12" id="2tD-CA-bFE"/>
                             <constraint firstItem="HOR-Tc-FGp" firstAttribute="leading" secondItem="STp-ck-eBJ" secondAttribute="trailing" constant="11" id="4fW-Qb-qSA"/>
                             <constraint firstItem="HOR-Tc-FGp" firstAttribute="top" secondItem="STp-ck-eBJ" secondAttribute="top" id="5RD-wd-oB1"/>
                             <constraint firstItem="UOs-hE-zzr" firstAttribute="leading" secondItem="HOR-Tc-FGp" secondAttribute="trailing" constant="3" id="7rt-gB-GEe"/>
@@ -411,11 +421,12 @@
                         <outlet property="tableName" destination="p6T-ay-gHi" id="gl2-pK-omN"/>
                         <outlet property="tableURLLabel" destination="GSd-sI-iTF" id="tMZ-Bd-E9s"/>
                         <outlet property="tableVersionLabel" destination="UOs-hE-zzr" id="Z6k-eK-6qI"/>
+                        <outlet property="youTubePlayer" destination="Gxw-sb-8Dx" id="EuG-PU-Mm9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="707.19424460431662" y="128.643216080402"/>
+            <point key="canvasLocation" x="707.035175879397" y="128.05755395683454"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="Nki-YV-4Qg">
@@ -492,9 +503,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Bugs Bunny's Birthday Ball (Bally 1991).png" width="1080" height="1920"/>
         <image name="Default Backglass.png" width="566" height="380"/>
         <image name="Default Playfield.png" width="1080" height="1920"/>
+        <image name="Funhouse (Williams 1990).png" width="1080" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6S0-TO-JiA"/>
