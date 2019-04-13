@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874BCB0C225EB1A50075434E /* AppDelegate.swift */; };
 		875C9DC522628C3C007A1BD6 /* newfiles in Resources */ = {isa = PBXBuildFile; fileRef = 875C9DC422628C3C007A1BD6 /* newfiles */; };
+		875C9DCE22628F05007A1BD6 /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */; };
+		875C9DCF22628F05007A1BD6 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */; };
 		876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9B32241ED8700A5E0ED /* MasterViewController.swift */; };
 		876AC9B62241ED8700A5E0ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9B52241ED8700A5E0ED /* DetailViewController.swift */; };
 		876AC9B92241ED8700A5E0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9B72241ED8700A5E0ED /* Main.storyboard */; };
@@ -34,6 +36,10 @@
 /* Begin PBXFileReference section */
 		874BCB0C225EB1A50075434E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875C9DC422628C3C007A1BD6 /* newfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = newfiles; sourceTree = "<group>"; };
+		875C9DCA22628F05007A1BD6 /* AllThePins-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllThePins-Bridging-Header.h"; sourceTree = "<group>"; };
+		875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WKYTPlayerView.bundle; sourceTree = "<group>"; };
+		875C9DCC22628F05007A1BD6 /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKYTPlayerView.h; sourceTree = "<group>"; };
+		875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKYTPlayerView.m; sourceTree = "<group>"; };
 		876AC9AE2241ED8700A5E0ED /* AllThePins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllThePins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876AC9B32241ED8700A5E0ED /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		876AC9B52241ED8700A5E0ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +74,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		875C9DD022628F2B007A1BD6 /* WKYTPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */,
+				875C9DCC22628F05007A1BD6 /* WKYTPlayerView.h */,
+				875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */,
+			);
+			name = WKYTPlayer;
+			sourceTree = "<group>";
+		};
+		875C9DD122628FA3007A1BD6 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				875C9DCA22628F05007A1BD6 /* AllThePins-Bridging-Header.h */,
+				875C9DD022628F2B007A1BD6 /* WKYTPlayer */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
 		876AC9A52241ED8700A5E0ED = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +114,7 @@
 		876AC9B02241ED8700A5E0ED /* AllThePins */ = {
 			isa = PBXGroup;
 			children = (
+				875C9DD122628FA3007A1BD6 /* ThirdParty */,
 				876AC9B32241ED8700A5E0ED /* MasterViewController.swift */,
 				874BCB0C225EB1A50075434E /* AppDelegate.swift */,
 				876AC9B52241ED8700A5E0ED /* DetailViewController.swift */,
@@ -164,6 +190,7 @@
 				TargetAttributes = {
 					876AC9AD2241ED8700A5E0ED = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					87B92107225DD003006B9942 = {
 						CreatedOnToolsVersion = 10.1;
@@ -199,6 +226,7 @@
 				876AC9C92242025800A5E0ED /* Default Backglass.png in Resources */,
 				876AC9BE2241ED8800A5E0ED /* LaunchScreen.storyboard in Resources */,
 				876AC9BB2241ED8800A5E0ED /* Assets.xcassets in Resources */,
+				875C9DCE22628F05007A1BD6 /* WKYTPlayerView.bundle in Resources */,
 				876AC9B92241ED8700A5E0ED /* Main.storyboard in Resources */,
 				879FD03A2249F0F700FAB167 /* woot.json in Resources */,
 				876AC9CA2242025800A5E0ED /* Default Playfield.png in Resources */,
@@ -222,6 +250,7 @@
 				874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */,
 				876AC9B62241ED8700A5E0ED /* DetailViewController.swift in Sources */,
 				876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */,
+				875C9DCF22628F05007A1BD6 /* WKYTPlayerView.m in Sources */,
 				876AC9C62241EE0200A5E0ED /* VPinTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPUGVKL8KJ;
 				INFOPLIST_FILE = AllThePins/Info.plist;
@@ -393,6 +423,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AllThePins/AllThePins-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -402,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPUGVKL8KJ;
 				INFOPLIST_FILE = AllThePins/Info.plist;
@@ -411,6 +444,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AllThePins/AllThePins-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
