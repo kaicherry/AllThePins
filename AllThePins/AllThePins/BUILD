@@ -30,27 +30,16 @@ name = "Images",
 resources = glob(["newfiles/**"]),
 )
 
-ios_application(
-name = "AllThePins",
-bundle_id = "com.sakurakai.vpaddicts.AllThePins",
-families = [
-"ipad",
-],
-minimum_os_version = "12.1",
-infoplists = ["Info.plist"],
-visibility = ["//visibility:public"],
-app_icons = glob(["Assets.xcassets/**"]),
-launch_storyboard = "Base.lproj/LaunchScreen.storyboard",
-deps = [":Sources"],
-provisioning_profile = "WildBazel.mobileprovision",
-)
+#This target cannot have the same name as the enclosing folder. This causes a conflict
+#when building for arm. IE, the way XCode organizes a project. Suggest appending "App" as below.
 
 ios_application(
-name = "AllThePins-Sim",
+name = "AllThePinsApp",
 bundle_id = "com.sakurakai.vpaddicts.AllThePins",
 families = [
 "ipad",
 ],
+provisioning_profile = "WildBazel.mobileprovision",
 minimum_os_version = "12.1",
 infoplists = ["Info.plist"],
 visibility = ["//visibility:public"],
