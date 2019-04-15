@@ -25,7 +25,6 @@ bundle_imports = ["YTPlayerView-iframe-player.html",],
 
 swift_library(
 name = "Combined",
-alwayslink = True,
 module_name = "TheApp",
 copts = ["-import-objc-header","/Users/kaicherry/AllThePins/AllThePins/AllThePins/ThirdParty/WKYTPlayer/AllThePins-Bridging-Header.h",],
 srcs = [

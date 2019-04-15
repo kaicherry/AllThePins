@@ -84,7 +84,6 @@
 		870A1A9F22629A00004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A52226299FF004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png */; };
 		870A1AA022629A00004E9843 /* Diner (Williams 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A53226299FF004E9843 /* Diner (Williams 1990).png */; };
 		870A1AA122629A00004E9843 /* Hook (Data East 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A54226299FF004E9843 /* Hook (Data East 1992).png */; };
-		870A1AAC2262ED9E004E9843 /* YTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A1AAB2262ED9E004E9843 /* YTView.swift */; };
 		870BA4D52263F8CE00610101 /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 870BA4D32263F8CD00610101 /* WKYTPlayerView.bundle */; };
 		870BA4D62263F8CE00610101 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BA4D42263F8CE00610101 /* WKYTPlayerView.m */; };
 		874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874BCB0C225EB1A50075434E /* AppDelegate.swift */; };
@@ -567,7 +566,6 @@
 				870BA4D62263F8CE00610101 /* WKYTPlayerView.m in Sources */,
 				876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */,
 				876AC9C62241EE0200A5E0ED /* VPinTable.swift in Sources */,
-				870A1AAC2262ED9E004E9843 /* YTView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
