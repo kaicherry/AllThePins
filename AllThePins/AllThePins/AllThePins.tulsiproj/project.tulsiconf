@@ -1,0 +1,12 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "AllThePins"
+  ],
+  "projectName" : "AllThePins",
+  "workspaceRoot" : "../.."
+}

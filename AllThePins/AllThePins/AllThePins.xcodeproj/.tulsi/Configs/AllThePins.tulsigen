@@ -1,0 +1,79 @@
+{
+  "additionalFilePaths" : [
+    "AllThePins/BUILD"
+  ],
+  "buildTargets" : [
+    "//AllThePins:AllThePinsApp"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : ""
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : ""
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : ""
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : ""
+    },
+    "BuildActionPostActionScript" : {
+      "p" : ""
+    },
+    "BuildActionPreActionScript" : {
+      "p" : ""
+    },
+    "CommandlineArguments" : {
+      "p" : ""
+    },
+    "EnvironmentVariables" : {
+      "p" : ""
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : ""
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : ""
+    },
+    "ProjectPrioritizesSwift" : {
+      "p" : "YES"
+    },
+    "TestActionPostActionScript" : {
+      "p" : ""
+    },
+    "TestActionPreActionScript" : {
+      "p" : ""
+    }
+  },
+  "projectName" : "AllThePins",
+  "sourceFilters" : [
+    "AllThePins",
+    "AllThePins/Base.lproj",
+    "AllThePins/ThirdParty",
+    "AllThePins/ThirdParty/Crashlytics",
+    "AllThePins/ThirdParty/WKYTPlayer",
+    "external",
+    "external/bazel_skylib",
+    "external/bazel_skylib/lib",
+    "external/bazel_tools",
+    "external/bazel_tools/tools",
+    "external/bazel_tools/tools/build_defs",
+    "external/bazel_tools/tools/build_defs/cc",
+    "external/bazel_tools/tools/build_defs/repo",
+    "external/build_bazel_apple_support",
+    "external/build_bazel_apple_support/lib",
+    "external/build_bazel_rules_apple",
+    "external/build_bazel_rules_apple/apple",
+    "external/build_bazel_rules_apple/apple/internal",
+    "external/build_bazel_rules_apple/apple/internal/aspects",
+    "external/build_bazel_rules_apple/apple/internal/partials",
+    "external/build_bazel_rules_apple/apple/internal/partials/support",
+    "external/build_bazel_rules_apple/apple/internal/resource_actions",
+    "external/build_bazel_rules_apple/apple/internal/testing",
+    "external/build_bazel_rules_apple/apple/internal/utils",
+    "external/build_bazel_rules_swift",
+    "external/build_bazel_rules_swift/swift",
+    "external/build_bazel_rules_swift/swift/internal"
+  ]
+}
