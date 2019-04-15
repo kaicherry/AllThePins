@@ -84,9 +84,10 @@
 		870A1A9F22629A00004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A52226299FF004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png */; };
 		870A1AA022629A00004E9843 /* Diner (Williams 1990).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A53226299FF004E9843 /* Diner (Williams 1990).png */; };
 		870A1AA122629A00004E9843 /* Hook (Data East 1992).png in Resources */ = {isa = PBXBuildFile; fileRef = 870A1A54226299FF004E9843 /* Hook (Data East 1992).png */; };
+		870A1AAC2262ED9E004E9843 /* YTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A1AAB2262ED9E004E9843 /* YTView.swift */; };
+		870BA4D52263F8CE00610101 /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 870BA4D32263F8CD00610101 /* WKYTPlayerView.bundle */; };
+		870BA4D62263F8CE00610101 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BA4D42263F8CE00610101 /* WKYTPlayerView.m */; };
 		874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874BCB0C225EB1A50075434E /* AppDelegate.swift */; };
-		875C9DCE22628F05007A1BD6 /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */; };
-		875C9DCF22628F05007A1BD6 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */; };
 		876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9B32241ED8700A5E0ED /* MasterViewController.swift */; };
 		876AC9B62241ED8700A5E0ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876AC9B52241ED8700A5E0ED /* DetailViewController.swift */; };
 		876AC9B92241ED8700A5E0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9B72241ED8700A5E0ED /* Main.storyboard */; };
@@ -187,12 +188,12 @@
 		870A1A52226299FF004E9843 /* Harley Quinn (HauntFreaks 2017).old[1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harley Quinn (HauntFreaks 2017).old[1].png"; sourceTree = "<group>"; };
 		870A1A53226299FF004E9843 /* Diner (Williams 1990).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diner (Williams 1990).png"; sourceTree = "<group>"; };
 		870A1A54226299FF004E9843 /* Hook (Data East 1992).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hook (Data East 1992).png"; sourceTree = "<group>"; };
-		870A1AA222629F9D004E9843 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "YTPlayerView-iframe-player.html"; path = "ThirdParty/WKYTPlayer/WKYTPlayerView.bundle/Assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		870A1AAB2262ED9E004E9843 /* YTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTView.swift; sourceTree = "<group>"; };
+		870BA4D12263F8CD00610101 /* AllThePins-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllThePins-Bridging-Header.h"; sourceTree = "<group>"; };
+		870BA4D22263F8CD00610101 /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKYTPlayerView.h; path = ThirdParty/WKYTPlayer/WKYTPlayerView.h; sourceTree = "<group>"; };
+		870BA4D32263F8CD00610101 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WKYTPlayerView.bundle; path = ThirdParty/WKYTPlayer/WKYTPlayerView.bundle; sourceTree = "<group>"; };
+		870BA4D42263F8CE00610101 /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKYTPlayerView.m; path = ThirdParty/WKYTPlayer/WKYTPlayerView.m; sourceTree = "<group>"; };
 		874BCB0C225EB1A50075434E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		875C9DCA22628F05007A1BD6 /* AllThePins-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllThePins-Bridging-Header.h"; sourceTree = "<group>"; };
-		875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WKYTPlayerView.bundle; path = ThirdParty/WKYTPlayer/WKYTPlayerView.bundle; sourceTree = "<group>"; };
-		875C9DCC22628F05007A1BD6 /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKYTPlayerView.h; path = ThirdParty/WKYTPlayer/WKYTPlayerView.h; sourceTree = "<group>"; };
-		875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKYTPlayerView.m; path = ThirdParty/WKYTPlayer/WKYTPlayerView.m; sourceTree = "<group>"; };
 		876AC9AE2241ED8700A5E0ED /* AllThePins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllThePins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876AC9B32241ED8700A5E0ED /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		876AC9B52241ED8700A5E0ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -311,12 +312,12 @@
 			path = newfiles;
 			sourceTree = "<group>";
 		};
-		875C9DD022628F2B007A1BD6 /* WKYTPlayer */ = {
+		870BA4D72263F8DF00610101 /* WKYTPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				875C9DCB22628F05007A1BD6 /* WKYTPlayerView.bundle */,
-				875C9DCC22628F05007A1BD6 /* WKYTPlayerView.h */,
-				875C9DCD22628F05007A1BD6 /* WKYTPlayerView.m */,
+				870BA4D32263F8CD00610101 /* WKYTPlayerView.bundle */,
+				870BA4D22263F8CD00610101 /* WKYTPlayerView.h */,
+				870BA4D42263F8CE00610101 /* WKYTPlayerView.m */,
 			);
 			name = WKYTPlayer;
 			sourceTree = "<group>";
@@ -324,8 +325,8 @@
 		875C9DD122628FA3007A1BD6 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				875C9DCA22628F05007A1BD6 /* AllThePins-Bridging-Header.h */,
-				875C9DD022628F2B007A1BD6 /* WKYTPlayer */,
+				870BA4D72263F8DF00610101 /* WKYTPlayer */,
+				870BA4D12263F8CD00610101 /* AllThePins-Bridging-Header.h */,
 			);
 			name = ThirdParty;
 			sourceTree = "<group>";
@@ -357,8 +358,8 @@
 				876AC9B52241ED8700A5E0ED /* DetailViewController.swift */,
 				879FD0392249F0F700FAB167 /* woot.json */,
 				876AC9C52241EE0200A5E0ED /* VPinTable.swift */,
+				870A1AAB2262ED9E004E9843 /* YTView.swift */,
 				876AC9B72241ED8700A5E0ED /* Main.storyboard */,
-				870A1AA222629F9D004E9843 /* YTPlayerView-iframe-player.html */,
 				876AC9BA2241ED8800A5E0ED /* Assets.xcassets */,
 				876AC9BC2241ED8800A5E0ED /* LaunchScreen.storyboard */,
 				876AC9C72242025800A5E0ED /* Default Backglass.png */,
@@ -508,7 +509,6 @@
 				870A1A5D22629A00004E9843 /* Cyclone (Williams 1988).png in Resources */,
 				870A1A5C22629A00004E9843 /* Ghostbusters LE 1.0 (Stern 2012).png in Resources */,
 				870A1A8822629A00004E9843 /* Medieval Madness (Williams 1997).png in Resources */,
-				875C9DCE22628F05007A1BD6 /* WKYTPlayerView.bundle in Resources */,
 				870A1A6A22629A00004E9843 /* A Real American Hero (Original 1980).png in Resources */,
 				870A1A8922629A00004E9843 /* Adventures of Rocky and Bullwinkle and Friends (Data East 1993).png in Resources */,
 				870A1A6622629A00004E9843 /* Funhouse (Williams 1990).old[1].png in Resources */,
@@ -533,6 +533,7 @@
 				870A1A6122629A00004E9843 /* Back to the Future (Data East 1990).old[1].png in Resources */,
 				870A1A8C22629A00004E9843 /* Heavy Metal Meltdown (Bally 1987).png in Resources */,
 				870A1A6322629A00004E9843 /* Family Guy (Stern 2007).png in Resources */,
+				870BA4D52263F8CE00610101 /* WKYTPlayerView.bundle in Resources */,
 				870A1A9B22629A00004E9843 /* Monster Bash X - NZ&TT 1.3 (Williams 1993).png in Resources */,
 				870A1A9522629A00004E9843 /* Attack from Mars (Midway 1995).png in Resources */,
 				870A1A9022629A00004E9843 /* Bubba the Redneck Werewolf (Original 2017).png in Resources */,
@@ -563,9 +564,10 @@
 			files = (
 				874BCB0D225EB1A50075434E /* AppDelegate.swift in Sources */,
 				876AC9B62241ED8700A5E0ED /* DetailViewController.swift in Sources */,
+				870BA4D62263F8CE00610101 /* WKYTPlayerView.m in Sources */,
 				876AC9B42241ED8700A5E0ED /* MasterViewController.swift in Sources */,
-				875C9DCF22628F05007A1BD6 /* WKYTPlayerView.m in Sources */,
 				876AC9C62241EE0200A5E0ED /* VPinTable.swift in Sources */,
+				870A1AAC2262ED9E004E9843 /* YTView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,6 +739,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AllThePins/AllThePins-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -758,6 +761,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AllThePins/AllThePins-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

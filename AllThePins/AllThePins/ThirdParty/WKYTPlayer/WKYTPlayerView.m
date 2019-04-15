@@ -909,12 +909,11 @@ NSString static *const kWKYTPlayerSyndicationRegexPattern = @"^https://tpc.googl
     [self addConstraints:constraints];
     
     NSError *error = nil;
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"YTPlayerView-iframe-player"
-                                                    ofType:@"html"];
+    NSBundle *myResources = [[NSBundle alloc] initWithPath:[[NSBundle mainBundle] pathForResource:@"WKYTPlayerView" ofType:@"bundle"]];
     
-    //NSString *path = [[NSBundle bundleForClass:[WKYTPlayerView class]] pathForResource:@"YTPlayerView-iframe-player"
-    //                                                                            ofType:@"html"
-    //                                                                       inDirectory:@"Assets"];
+    NSString *path = [myResources pathForResource:@"YTPlayerView-iframe-player"
+                                                                                ofType:@"html"
+                                                                           inDirectory:@"Assets"];
     
     // in case of using Swift and embedded frameworks, resources included not in main bundle,
     // but in framework bundle
@@ -1073,6 +1072,8 @@ NSString static *const kWKYTPlayerSyndicationRegexPattern = @"^https://tpc.googl
     WKWebView *webView = [[WKWebView alloc] initWithFrame:self.bounds configuration:configuration];
     webView.scrollView.scrollEnabled = NO;
     webView.scrollView.bounces = NO;
+    webView.backgroundColor = UIColor.clearColor;
+    webView.opaque = NO;
     
     if ([self.delegate respondsToSelector:@selector(playerViewPreferredWebViewBackgroundColor:)]) {
         webView.backgroundColor = [self.delegate playerViewPreferredWebViewBackgroundColor:self];

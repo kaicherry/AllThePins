@@ -100,12 +100,16 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default Playfield.png" translatesAutoresizingMaskIntoConstraints="NO" id="w83-B2-J3j">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default Playfield.png" translatesAutoresizingMaskIntoConstraints="NO" id="w83-B2-J3j">
                                 <rect key="frame" x="14" y="360" width="240" height="415"/>
                                 <color key="backgroundColor" red="0.63921568630000003" green="0.90980392160000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="415" id="Kwk-uv-0oC"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="G1c-AA-IBz" appends="YES" id="dKl-82-mpv"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Released:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3z-xZ-hoz">
                                 <rect key="frame" x="14" y="124" width="789" height="21"/>
@@ -333,21 +337,21 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gxw-sb-8Dx" customClass="WKYTPlayerView">
-                                <rect key="frame" x="497" y="638" width="291" height="164"/>
+                            <view hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gxw-sb-8Dx" customClass="WKYTPlayerView">
+                                <rect key="frame" x="-74" y="447" width="416" height="240"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="164" id="TQ6-KZ-96C"/>
-                                    <constraint firstAttribute="width" constant="291" id="ieK-WQ-fuB"/>
+                                    <constraint firstAttribute="height" constant="240" id="TQ6-KZ-96C"/>
+                                    <constraint firstAttribute="width" constant="416" id="ieK-WQ-fuB"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="aeT-ZI-a6z" firstAttribute="leading" secondItem="bZR-y3-fmb" secondAttribute="trailing" constant="15" id="010-qw-3ef"/>
-                            <constraint firstItem="VUw-jc-0yf" firstAttribute="trailing" secondItem="Gxw-sb-8Dx" secondAttribute="trailing" constant="30.5" id="0oC-3s-HaK"/>
+                            <constraint firstItem="VUw-jc-0yf" firstAttribute="trailing" secondItem="Gxw-sb-8Dx" secondAttribute="trailing" constant="476.5" id="0oC-3s-HaK"/>
                             <constraint firstItem="w83-B2-J3j" firstAttribute="top" secondItem="gGJ-JR-csw" secondAttribute="bottom" constant="2" id="2WZ-mS-jyi"/>
-                            <constraint firstItem="VUw-jc-0yf" firstAttribute="bottom" secondItem="Gxw-sb-8Dx" secondAttribute="bottom" constant="12" id="2tD-CA-bFE"/>
+                            <constraint firstItem="VUw-jc-0yf" firstAttribute="bottom" secondItem="Gxw-sb-8Dx" secondAttribute="bottom" constant="127" id="2tD-CA-bFE"/>
                             <constraint firstItem="HOR-Tc-FGp" firstAttribute="leading" secondItem="STp-ck-eBJ" secondAttribute="trailing" constant="11" id="4fW-Qb-qSA"/>
                             <constraint firstItem="HOR-Tc-FGp" firstAttribute="top" secondItem="STp-ck-eBJ" secondAttribute="top" id="5RD-wd-oB1"/>
                             <constraint firstItem="UOs-hE-zzr" firstAttribute="leading" secondItem="HOR-Tc-FGp" secondAttribute="trailing" constant="3" id="7rt-gB-GEe"/>
@@ -411,6 +415,7 @@
                         <outlet property="backglassURLabel" destination="MWx-ZO-DDT" id="zIf-jH-eXc"/>
                         <outlet property="backglassVersionLabel" destination="HIK-es-PxI" id="ieH-fd-0Q1"/>
                         <outlet property="playfieldImageView" destination="w83-B2-J3j" id="5Zx-fs-1Ao"/>
+                        <outlet property="playfieldTapped" destination="G1c-AA-IBz" id="E5t-ba-bqx"/>
                         <outlet property="releaseYear" destination="nZd-Qy-4aq" id="1ku-Ff-c4h"/>
                         <outlet property="romDateLabel" destination="dO4-OD-ZdC" id="y7A-mD-0Ge"/>
                         <outlet property="romNameLabel" destination="8Sa-Y4-jdV" id="qAu-fD-cBu"/>
@@ -425,6 +430,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="G1c-AA-IBz">
+                    <connections>
+                        <action selector="playfiledTouched:" destination="JEX-9P-axG" id="n8W-S1-KSY"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="707.035175879397" y="128.05755395683454"/>
         </scene>
