@@ -10,8 +10,6 @@ objc_library(
 name = "ObjCSources",
 module_name = "WKYTPlayerView",
 enable_modules = True,
-alwayslink = True,
-#storyboards = ["Base.lproj/Main.storyboard",],
 resources = ["ThirdParty/WKYTPlayer/WKYTPlayerView.bundle",],
 srcs = ["ThirdParty/WKYTPlayer/WKYTPlayerView.m",],
 hdrs = ["ThirdParty/WKYTPlayer/WKYTPlayerView.h",],
