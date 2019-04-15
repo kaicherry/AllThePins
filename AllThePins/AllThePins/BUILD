@@ -3,7 +3,8 @@ load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
 load("@build_bazel_rules_apple//apple:ios.bzl", "ios_application")
 load("@build_bazel_rules_apple//apple:resources.bzl", "apple_resource_group")
 load("@build_bazel_rules_apple//apple:resources.bzl", "apple_bundle_import")
-
+load("@build_bazel_rules_apple//apple:apple.bzl", "apple_static_framework_import")
+load("@build_bazel_rules_apple//apple:apple.bzl", "apple_static_framework_import")
 
 
 objc_library(
@@ -27,7 +28,19 @@ srcs = [
 "VPinTable.swift",
 ],
 data = ["Base.lproj/Main.storyboard",":Resources","Images",],
-deps = [":ObjCSources",],
+deps = [":ObjCSources",":Crashlytics",":Fabric",],
+)
+
+#Third Party Frameworks not available as source
+apple_static_framework_import(
+name = "Crashlytics",
+framework_imports = glob(["ThirdParty/Crashlytics/Crashlytics.framework/**"]),
+sdk_dylibs = ["libz",],
+)
+
+apple_static_framework_import(
+name = "Fabric",
+framework_imports = glob(["ThirdParty/Crashlytics/Fabric.framework/**"]),
 )
 
 apple_resource_group(
@@ -61,5 +74,5 @@ infoplists = ["Info.plist"],
 visibility = ["//visibility:public"],
 app_icons = glob(["Assets.xcassets/**"]),
 launch_storyboard = "Base.lproj/LaunchScreen.storyboard",
-deps = [":Combined",],
+deps = [":Combined",":Crashlytics",":Fabric",],
 )
