@@ -97,6 +97,8 @@
 		876AC9CA2242025800A5E0ED /* Default Playfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 876AC9C82242025800A5E0ED /* Default Playfield.png */; };
 		879FD03A2249F0F700FAB167 /* woot.json in Resources */ = {isa = PBXBuildFile; fileRef = 879FD0392249F0F700FAB167 /* woot.json */; };
 		87B9210B225DD003006B9942 /* AllThePinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9210A225DD003006B9942 /* AllThePinsTests.swift */; };
+		87F096FF2264F5190066D96F /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F096FD2264F5190066D96F /* Fabric.framework */; };
+		87F097002264F5190066D96F /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F096FE2264F5190066D96F /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +209,8 @@
 		87B92108225DD003006B9942 /* AllThePinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllThePinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B9210A225DD003006B9942 /* AllThePinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllThePinsTests.swift; sourceTree = "<group>"; };
 		87B9210C225DD003006B9942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F096FD2264F5190066D96F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ThirdParty/Crashlytics/Fabric.framework; sourceTree = "<group>"; };
+		87F096FE2264F5190066D96F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = ThirdParty/Crashlytics/Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F097002264F5190066D96F /* Crashlytics.framework in Frameworks */,
+				87F096FF2264F5190066D96F /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +330,7 @@
 		875C9DD122628FA3007A1BD6 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				87F097012264F5680066D96F /* Crashlytics */,
 				870BA4D72263F8DF00610101 /* WKYTPlayer */,
 				870BA4D12263F8CD00610101 /* AllThePins-Bridging-Header.h */,
 			);
@@ -376,6 +383,15 @@
 				87B9210C225DD003006B9942 /* Info.plist */,
 			);
 			path = AllThePinsTests;
+			sourceTree = "<group>";
+		};
+		87F097012264F5680066D96F /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				87F096FE2264F5190066D96F /* Crashlytics.framework */,
+				87F096FD2264F5190066D96F /* Fabric.framework */,
+			);
+			name = Crashlytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -730,6 +746,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPUGVKL8KJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AllThePins/ThirdParty/Crashlytics",
+				);
 				INFOPLIST_FILE = AllThePins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -752,6 +772,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPUGVKL8KJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AllThePins/ThirdParty/Crashlytics",
+				);
 				INFOPLIST_FILE = AllThePins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
