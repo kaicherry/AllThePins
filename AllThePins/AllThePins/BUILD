@@ -16,11 +16,6 @@ hdrs = ["ThirdParty/WKYTPlayer/WKYTPlayerView.h",],
 sdk_frameworks = ["UIKit", "WebKit",],
 )
 
-apple_bundle_import(
-name = "WKYTPlayerView.bundle",
-bundle_imports = ["YTPlayerView-iframe-player.html",],
-)
-
 swift_library(
 name = "Combined",
 module_name = "TheApp",
