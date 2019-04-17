@@ -684,7 +684,7 @@
 			};
 			name = Release;
 		};
-		873DBC7F2265109700EA2B78 /* Debug */ = {
+		873DBC8722651CB700EA2B78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -694,7 +694,7 @@
 			};
 			name = Debug;
 		};
-		873DBC802265109700EA2B78 /* Release */ = {
+		873DBC8822651CB700EA2B78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -703,42 +703,42 @@
 			};
 			name = Release;
 		};
-		873DBC812265109700EA2B78 /* __TulsiTestRunner_Debug */ = {
+		873DBC8922651CB700EA2B78 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		873DBC822265109700EA2B78 /* __TulsiTestRunner_Release */ = {
+		873DBC8A22651CB700EA2B78 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		873DBC832265109700EA2B78 /* __TulsiTestRunner_Debug */ = {
+		873DBC8B22651CB700EA2B78 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_Combined_39568AEA_ios_min12.1;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		873DBC842265109700EA2B78 /* __TulsiTestRunner_Release */ = {
+		873DBC8C22651CB700EA2B78 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_Combined_39568AEA_ios_min12.1;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		873DBC852265109700EA2B78 /* __TulsiTestRunner_Debug */ = {
+		873DBC8D22651CB700EA2B78 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_ObjCSources_3E9CFA56_ios_min12.1;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		873DBC862265109700EA2B78 /* __TulsiTestRunner_Release */ = {
+		873DBC8E22651CB700EA2B78 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_ObjCSources_3E9CFA56_ios_min12.1;
@@ -753,8 +753,8 @@
 			buildConfigurations = (
 				6A7A8FA24DC4D4E300000003 /* Debug */,
 				6A7A8FA2C4A0F43000000003 /* Release */,
-				873DBC852265109700EA2B78 /* __TulsiTestRunner_Debug */,
-				873DBC862265109700EA2B78 /* __TulsiTestRunner_Release */,
+				873DBC8D22651CB700EA2B78 /* __TulsiTestRunner_Debug */,
+				873DBC8E22651CB700EA2B78 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -773,10 +773,10 @@
 		8A74C316A662837300000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				873DBC7F2265109700EA2B78 /* Debug */,
-				873DBC802265109700EA2B78 /* Release */,
-				873DBC812265109700EA2B78 /* __TulsiTestRunner_Debug */,
-				873DBC822265109700EA2B78 /* __TulsiTestRunner_Release */,
+				873DBC8722651CB700EA2B78 /* Debug */,
+				873DBC8822651CB700EA2B78 /* Release */,
+				873DBC8922651CB700EA2B78 /* __TulsiTestRunner_Debug */,
+				873DBC8A22651CB700EA2B78 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -797,8 +797,8 @@
 			buildConfigurations = (
 				6A7A8FA24DC4D4E300000002 /* Debug */,
 				6A7A8FA2C4A0F43000000002 /* Release */,
-				873DBC832265109700EA2B78 /* __TulsiTestRunner_Debug */,
-				873DBC842265109700EA2B78 /* __TulsiTestRunner_Release */,
+				873DBC8B22651CB700EA2B78 /* __TulsiTestRunner_Debug */,
+				873DBC8C22651CB700EA2B78 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
