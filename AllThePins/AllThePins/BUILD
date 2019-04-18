@@ -22,25 +22,6 @@ objc_library(
 )
 
 
-#Third Party Libraries & Frameworks - Imported Binaries
-#Explictly list files in imported third party frameworks. glob() is discouraged for stability/security
-
-
-
-apple_static_framework_import(
-    name = "Fabric",
-    framework_imports = [
-                            "ThirdParty/Crashlytics/Fabric.framework/Fabric",
-                            "ThirdParty/Crashlytics/Fabric.framework/Info.plist",
-                            "ThirdParty/Crashlytics/Fabric.framework/run",
-                            "ThirdParty/Crashlytics/Fabric.framework/uploadDSYM",
-                            "ThirdParty/Crashlytics/Fabric.framework/Headers/FABAttributes.h",
-                            "ThirdParty/Crashlytics/Fabric.framework/Headers/Fabric.h",
-                            "ThirdParty/Crashlytics/Fabric.framework/Modules/module.modulemap",
-    ],
-)
-
-
 #Non-Executable Resources to be bundled into final app. glob() is ok.
 
 apple_resource_group(
