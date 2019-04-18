@@ -25,25 +25,7 @@ objc_library(
 #Third Party Libraries & Frameworks - Imported Binaries
 #Explictly list files in imported third party frameworks. glob() is discouraged for stability/security
 
-apple_static_framework_import(
-    name = "Crashlytics",
-    framework_imports = [
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Crashlytics",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Info.plist",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/run",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/submit",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/uploadDSYM",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Headers/ANSCompatibility.h",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Headers/Answers.h",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Headers/CLSAttributes.h",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Headers/CLSLogging.h",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Headers/CLSReport.h",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Headers/CLSStackFrame.h",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Headers/Crashlytics.h",
-                            "ThirdParty/Crashlytics/Crashlytics.framework/Modules/module.modulemap",
-    ],
-    sdk_dylibs = ["libz",],
-)
+
 
 apple_static_framework_import(
     name = "Fabric",
@@ -100,7 +82,7 @@ swift_library(
             ],
     deps =  [
                 ":ObjCSources",
-                ":Crashlytics",
+"@crashlytics//:crashlytics", #use at for remotes
                 ":Fabric",
             ],
 )
