@@ -20,6 +20,15 @@ def establish_framework_deps():
         ],
 	build_file = Label("//third_party/apple/frameworks/remote:crashlytics.BUILD"),
     )
+    _new_http_archive(
+        name = "fabric",
+        sha256 = "2300f6c4884b987e8d81f5048ce9168048e9e3b0d0b4acef7089a48a982bb648",
+        strip_prefix = "iOS",
+        urls = [
+                "https://kit-downloads.fabric.io/cocoapods/fabric/1.9.0/fabric.zip"
+        ],
+        build_file = Label("//third_party/apple/frameworks/remote:fabric.BUILD"),
+    )
 
 
 

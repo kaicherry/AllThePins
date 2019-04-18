@@ -82,8 +82,8 @@ swift_library(
             ],
     deps =  [
                 ":ObjCSources",
-"@crashlytics//:crashlytics", #use at for remotes
-                ":Fabric",
+                "@crashlytics//:crashlytics", #use at(@) for remotes
+                "@fabric//:fabric",
             ],
 )
 
