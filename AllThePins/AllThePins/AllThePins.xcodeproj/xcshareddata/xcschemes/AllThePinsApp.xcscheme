@@ -2,15 +2,15 @@
 <Scheme version="1.3" LastUpgradeVersion="1000">
     <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
         <BuildActionEntries>
-            <BuildActionEntry buildForAnalyzing="YES" buildForArchiving="YES" buildForProfiling="YES" buildForTesting="YES" buildForRunning="YES">
-                <BuildableReference BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="556B6D1154E1555400000000" BuildableIdentifier="primary"></BuildableReference>
+            <BuildActionEntry buildForAnalyzing="YES" buildForArchiving="YES" buildForProfiling="YES" buildForRunning="YES" buildForTesting="YES">
+                <BuildableReference ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="6800F3097A8AA05A00000000" BlueprintName="AllThePinsApp" BuildableIdentifier="primary" BuildableName="AllThePinsApp.app"></BuildableReference>
             </BuildActionEntry>
         </BuildActionEntries>
         <PreActions>
             <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
                 <ActionContent title="Run Script" scriptText="">
                     <EnvironmentBuildable>
-                        <BuildableReference ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="556B6D1154E1555400000000" BuildableIdentifier="primary" BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp"></BuildableReference>
+                        <BuildableReference BlueprintIdentifier="6800F3097A8AA05A00000000" BuildableIdentifier="primary" BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
                     </EnvironmentBuildable>
                 </ActionContent>
             </ExecutionAction>
@@ -19,7 +19,7 @@
             <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
                 <ActionContent title="Run Script" scriptText="">
                     <EnvironmentBuildable>
-                        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="556B6D1154E1555400000000" BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
+                        <BuildableReference BlueprintIdentifier="6800F3097A8AA05A00000000" BuildableIdentifier="primary" BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
                     </EnvironmentBuildable>
                 </ActionContent>
             </ExecutionAction>
@@ -29,58 +29,58 @@
         <Testables></Testables>
         <PreActions>
             <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-                <ActionContent scriptText="" title="Run Script">
+                <ActionContent title="Run Script" scriptText="">
                     <EnvironmentBuildable>
-                        <BuildableReference ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="556B6D1154E1555400000000" BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp"></BuildableReference>
+                        <BuildableReference BlueprintName="AllThePinsApp" BuildableName="AllThePinsApp.app" ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="6800F3097A8AA05A00000000"></BuildableReference>
                     </EnvironmentBuildable>
                 </ActionContent>
             </ExecutionAction>
         </PreActions>
         <PostActions>
             <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-                <ActionContent scriptText="" title="Run Script">
+                <ActionContent title="Run Script" scriptText="">
                     <EnvironmentBuildable>
-                        <BuildableReference BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" BuildableIdentifier="primary" BlueprintIdentifier="556B6D1154E1555400000000" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
+                        <BuildableReference BuildableIdentifier="primary" BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="6800F3097A8AA05A00000000" BuildableName="AllThePinsApp.app"></BuildableReference>
                     </EnvironmentBuildable>
                 </ActionContent>
             </ExecutionAction>
         </PostActions>
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BlueprintIdentifier="556B6D1154E1555400000000" BuildableIdentifier="primary" BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
+            <BuildableReference BuildableName="AllThePinsApp.app" ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="6800F3097A8AA05A00000000" BlueprintName="AllThePinsApp"></BuildableReference>
         </BuildableProductRunnable>
     </TestAction>
-    <LaunchAction selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" ignoresPersistentStateOnLaunch="NO" useCustomWorkingDirectory="NO" allowLocationSimulation="YES" debugDocumentVersioning="YES" launchStyle="0" buildConfiguration="Debug" debugServiceExtension="internal" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB">
+    <LaunchAction buildConfiguration="Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" debugDocumentVersioning="YES" debugServiceExtension="internal" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" allowLocationSimulation="YES" ignoresPersistentStateOnLaunch="NO" useCustomWorkingDirectory="NO">
         <CommandLineArguments>
             <CommandLineArgument argument="" isEnabled="YES"></CommandLineArgument>
         </CommandLineArguments>
         <EnvironmentVariables></EnvironmentVariables>
         <PreActions>
             <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-                <ActionContent scriptText="" title="Run Script">
+                <ActionContent title="Run Script" scriptText="">
                     <EnvironmentBuildable>
-                        <BuildableReference ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="556B6D1154E1555400000000" BlueprintName="AllThePinsApp" BuildableName="AllThePinsApp.app"></BuildableReference>
+                        <BuildableReference BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" BlueprintIdentifier="6800F3097A8AA05A00000000" ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary"></BuildableReference>
                     </EnvironmentBuildable>
                 </ActionContent>
             </ExecutionAction>
         </PreActions>
         <PostActions>
             <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-                <ActionContent scriptText="" title="Run Script">
+                <ActionContent title="Run Script" scriptText="">
                     <EnvironmentBuildable>
-                        <BuildableReference BuildableName="AllThePinsApp.app" BlueprintIdentifier="556B6D1154E1555400000000" ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BlueprintName="AllThePinsApp"></BuildableReference>
+                        <BuildableReference BlueprintIdentifier="6800F3097A8AA05A00000000" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintName="AllThePinsApp" BuildableName="AllThePinsApp.app" BuildableIdentifier="primary"></BuildableReference>
                     </EnvironmentBuildable>
                 </ActionContent>
             </ExecutionAction>
         </PostActions>
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="556B6D1154E1555400000000" BuildableIdentifier="primary" BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp"></BuildableReference>
+            <BuildableReference BuildableName="AllThePinsApp.app" BuildableIdentifier="primary" BlueprintIdentifier="6800F3097A8AA05A00000000" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintName="AllThePinsApp"></BuildableReference>
         </BuildableProductRunnable>
     </LaunchAction>
-    <ProfileAction useCustomWorkingDirectory="NO" buildConfiguration="__TulsiTestRunner_Release" debugDocumentVersioning="YES" shouldUseLaunchSchemeArgsEnv="YES">
+    <ProfileAction useCustomWorkingDirectory="NO" shouldUseLaunchSchemeArgsEnv="YES" debugDocumentVersioning="YES" buildConfiguration="__TulsiTestRunner_Release">
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BuildableName="AllThePinsApp.app" BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="556B6D1154E1555400000000"></BuildableReference>
+            <BuildableReference BlueprintName="AllThePinsApp" ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BuildableName="AllThePinsApp.app" BlueprintIdentifier="6800F3097A8AA05A00000000"></BuildableReference>
         </BuildableProductRunnable>
     </ProfileAction>
     <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
-    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
 </Scheme>

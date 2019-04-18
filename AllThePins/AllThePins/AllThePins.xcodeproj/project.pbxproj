@@ -7,169 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD49B0521C0341DB00000000 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3160535A1C0341DB00000000 /* WKYTPlayerView.m */; };
-		BD49B052453A419E00000000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160535A453A419E00000000 /* AppDelegate.swift */; };
-		BD49B052C2F7830500000000 /* VPinTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160535AC2F7830500000000 /* VPinTable.swift */; };
-		BD49B052C31933E800000000 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160535AC31933E800000000 /* MasterViewController.swift */; };
-		BD49B052FE457AB200000000 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160535AFE457AB200000000 /* DetailViewController.swift */; };
+		A73F07491AE4385400000000 /* VPinTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D869F71AE4385400000000 /* VPinTable.swift */; };
+		A73F0749401047F500000000 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D869F7401047F500000000 /* MasterViewController.swift */; };
+		A73F0749641EEB2D00000000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D869F7641EEB2D00000000 /* AppDelegate.swift */; };
+		A73F074987E9ADFA00000000 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D869F787E9ADFA00000000 /* DetailViewController.swift */; };
+		A73F0749BDA6F2D500000000 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D869F7BDA6F2D500000000 /* WKYTPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5CA6CB1B93AD27D100000000 /* PBXContainerItemProxy */ = {
+		BF8883E51B4776AB00000000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE3EFCFE8537112200000000 /* Project object */;
+			containerPortal = 52D624E1F0B4216800000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DE9387293AD27D000000000;
+			remoteGlobalIDString = 6800F3091B4776AA00000000;
 		};
-		5CA6CB1B9A2D576B00000000 /* PBXContainerItemProxy */ = {
+		BF8883E5D591D20F00000000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE3EFCFE8537112200000000 /* Project object */;
+			containerPortal = 52D624E1F0B4216800000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 556B6D119A2D576A00000000;
+			remoteGlobalIDString = F1425BC9D591D20E00000000;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3160535A14B2D62B00000000 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = AllThePins/ThirdParty/Crashlytics/Crashlytics.framework; sourceTree = "<group>"; };
-		3160535A1C0341DB00000000 /* WKYTPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WKYTPlayerView.m; path = AllThePins/ThirdParty/WKYTPlayer/WKYTPlayerView.m; sourceTree = "<group>"; };
-		3160535A1D7C864400000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = AllThePins/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3160535A2B2928B000000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = AllThePins/BUILD; sourceTree = "<group>"; };
-		3160535A2EDE04F200000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = AllThePins/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3160535A453A419E00000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AllThePins/AppDelegate.swift; sourceTree = "<group>"; };
-		3160535A4BFDB1B300000000 /* WKYTPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WKYTPlayerView.h; path = AllThePins/ThirdParty/WKYTPlayer/WKYTPlayerView.h; sourceTree = "<group>"; };
-		3160535A4D0EFC1400000000 /* _idx_Combined_39568AEA_ios_min12.1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_Combined_39568AEA_ios_min12.1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3160535A8247DA2A00000000 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = AllThePins/ThirdParty/Crashlytics/Fabric.framework; sourceTree = "<group>"; };
-		3160535A82F70C2C00000000 /* lib_idx_ObjCSources_3E9CFA56_ios_min12.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_ObjCSources_3E9CFA56_ios_min12.1.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3160535A8327166400000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/_tulsi-includes/x/x/AllThePins/AllThePinsApp-intermediates/Info.plist"; sourceTree = "<group>"; };
-		3160535AA21D994800000000 /* AllThePinsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = AllThePinsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3160535AAD28742800000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = AllThePins/Info.plist; sourceTree = "<group>"; };
-		3160535AC2F7830500000000 /* VPinTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VPinTable.swift; path = AllThePins/VPinTable.swift; sourceTree = "<group>"; };
-		3160535AC31933E800000000 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = AllThePins/MasterViewController.swift; sourceTree = "<group>"; };
-		3160535ACFB09A2A00000000 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WKYTPlayerView.bundle; path = AllThePins/ThirdParty/WKYTPlayer/WKYTPlayerView.bundle; sourceTree = "<group>"; };
-		3160535AFE457AB200000000 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = AllThePins/DetailViewController.swift; sourceTree = "<group>"; };
+		25D869F703CCCF3D00000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = AllThePins/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25D869F70E08F77700000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/_tulsi-includes/x/x/AllThePins/AllThePinsApp-intermediates/Info.plist"; sourceTree = "<group>"; };
+		25D869F71AE4385400000000 /* VPinTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VPinTable.swift; path = AllThePins/VPinTable.swift; sourceTree = "<group>"; };
+		25D869F7401047F500000000 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = AllThePins/MasterViewController.swift; sourceTree = "<group>"; };
+		25D869F7431717CA00000000 /* lib_idx_ObjCSources_B8B504BC_ios_min12.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_ObjCSources_B8B504BC_ios_min12.1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D869F744B96B4C00000000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = AllThePins/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25D869F75B5A291E00000000 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WKYTPlayerView.bundle; path = AllThePins/ThirdParty/WKYTPlayer/WKYTPlayerView.bundle; sourceTree = "<group>"; };
+		25D869F7641EEB2D00000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AllThePins/AppDelegate.swift; sourceTree = "<group>"; };
+		25D869F787E9ADFA00000000 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = AllThePins/DetailViewController.swift; sourceTree = "<group>"; };
+		25D869F7973E617800000000 /* AllThePinsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = AllThePinsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D869F7A5EA30CD00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = AllThePins/BUILD; sourceTree = "<group>"; };
+		25D869F7BDA6F2D500000000 /* WKYTPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WKYTPlayerView.m; path = AllThePins/ThirdParty/WKYTPlayer/WKYTPlayerView.m; sourceTree = "<group>"; };
+		25D869F7D125F45400000000 /* WKYTPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WKYTPlayerView.h; path = AllThePins/ThirdParty/WKYTPlayer/WKYTPlayerView.h; sourceTree = "<group>"; };
+		25D869F7F2D5D8B200000000 /* _idx_Combined_B96C9628_ios_min12.1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_Combined_B96C9628_ios_min12.1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D869F7F93C671B00000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = AllThePins/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		4FCD98A82419E64100000000 /* mainGroup */ = {
+		C15E482A2201875000000000 /* mainGroup */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD98A88537112200000000 /* AllThePins */,
-				4FCD98A8D1C36FA700000000 /* Products */,
+				C15E482AF0B4216800000000 /* AllThePins */,
+				C15E482AC2FB215200000000 /* Products */,
 			);
 			name = mainGroup;
 			path = ..;
 			sourceTree = SOURCE_ROOT;
 		};
-		4FCD98A838E2918A00000000 /* _tulsi-includes */ = {
+		C15E482A3152119900000000 /* AllThePinsApp-intermediates */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD98A886689EDC00000000 /* x */,
-			);
-			name = "_tulsi-includes";
-			sourceTree = "<group>";
-		};
-		4FCD98A851A04EBF00000000 /* Indexer */ = {
-			isa = PBXGroup;
-			children = (
-				3160535A4D0EFC1400000000 /* _idx_Combined_39568AEA_ios_min12.1.framework */,
-				3160535A82F70C2C00000000 /* lib_idx_ObjCSources_3E9CFA56_ios_min12.1.a */,
-			);
-			name = Indexer;
-			sourceTree = "<group>";
-		};
-		4FCD98A854BCB91100000000 /* AllThePinsApp-intermediates */ = {
-			isa = PBXGroup;
-			children = (
-				3160535A8327166400000000 /* Info.plist */,
+				25D869F70E08F77700000000 /* Info.plist */,
 			);
 			name = "AllThePinsApp-intermediates";
 			sourceTree = "<group>";
 		};
-		4FCD98A87EEE7BD900000000 /* ThirdParty */ = {
+		C15E482A5D005DED00000000 /* _tulsi-includes */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD98A89DC0601C00000000 /* Crashlytics */,
-				4FCD98A89F00405C00000000 /* WKYTPlayer */,
+				C15E482AEC3E524100000000 /* x */,
 			);
-			name = ThirdParty;
+			name = "_tulsi-includes";
 			sourceTree = "<group>";
 		};
-		4FCD98A88537112200000000 /* AllThePins */ = {
+		C15E482AA15C098800000000 /* WKYTPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				3160535A453A419E00000000 /* AppDelegate.swift */,
-				3160535A2B2928B000000000 /* BUILD */,
-				3160535AFE457AB200000000 /* DetailViewController.swift */,
-				3160535AAD28742800000000 /* Info.plist */,
-				DAFDF084FCEDE16700000000 /* LaunchScreen.storyboard */,
-				DAFDF0846111610B00000000 /* Main.storyboard */,
-				3160535AC31933E800000000 /* MasterViewController.swift */,
-				4FCD98A87EEE7BD900000000 /* ThirdParty */,
-				3160535AC2F7830500000000 /* VPinTable.swift */,
-			);
-			name = AllThePins;
-			sourceTree = "<group>";
-		};
-		4FCD98A88537112200000001 /* AllThePins */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD98A854BCB91100000000 /* AllThePinsApp-intermediates */,
-			);
-			name = AllThePins;
-			sourceTree = "<group>";
-		};
-		4FCD98A886689EDC00000000 /* x */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD98A886689EDC00000001 /* x */,
-			);
-			name = x;
-			sourceTree = "<group>";
-		};
-		4FCD98A886689EDC00000001 /* x */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD98A88537112200000001 /* AllThePins */,
-			);
-			name = x;
-			sourceTree = "<group>";
-		};
-		4FCD98A89DC0601C00000000 /* Crashlytics */ = {
-			isa = PBXGroup;
-			children = (
-				3160535A14B2D62B00000000 /* Crashlytics.framework */,
-				3160535A8247DA2A00000000 /* Fabric.framework */,
-			);
-			name = Crashlytics;
-			sourceTree = "<group>";
-		};
-		4FCD98A89F00405C00000000 /* WKYTPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				3160535ACFB09A2A00000000 /* WKYTPlayerView.bundle */,
-				3160535A4BFDB1B300000000 /* WKYTPlayerView.h */,
-				3160535A1C0341DB00000000 /* WKYTPlayerView.m */,
+				25D869F75B5A291E00000000 /* WKYTPlayerView.bundle */,
+				25D869F7D125F45400000000 /* WKYTPlayerView.h */,
+				25D869F7BDA6F2D500000000 /* WKYTPlayerView.m */,
 			);
 			name = WKYTPlayer;
 			sourceTree = "<group>";
 		};
-		4FCD98A8D1C36FA700000000 /* Products */ = {
+		C15E482AAA19210C00000000 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				3160535AA21D994800000000 /* AllThePinsApp.app */,
-				4FCD98A851A04EBF00000000 /* Indexer */,
-				4FCD98A838E2918A00000000 /* _tulsi-includes */,
+				C15E482AA15C098800000000 /* WKYTPlayer */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C15E482AB249CCB500000000 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				25D869F7F2D5D8B200000000 /* _idx_Combined_B96C9628_ios_min12.1.framework */,
+				25D869F7431717CA00000000 /* lib_idx_ObjCSources_B8B504BC_ios_min12.1.a */,
+			);
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		C15E482AC2FB215200000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D869F7973E617800000000 /* AllThePinsApp.app */,
+				C15E482AB249CCB500000000 /* Indexer */,
+				C15E482A5D005DED00000000 /* _tulsi-includes */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C15E482AEC3E524100000000 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				C15E482AEC3E524100000001 /* x */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		C15E482AEC3E524100000001 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				C15E482AF0B4216800000001 /* AllThePins */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		C15E482AF0B4216800000000 /* AllThePins */ = {
+			isa = PBXGroup;
+			children = (
+				25D869F7641EEB2D00000000 /* AppDelegate.swift */,
+				25D869F7A5EA30CD00000000 /* BUILD */,
+				25D869F787E9ADFA00000000 /* DetailViewController.swift */,
+				25D869F7F93C671B00000000 /* Info.plist */,
+				86FB1CD77245C77C00000000 /* LaunchScreen.storyboard */,
+				86FB1CD7863FBE7100000000 /* Main.storyboard */,
+				25D869F7401047F500000000 /* MasterViewController.swift */,
+				C15E482AAA19210C00000000 /* ThirdParty */,
+				25D869F71AE4385400000000 /* VPinTable.swift */,
+			);
+			name = AllThePins;
+			sourceTree = "<group>";
+		};
+		C15E482AF0B4216800000001 /* AllThePins */ = {
+			isa = PBXGroup;
+			children = (
+				C15E482A3152119900000000 /* AllThePinsApp-intermediates */,
+			);
+			name = AllThePins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		8DE9387293AD27D000000000 /* _bazel_clean_ */ = {
+		F1425BC9D591D20E00000000 /* _bazel_clean_ */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
-			buildConfigurationList = 8A74C316A662837300000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildConfigurationList = 728DAA829FD4D16600000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
 			buildPhases = (
 			);
 			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
@@ -183,65 +171,65 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		556B6D114924F8F400000000 /* _idx_Combined_39568AEA_ios_min12.1 */ = {
+		6800F3091B4776AA00000000 /* _idx_ObjCSources_B8B504BC_ios_min12.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A74C316F00393E500000000 /* Build configuration list for PBXNativeTarget "_idx_Combined_39568AEA_ios_min12.1" */;
+			buildConfigurationList = 728DAA82FFAC507A00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjCSources_B8B504BC_ios_min12.1" */;
 			buildPhases = (
-				F35B54E10000000000000000 /* Sources */,
+				76DAB77B0000000000000001 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				72C4CA2293AD27D100000000 /* PBXTargetDependency */,
-				72C4CA229A2D576B00000000 /* PBXTargetDependency */,
+				DDE14E61D591D20F00000000 /* PBXTargetDependency */,
 			);
-			name = _idx_Combined_39568AEA_ios_min12.1;
-			productName = _idx_Combined_39568AEA_ios_min12.1;
-			productReference = 3160535A4D0EFC1400000000 /* _idx_Combined_39568AEA_ios_min12.1.framework */;
-			productType = "com.apple.product-type.framework";
+			name = _idx_ObjCSources_B8B504BC_ios_min12.1;
+			productName = _idx_ObjCSources_B8B504BC_ios_min12.1;
+			productReference = 25D869F7431717CA00000000 /* lib_idx_ObjCSources_B8B504BC_ios_min12.1.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		556B6D1154E1555400000000 /* AllThePinsApp */ = {
+		6800F3097A8AA05A00000000 /* AllThePinsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A74C3167FE2D17900000000 /* Build configuration list for PBXNativeTarget "AllThePinsApp" */;
+			buildConfigurationList = 728DAA829599AB8600000000 /* Build configuration list for PBXNativeTarget "AllThePinsApp" */;
 			buildPhases = (
-				445642D6576FE03300000000 /* ShellScript */,
+				3D6FB458E2C3E51500000000 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				72C4CA2293AD27D100000000 /* PBXTargetDependency */,
+				DDE14E61D591D20F00000000 /* PBXTargetDependency */,
 			);
 			name = AllThePinsApp;
 			productName = AllThePinsApp;
-			productReference = 3160535AA21D994800000000 /* AllThePinsApp.app */;
+			productReference = 25D869F7973E617800000000 /* AllThePinsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		556B6D119A2D576A00000000 /* _idx_ObjCSources_3E9CFA56_ios_min12.1 */ = {
+		6800F3098663060800000000 /* _idx_Combined_B96C9628_ios_min12.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A74C31678BD947A00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjCSources_3E9CFA56_ios_min12.1" */;
+			buildConfigurationList = 728DAA82CB869D4400000000 /* Build configuration list for PBXNativeTarget "_idx_Combined_B96C9628_ios_min12.1" */;
 			buildPhases = (
-				F35B54E10000000000000001 /* Sources */,
+				76DAB77B0000000000000000 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				72C4CA2293AD27D100000000 /* PBXTargetDependency */,
+				DDE14E61D591D20F00000000 /* PBXTargetDependency */,
+				DDE14E611B4776AB00000000 /* PBXTargetDependency */,
 			);
-			name = _idx_ObjCSources_3E9CFA56_ios_min12.1;
-			productName = _idx_ObjCSources_3E9CFA56_ios_min12.1;
-			productReference = 3160535A82F70C2C00000000 /* lib_idx_ObjCSources_3E9CFA56_ios_min12.1.a */;
-			productType = "com.apple.product-type.library.static";
+			name = _idx_Combined_B96C9628_ios_min12.1;
+			productName = _idx_Combined_B96C9628_ios_min12.1;
+			productReference = 25D869F7F2D5D8B200000000 /* _idx_Combined_B96C9628_ios_min12.1.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE3EFCFE8537112200000000 /* Project object */ = {
+		52D624E1F0B4216800000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 1000;
 			};
-			buildConfigurationList = 8A74C316AD268D3100000000 /* Build configuration list for PBXProject "AllThePins" */;
+			buildConfigurationList = 728DAA8251FEFDC900000000 /* Build configuration list for PBXProject "AllThePins" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,20 +238,20 @@
 				en,
 				Base,
 			);
-			mainGroup = 4FCD98A82419E64100000000 /* mainGroup */;
+			mainGroup = C15E482A2201875000000000 /* mainGroup */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				556B6D1154E1555400000000 /* AllThePinsApp */,
-				8DE9387293AD27D000000000 /* _bazel_clean_ */,
-				556B6D114924F8F400000000 /* _idx_Combined_39568AEA_ios_min12.1 */,
-				556B6D119A2D576A00000000 /* _idx_ObjCSources_3E9CFA56_ios_min12.1 */,
+				6800F3097A8AA05A00000000 /* AllThePinsApp */,
+				F1425BC9D591D20E00000000 /* _bazel_clean_ */,
+				6800F3098663060800000000 /* _idx_Combined_B96C9628_ios_min12.1 */,
+				6800F3091B4776AA00000000 /* _idx_ObjCSources_B8B504BC_ios_min12.1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		445642D6576FE03300000000 /* ShellScript */ = {
+		3D6FB458E2C3E51500000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -280,303 +268,61 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F35B54E10000000000000000 /* Sources */ = {
+		76DAB77B0000000000000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				BD49B052453A419E00000000 /* AppDelegate.swift in Sources */,
-				BD49B052FE457AB200000000 /* DetailViewController.swift in Sources */,
-				BD49B052C31933E800000000 /* MasterViewController.swift in Sources */,
-				BD49B052C2F7830500000000 /* VPinTable.swift in Sources */,
+				A73F0749641EEB2D00000000 /* AppDelegate.swift in Sources */,
+				A73F074987E9ADFA00000000 /* DetailViewController.swift in Sources */,
+				A73F0749401047F500000000 /* MasterViewController.swift in Sources */,
+				A73F07491AE4385400000000 /* VPinTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F35B54E10000000000000001 /* Sources */ = {
+		76DAB77B0000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				BD49B0521C0341DB00000000 /* WKYTPlayerView.m in Sources */,
+				A73F0749BDA6F2D500000000 /* WKYTPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		72C4CA2293AD27D100000000 /* PBXTargetDependency */ = {
+		DDE14E611B4776AB00000000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DE9387293AD27D000000000 /* _bazel_clean_ */;
-			targetProxy = 5CA6CB1B93AD27D100000000 /* PBXContainerItemProxy */;
+			target = 6800F3091B4776AA00000000 /* _idx_ObjCSources_B8B504BC_ios_min12.1 */;
+			targetProxy = BF8883E51B4776AB00000000 /* PBXContainerItemProxy */;
 		};
-		72C4CA229A2D576B00000000 /* PBXTargetDependency */ = {
+		DDE14E61D591D20F00000000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 556B6D119A2D576A00000000 /* _idx_ObjCSources_3E9CFA56_ios_min12.1 */;
-			targetProxy = 5CA6CB1B9A2D576B00000000 /* PBXContainerItemProxy */;
+			target = F1425BC9D591D20E00000000 /* _bazel_clean_ */;
+			targetProxy = BF8883E5D591D20F00000000 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DAFDF0846111610B00000000 /* Main.storyboard */ = {
+		86FB1CD77245C77C00000000 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3160535A1D7C864400000000 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DAFDF084FCEDE16700000000 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3160535A2EDE04F200000000 /* Base */,
+				25D869F744B96B4C00000000 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		86FB1CD7863FBE7100000000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D869F703CCCF3D00000000 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6A7A8FA24DC4D4E300000000 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(TULSI_BWRS)",
-					"$(TULSI_WR)/bazel-bin",
-					"$(TULSI_WR)/bazel-genfiles",
-					"$(TULSI_BWRS)/_tulsi-includes/x/x",
-				);
-				ONLY_ACTIVE_ARCH = YES;
-				PYTHONIOENCODING = utf8;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
-				TULSI_PROJECT = AllThePins;
-				TULSI_VERSION = 0.20190411.88;
-				TULSI_WR = "${SRCROOT}/..";
-			};
-			name = Debug;
-		};
-		6A7A8FA24DC4D4E300000001 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
-				BAZEL_TARGET = "//AllThePins:AllThePinsApp";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
-				PRODUCT_NAME = AllThePinsApp;
-				SDKROOT = iphoneos;
-				TULSI_BUILD_PATH = AllThePins;
-				TULSI_XCODE_VERSION = 10.2.0.10E125;
-			};
-			name = Debug;
-		};
-		6A7A8FA24DC4D4E300000002 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TULSI_BWRS)/AllThePins/ThirdParty/Crashlytics",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins/ObjCSources.modulemaps",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -import-objc-header /Users/kaicherry/AllThePins/AllThePins/AllThePins/ThirdParty/WKYTPlayer/AllThePins-Bridging-Header.h -Xcc -fmodule-map-file=$(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins/ObjCSources.modulemaps/module.modulemap";
-				PRODUCT_NAME = _idx_Combined_39568AEA_ios_min12.1;
-				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins";
-			};
-			name = Debug;
-		};
-		6A7A8FA24DC4D4E300000003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TULSI_WR)/_tulsi-includes/x/x/",
-					"$(TULSI_BWRS)/_tulsi-includes/x/x/",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				OTHER_CFLAGS = (
-					"-D_FORTIFY_SOURCE=1",
-					"-D__DATE__=\"redacted\"",
-					"-D__TIMESTAMP__=\"redacted\"",
-					"-D__TIME__=\"redacted\"",
-				);
-				PRODUCT_NAME = _idx_ObjCSources_3E9CFA56_ios_min12.1;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
-			};
-			name = Debug;
-		};
-		6A7A8FA265C3BC6100000000 /* __TulsiTestRunner_Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = "--version";
-				OTHER_LDFLAGS = "--version";
-				OTHER_SWIFT_FLAGS = "--version";
-				PYTHONIOENCODING = utf8;
-				SDKROOT = iphoneos;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
-				SWIFT_VERSION = 5.0;
-				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
-				TULSI_PROJECT = AllThePins;
-				TULSI_VERSION = 0.20190411.88;
-				TULSI_WR = "${SRCROOT}/..";
-			};
-			name = __TulsiTestRunner_Debug;
-		};
-		6A7A8FA265C3BC6100000001 /* __TulsiTestRunner_Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
-				BAZEL_TARGET = "//AllThePins:AllThePinsApp";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = "--version";
-				OTHER_LDFLAGS = "--version";
-				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
-				PRODUCT_NAME = AllThePinsApp;
-				SDKROOT = iphoneos;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
-				TULSI_BUILD_PATH = AllThePins;
-				TULSI_XCODE_VERSION = 10.2.0.10E125;
-			};
-			name = __TulsiTestRunner_Debug;
-		};
-		6A7A8FA2A867F9DC00000000 /* __TulsiTestRunner_Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = "--version";
-				OTHER_LDFLAGS = "--version";
-				OTHER_SWIFT_FLAGS = "--version";
-				PYTHONIOENCODING = utf8;
-				SDKROOT = iphoneos;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
-				SWIFT_VERSION = 5.0;
-				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
-				TULSI_PROJECT = AllThePins;
-				TULSI_VERSION = 0.20190411.88;
-				TULSI_WR = "${SRCROOT}/..";
-			};
-			name = __TulsiTestRunner_Release;
-		};
-		6A7A8FA2A867F9DC00000001 /* __TulsiTestRunner_Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
-				BAZEL_TARGET = "//AllThePins:AllThePinsApp";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = "--version";
-				OTHER_LDFLAGS = "--version";
-				OTHER_SWIFT_FLAGS = "--version";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
-				PRODUCT_NAME = AllThePinsApp;
-				SDKROOT = iphoneos;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
-				TULSI_BUILD_PATH = AllThePins;
-				TULSI_XCODE_VERSION = 10.2.0.10E125;
-			};
-			name = __TulsiTestRunner_Release;
-		};
-		6A7A8FA2C4A0F43000000000 /* Release */ = {
+		2C8E06ED01B08FBD00000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -618,7 +364,7 @@
 			};
 			name = Release;
 		};
-		6A7A8FA2C4A0F43000000001 /* Release */ = {
+		2C8E06ED01B08FBD00000001 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -635,12 +381,13 @@
 			};
 			name = Release;
 		};
-		6A7A8FA2C4A0F43000000002 /* Release */ = {
+		2C8E06ED01B08FBD00000002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(TULSI_BWRS)/AllThePins/ThirdParty/Crashlytics",
+					"$(TULSI_BWRS)/external/fabric",
+					"$(TULSI_BWRS)/external/crashlytics",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = (
@@ -655,13 +402,13 @@
 					"-D__TIME__=\"redacted\"",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -import-objc-header /Users/kaicherry/AllThePins/AllThePins/AllThePins/ThirdParty/WKYTPlayer/AllThePins-Bridging-Header.h -Xcc -fmodule-map-file=$(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins/ObjCSources.modulemaps/module.modulemap";
-				PRODUCT_NAME = _idx_Combined_39568AEA_ios_min12.1;
+				PRODUCT_NAME = _idx_Combined_B96C9628_ios_min12.1;
 				SDKROOT = iphoneos;
 				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins";
 			};
 			name = Release;
 		};
-		6A7A8FA2C4A0F43000000003 /* Release */ = {
+		2C8E06ED01B08FBD00000003 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -678,13 +425,256 @@
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
-				PRODUCT_NAME = _idx_ObjCSources_3E9CFA56_ios_min12.1;
+				PRODUCT_NAME = _idx_ObjCSources_B8B504BC_ios_min12.1;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Release;
 		};
-		873DBC8722651CB700EA2B78 /* Debug */ = {
+		2C8E06ED0DF7C61600000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.0;
+				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
+				TULSI_PROJECT = AllThePins;
+				TULSI_VERSION = 0.20190411.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		2C8E06ED0DF7C61600000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//AllThePins:AllThePinsApp";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
+				PRODUCT_NAME = AllThePinsApp;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = AllThePins;
+				TULSI_XCODE_VERSION = 10.2.0.10E125;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		2C8E06ED1A6C2AF400000000 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 5.0;
+				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
+				TULSI_PROJECT = AllThePins;
+				TULSI_VERSION = 0.20190411.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		2C8E06ED1A6C2AF400000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//AllThePins:AllThePinsApp";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
+				PRODUCT_NAME = AllThePinsApp;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = AllThePins;
+				TULSI_XCODE_VERSION = 10.2.0.10E125;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		2C8E06EDF2193C6600000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_BWRS)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_BWRS)/_tulsi-includes/x/x",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
+				TULSI_PROJECT = AllThePins;
+				TULSI_VERSION = 0.20190411.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = Debug;
+		};
+		2C8E06EDF2193C6600000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//AllThePins:AllThePinsApp";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakurakai.vpaddicts.AllThePins;
+				PRODUCT_NAME = AllThePinsApp;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = AllThePins;
+				TULSI_XCODE_VERSION = 10.2.0.10E125;
+			};
+			name = Debug;
+		};
+		2C8E06EDF2193C6600000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_BWRS)/external/fabric",
+					"$(TULSI_BWRS)/external/crashlytics",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins/ObjCSources.modulemaps",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -import-objc-header /Users/kaicherry/AllThePins/AllThePins/AllThePins/ThirdParty/WKYTPlayer/AllThePins-Bridging-Header.h -Xcc -fmodule-map-file=$(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins/ObjCSources.modulemaps/module.modulemap";
+				PRODUCT_NAME = _idx_Combined_B96C9628_ios_min12.1;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_BWRS)/_tulsi-includes/x/x/AllThePins";
+			};
+			name = Debug;
+		};
+		2C8E06EDF2193C6600000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/_tulsi-includes/x/x/",
+					"$(TULSI_BWRS)/_tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_ObjCSources_B8B504BC_ios_min12.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		879F76222268577000ED6516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -694,7 +684,7 @@
 			};
 			name = Debug;
 		};
-		873DBC8822651CB700EA2B78 /* Release */ = {
+		879F76232268577000ED6516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -703,107 +693,107 @@
 			};
 			name = Release;
 		};
-		873DBC8922651CB700EA2B78 /* __TulsiTestRunner_Debug */ = {
+		879F76242268577000ED6516 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		873DBC8A22651CB700EA2B78 /* __TulsiTestRunner_Release */ = {
+		879F76252268577000ED6516 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		873DBC8B22651CB700EA2B78 /* __TulsiTestRunner_Debug */ = {
+		879F76262268577000ED6516 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_Combined_39568AEA_ios_min12.1;
+				PRODUCT_NAME = _idx_Combined_B96C9628_ios_min12.1;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		873DBC8C22651CB700EA2B78 /* __TulsiTestRunner_Release */ = {
+		879F76272268577000ED6516 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_Combined_39568AEA_ios_min12.1;
+				PRODUCT_NAME = _idx_Combined_B96C9628_ios_min12.1;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		873DBC8D22651CB700EA2B78 /* __TulsiTestRunner_Debug */ = {
+		879F76282268577000ED6516 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_ObjCSources_3E9CFA56_ios_min12.1;
+				PRODUCT_NAME = _idx_ObjCSources_B8B504BC_ios_min12.1;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		873DBC8E22651CB700EA2B78 /* __TulsiTestRunner_Release */ = {
+		879F76292268577000ED6516 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = _idx_ObjCSources_3E9CFA56_ios_min12.1;
+				PRODUCT_NAME = _idx_ObjCSources_B8B504BC_ios_min12.1;
 			};
 			name = __TulsiTestRunner_Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A74C31678BD947A00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjCSources_3E9CFA56_ios_min12.1" */ = {
+		728DAA8251FEFDC900000000 /* Build configuration list for PBXProject "AllThePins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A7A8FA24DC4D4E300000003 /* Debug */,
-				6A7A8FA2C4A0F43000000003 /* Release */,
-				873DBC8D22651CB700EA2B78 /* __TulsiTestRunner_Debug */,
-				873DBC8E22651CB700EA2B78 /* __TulsiTestRunner_Release */,
+				2C8E06EDF2193C6600000000 /* Debug */,
+				2C8E06ED01B08FBD00000000 /* Release */,
+				2C8E06ED0DF7C61600000000 /* __TulsiTestRunner_Debug */,
+				2C8E06ED1A6C2AF400000000 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A74C3167FE2D17900000000 /* Build configuration list for PBXNativeTarget "AllThePinsApp" */ = {
+		728DAA829599AB8600000000 /* Build configuration list for PBXNativeTarget "AllThePinsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A7A8FA24DC4D4E300000001 /* Debug */,
-				6A7A8FA2C4A0F43000000001 /* Release */,
-				6A7A8FA265C3BC6100000001 /* __TulsiTestRunner_Debug */,
-				6A7A8FA2A867F9DC00000001 /* __TulsiTestRunner_Release */,
+				2C8E06EDF2193C6600000001 /* Debug */,
+				2C8E06ED01B08FBD00000001 /* Release */,
+				2C8E06ED0DF7C61600000001 /* __TulsiTestRunner_Debug */,
+				2C8E06ED1A6C2AF400000001 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A74C316A662837300000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+		728DAA829FD4D16600000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				873DBC8722651CB700EA2B78 /* Debug */,
-				873DBC8822651CB700EA2B78 /* Release */,
-				873DBC8922651CB700EA2B78 /* __TulsiTestRunner_Debug */,
-				873DBC8A22651CB700EA2B78 /* __TulsiTestRunner_Release */,
+				879F76222268577000ED6516 /* Debug */,
+				879F76232268577000ED6516 /* Release */,
+				879F76242268577000ED6516 /* __TulsiTestRunner_Debug */,
+				879F76252268577000ED6516 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A74C316AD268D3100000000 /* Build configuration list for PBXProject "AllThePins" */ = {
+		728DAA82CB869D4400000000 /* Build configuration list for PBXNativeTarget "_idx_Combined_B96C9628_ios_min12.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A7A8FA24DC4D4E300000000 /* Debug */,
-				6A7A8FA2C4A0F43000000000 /* Release */,
-				6A7A8FA265C3BC6100000000 /* __TulsiTestRunner_Debug */,
-				6A7A8FA2A867F9DC00000000 /* __TulsiTestRunner_Release */,
+				2C8E06EDF2193C6600000002 /* Debug */,
+				2C8E06ED01B08FBD00000002 /* Release */,
+				879F76262268577000ED6516 /* __TulsiTestRunner_Debug */,
+				879F76272268577000ED6516 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A74C316F00393E500000000 /* Build configuration list for PBXNativeTarget "_idx_Combined_39568AEA_ios_min12.1" */ = {
+		728DAA82FFAC507A00000000 /* Build configuration list for PBXNativeTarget "_idx_ObjCSources_B8B504BC_ios_min12.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A7A8FA24DC4D4E300000002 /* Debug */,
-				6A7A8FA2C4A0F43000000002 /* Release */,
-				873DBC8B22651CB700EA2B78 /* __TulsiTestRunner_Debug */,
-				873DBC8C22651CB700EA2B78 /* __TulsiTestRunner_Release */,
+				2C8E06EDF2193C6600000003 /* Debug */,
+				2C8E06ED01B08FBD00000003 /* Release */,
+				879F76282268577000ED6516 /* __TulsiTestRunner_Debug */,
+				879F76292268577000ED6516 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE3EFCFE8537112200000000 /* Project object */;
+	rootObject = 52D624E1F0B4216800000000 /* Project object */;
 }

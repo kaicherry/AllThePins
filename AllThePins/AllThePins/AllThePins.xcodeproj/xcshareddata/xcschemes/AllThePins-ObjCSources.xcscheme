@@ -1,0 +1,86 @@
+
+<Scheme version="1.3" LastUpgradeVersion="1000">
+    <BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+        <BuildActionEntries>
+            <BuildActionEntry buildForTesting="YES" buildForArchiving="YES" buildForProfiling="YES" buildForRunning="YES" buildForAnalyzing="YES">
+                <BuildableReference ReferencedContainer="container:AllThePins.xcodeproj" BuildableName="libAllThePins-ObjCSources.a" BlueprintName="AllThePins-ObjCSources" BlueprintIdentifier="6800F3096539055A00000000" BuildableIdentifier="primary"></BuildableReference>
+            </BuildActionEntry>
+        </BuildActionEntries>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BuildableIdentifier="primary" BuildableName="libAllThePins-ObjCSources.a" BlueprintName="AllThePins-ObjCSources" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="6800F3096539055A00000000"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent scriptText="" title="Run Script">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintName="AllThePins-ObjCSources" BuildableName="libAllThePins-ObjCSources.a" BuildableIdentifier="primary" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="6800F3096539055A00000000"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+    </BuildAction>
+    <TestAction buildConfiguration="__TulsiTestRunner_Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES">
+        <Testables></Testables>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent title="Run Script" scriptText="">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintName="AllThePins-ObjCSources" ReferencedContainer="container:AllThePins.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="6800F3096539055A00000000" BuildableName="libAllThePins-ObjCSources.a"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent title="Run Script" scriptText="">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintName="AllThePins-ObjCSources" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="6800F3096539055A00000000" BuildableIdentifier="primary" BuildableName="libAllThePins-ObjCSources.a"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+        <BuildableProductRunnable runnableDebuggingMode="0">
+            <BuildableReference BuildableIdentifier="primary" BuildableName="libAllThePins-ObjCSources.a" BlueprintName="AllThePins-ObjCSources" BlueprintIdentifier="6800F3096539055A00000000" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
+        </BuildableProductRunnable>
+    </TestAction>
+    <LaunchAction useCustomWorkingDirectory="NO" debugServiceExtension="internal" launchStyle="0" allowLocationSimulation="YES" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="Debug" ignoresPersistentStateOnLaunch="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" debugDocumentVersioning="YES">
+        <CommandLineArguments>
+            <CommandLineArgument isEnabled="YES" argument=""></CommandLineArgument>
+        </CommandLineArguments>
+        <EnvironmentVariables></EnvironmentVariables>
+        <PreActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent title="Run Script" scriptText="">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintIdentifier="6800F3096539055A00000000" BuildableIdentifier="primary" BuildableName="libAllThePins-ObjCSources.a" BlueprintName="AllThePins-ObjCSources" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PreActions>
+        <PostActions>
+            <ExecutionAction ActionType="Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+                <ActionContent title="Run Script" scriptText="">
+                    <EnvironmentBuildable>
+                        <BuildableReference BlueprintIdentifier="6800F3096539055A00000000" BuildableIdentifier="primary" BlueprintName="AllThePins-ObjCSources" BuildableName="libAllThePins-ObjCSources.a" ReferencedContainer="container:AllThePins.xcodeproj"></BuildableReference>
+                    </EnvironmentBuildable>
+                </ActionContent>
+            </ExecutionAction>
+        </PostActions>
+        <MacroExpansion>
+            <BuildableReference BlueprintName="AllThePins-ObjCSources" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintIdentifier="6800F3096539055A00000000" BuildableName="libAllThePins-ObjCSources.a" BuildableIdentifier="primary"></BuildableReference>
+        </MacroExpansion>
+    </LaunchAction>
+    <ProfileAction shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Release" debugDocumentVersioning="YES" useCustomWorkingDirectory="NO">
+        <MacroExpansion>
+            <BuildableReference BuildableIdentifier="primary" ReferencedContainer="container:AllThePins.xcodeproj" BlueprintName="AllThePins-ObjCSources" BlueprintIdentifier="6800F3096539055A00000000" BuildableName="libAllThePins-ObjCSources.a"></BuildableReference>
+        </MacroExpansion>
+    </ProfileAction>
+    <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
+    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
+</Scheme>
