@@ -6,20 +6,6 @@ load("@build_bazel_rules_apple//apple:resources.bzl", "apple_bundle_import")
 load("@build_bazel_rules_apple//apple:apple.bzl", "apple_static_framework_import")
 load("@build_bazel_rules_apple//apple:apple.bzl", "apple_static_framework_import")
 
-#Third Party Libraries & Frameworks - Source Code
-
-objc_library(
-    name = "ObjCSources",
-    module_name = "WKYTPlayerView",
-    enable_modules = True,
-    resources = ["ThirdParty/WKYTPlayer/WKYTPlayerView.bundle",],
-    srcs = ["ThirdParty/WKYTPlayer/WKYTPlayerView.m",],
-    hdrs = ["ThirdParty/WKYTPlayer/WKYTPlayerView.h",],
-    sdk_frameworks = [
-                        "UIKit",
-                        "WebKit",
-                     ],
-)
 
 
 #Non-Executable Resources to be bundled into final app. glob() is ok.
@@ -62,7 +48,7 @@ swift_library(
                 "Images",
             ],
     deps =  [
-                ":ObjCSources",
+                "//third_party/apple/objc/wkytplayer:wkytplayerview",
                 "@crashlytics//:crashlytics", #use at(@) for remotes
                 "@fabric//:fabric",
             ],
